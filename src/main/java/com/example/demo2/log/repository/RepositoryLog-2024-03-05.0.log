@@ -1,0 +1,777 @@
+12:56:50.036 [background-preinit]   [34mINFO [0;39m o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final
+12:56:50.161 [main]                 [34mINFO [0;39m com.example.demo2.Application - Starting Application using Java 21.0.1 on My-PC with PID 6596 (D:\Java\Project IDEA\demo2\target\classes started by Макс in D:\Java\Project IDEA\demo2)
+12:56:50.161 [main]                 [34mINFO [0;39m com.example.demo2.Application - No active profile set, falling back to default profiles: default
+12:56:50.442 [background-preinit]   [31mWARN [0;39m o.s.h.c.j.Jackson2ObjectMapperBuilder - For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+12:56:51.097 [main]                 [34mINFO [0;39m o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+12:56:51.175 [main]                 [34mINFO [0;39m o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 69 ms. Found 6 JPA repository interfaces.
+12:56:51.549 [main]                 [34mINFO [0;39m o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@7eae3764' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+12:56:51.565 [main]                 [34mINFO [0;39m o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+12:56:51.908 [main]                 [34mINFO [0;39m o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 443 (https)
+12:56:51.924 [main]                 [34mINFO [0;39m o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["https-jsse-nio-443"]
+12:56:51.924 [main]                 [34mINFO [0;39m o.a.catalina.core.StandardService - Starting service [Tomcat]
+12:56:51.924 [main]                 [34mINFO [0;39m o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.46]
+12:56:52.017 [main]                 [34mINFO [0;39m o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+12:56:52.017 [main]                 [34mINFO [0;39m o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1794 ms
+12:56:52.173 [main]                 [34mINFO [0;39m com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+12:56:52.657 [main]                 [34mINFO [0;39m com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+12:56:52.704 [main]                 [34mINFO [0;39m o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+12:56:52.766 [main]                 [34mINFO [0;39m org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.31.Final
+12:56:52.938 [main]                 [34mINFO [0;39m o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+12:56:53.063 [main]                 [34mINFO [0;39m org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+12:56:53.780 [main]                 [34mINFO [0;39m o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+12:56:53.796 [main]                 [34mINFO [0;39m o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+12:56:53.843 [main]                 [31mWARN [0;39m o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+12:56:54.576 [main]                 [34mINFO [0;39m o.s.s.web.DefaultSecurityFilterChain - Will secure Ant [pattern='/css/**'] with []
+12:56:54.576 [main]                 [34mINFO [0;39m o.s.s.web.DefaultSecurityFilterChain - Will secure Ant [pattern='/js/**'] with []
+12:56:54.576 [main]                 [34mINFO [0;39m o.s.s.web.DefaultSecurityFilterChain - Will secure Ant [pattern='/fonts/**'] with []
+12:56:54.576 [main]                 [34mINFO [0;39m o.s.s.web.DefaultSecurityFilterChain - Will secure Ant [pattern='/images/**'] with []
+12:56:54.607 [main]                 [34mINFO [0;39m o.s.s.w.a.c.ChannelProcessingFilter - Validated configuration attributes
+12:56:54.607 [main]                 [34mINFO [0;39m o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.access.channel.ChannelProcessingFilter@1631dbbc, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@270ab7bc, org.springframework.security.web.context.SecurityContextPersistenceFilter@662061e3, org.springframework.security.web.header.HeaderWriterFilter@3f2d2f22, org.springframework.security.web.authentication.logout.LogoutFilter@4cb91fa4, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@24a1858a, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@79e15c4a, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2087c939, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3ffe74da, org.springframework.security.web.session.SessionManagementFilter@4bc9389, org.springframework.security.web.access.ExceptionTranslationFilter@24482a4f, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@242ebd3b]
+12:56:54.825 [main]                 [34mINFO [0;39m o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+12:56:54.981 [main]                 [34mINFO [0;39m o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: dfac64f1-6db3-4e22-a557-57656113c81b
+
+12:56:54.981 [main]                 [34mINFO [0;39m o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["https-jsse-nio-443"]
+12:56:55.403 [main]                 [34mINFO [0;39m o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 443 (https) with context path ''
+12:56:55.403 [main]                 [34mINFO [0;39m com.example.demo2.Application - Started Application in 5.98 seconds (JVM running for 6.622)
+12:56:55.418 [main]                 [34mINFO [0;39m o.s.b.a.ApplicationAvailabilityBean - Application availability state LivenessState changed to CORRECT
+12:56:55.418 [main]                 [34mINFO [0;39m o.s.b.a.ApplicationAvailabilityBean - Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+13:44:21.202 [background-preinit]   [34mINFO [0;39m o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final
+13:44:21.218 [main]                 [34mINFO [0;39m com.example.demo2.Application - Starting Application using Java 21.0.1 on My-PC with PID 4708 (D:\Java\Project IDEA\demo2\target\classes started by Макс in D:\Java\Project IDEA\demo2)
+13:44:21.218 [main]                 [34mINFO [0;39m com.example.demo2.Application - No active profile set, falling back to default profiles: default
+13:44:21.702 [background-preinit]   [31mWARN [0;39m o.s.h.c.j.Jackson2ObjectMapperBuilder - For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+13:44:22.372 [main]                 [34mINFO [0;39m o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+13:44:22.450 [main]                 [34mINFO [0;39m o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 74 ms. Found 6 JPA repository interfaces.
+13:44:22.809 [main]                 [34mINFO [0;39m o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@6cfd9a54' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+13:44:22.825 [main]                 [34mINFO [0;39m o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+13:44:23.137 [main]                 [34mINFO [0;39m o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 443 (https)
+13:44:23.137 [main]                 [34mINFO [0;39m o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["https-jsse-nio-443"]
+13:44:23.137 [main]                 [34mINFO [0;39m o.a.catalina.core.StandardService - Starting service [Tomcat]
+13:44:23.152 [main]                 [34mINFO [0;39m o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.46]
+13:44:23.230 [main]                 [34mINFO [0;39m o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+13:44:23.230 [main]                 [34mINFO [0;39m o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1934 ms
+13:44:23.386 [main]                 [34mINFO [0;39m com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+13:44:23.730 [main]                 [34mINFO [0;39m com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+13:44:23.776 [main]                 [34mINFO [0;39m o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+13:44:23.808 [main]                 [34mINFO [0;39m org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.31.Final
+13:44:23.948 [main]                 [34mINFO [0;39m o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+13:44:24.042 [main]                 [34mINFO [0;39m org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+13:44:24.666 [main]                 [34mINFO [0;39m o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+13:44:24.666 [main]                 [34mINFO [0;39m o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+13:44:24.728 [main]                 [31mWARN [0;39m o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+13:44:25.399 [main]                 [34mINFO [0;39m o.s.s.web.DefaultSecurityFilterChain - Will secure Ant [pattern='/css/**'] with []
+13:44:25.399 [main]                 [34mINFO [0;39m o.s.s.web.DefaultSecurityFilterChain - Will secure Ant [pattern='/js/**'] with []
+13:44:25.399 [main]                 [34mINFO [0;39m o.s.s.web.DefaultSecurityFilterChain - Will secure Ant [pattern='/fonts/**'] with []
+13:44:25.399 [main]                 [34mINFO [0;39m o.s.s.web.DefaultSecurityFilterChain - Will secure Ant [pattern='/images/**'] with []
+13:44:25.430 [main]                 [34mINFO [0;39m o.s.s.w.a.c.ChannelProcessingFilter - Validated configuration attributes
+13:44:25.430 [main]                 [34mINFO [0;39m o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.access.channel.ChannelProcessingFilter@3b11deb6, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4d7f9b33, org.springframework.security.web.context.SecurityContextPersistenceFilter@3ee2d546, org.springframework.security.web.header.HeaderWriterFilter@6c3a7b84, org.springframework.security.web.authentication.logout.LogoutFilter@f7b7720, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@5c13534a, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1a34772e, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2ce3d95a, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@782e0844, org.springframework.security.web.session.SessionManagementFilter@1f6ba47b, org.springframework.security.web.access.ExceptionTranslationFilter@5b2ade46, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@140cfc5f]
+13:44:25.664 [main]                 [34mINFO [0;39m o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+13:44:25.804 [main]                 [34mINFO [0;39m o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: e1ea252e-961c-43bb-88db-a6c227c2de3c
+
+13:44:25.804 [main]                 [34mINFO [0;39m o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["https-jsse-nio-443"]
+13:44:26.163 [main]                 [34mINFO [0;39m o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 443 (https) with context path ''
+13:44:26.179 [main]                 [34mINFO [0;39m com.example.demo2.Application - Started Application in 5.507 seconds (JVM running for 5.999)
+13:44:26.179 [main]                 [34mINFO [0;39m o.s.b.a.ApplicationAvailabilityBean - Application availability state LivenessState changed to CORRECT
+13:44:26.179 [main]                 [34mINFO [0;39m o.s.b.a.ApplicationAvailabilityBean - Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+13:45:31.204 [https-jsse-nio-443-exec-9] [34mINFO [0;39m o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+13:45:31.205 [https-jsse-nio-443-exec-9] [34mINFO [0;39m o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+13:45:31.206 [https-jsse-nio-443-exec-9] [34mINFO [0;39m o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+13:45:31.223 [https-jsse-nio-443-exec-9] [34mINFO [0;39m c.e.d.filter.FilterForAllTemplates - Filter 1 for all templates URL : https://localhost/
+13:45:31.665 [https-jsse-nio-443-exec-10] [34mINFO [0;39m c.e.d.filter.FilterForAllTemplates - Filter 1 for all templates URL : https://localhost/css/index.css
+13:45:31.722 [https-jsse-nio-443-exec-7] [34mINFO [0;39m c.e.d.filter.FilterForAllTemplates - Filter 1 for all templates URL : https://localhost/images/photo.jpg
+13:45:31.784 [https-jsse-nio-443-exec-6] [34mINFO [0;39m c.e.d.filter.FilterForAllTemplates - Filter 1 for all templates URL : https://localhost/login
+13:45:34.884 [https-jsse-nio-443-exec-3] [34mINFO [0;39m c.e.d.filter.FilterForAllTemplates - Filter 1 for all templates URL : https://localhost/login
+13:45:34.967 [https-jsse-nio-443-exec-10] [34mINFO [0;39m c.e.d.filter.FilterForAllTemplates - Filter 1 for all templates URL : https://localhost/login
+13:45:39.702 [https-jsse-nio-443-exec-5] [34mINFO [0;39m c.e.d.filter.FilterForAllTemplates - Filter 1 for all templates URL : https://localhost/maiin.html
+13:45:39.782 [https-jsse-nio-443-exec-3] [34mINFO [0;39m c.e.d.filter.FilterForAllTemplates - Filter 1 for all templates URL : https://localhost/ConstantBlock.html
+13:45:39.814 [https-jsse-nio-443-exec-5] [34mINFO [0;39m c.e.d.filter.FilterForAllTemplates - Filter 1 for all templates URL : https://localhost/favicon.ico
+13:45:47.863 [https-jsse-nio-443-exec-3] [34mINFO [0;39m c.e.d.filter.FilterForAllTemplates - Filter 1 for all templates URL : https://localhost/workingWithFields.html
+13:45:47.900 [https-jsse-nio-443-exec-8] [34mINFO [0;39m c.e.d.filter.FilterForAllTemplates - Filter 1 for all templates URL : https://localhost/css/index23.css
+13:45:47.901 [https-jsse-nio-443-exec-9] [34mINFO [0;39m c.e.d.filter.FilterForAllTemplates - Filter 1 for all templates URL : https://localhost/js/workingWithFields.js
+13:45:47.947 [https-jsse-nio-443-exec-10] [34mINFO [0;39m c.e.d.filter.FilterForAllTemplates - Filter 1 for all templates URL : https://localhost/ConstantBlock.html
+13:46:34.325 [https-jsse-nio-443-exec-7] [34mINFO [0;39m c.e.d.filter.FilterForAllTemplates - Filter 1 for all templates URL : https://localhost/workingWithFiles.html
+13:46:34.609 [https-jsse-nio-443-exec-6] [34mINFO [0;39m c.e.d.filter.FilterForAllTemplates - Filter 1 for all templates URL : https://localhost/js/workingWithFiles.js
+13:46:34.609 [https-jsse-nio-443-exec-2] [34mINFO [0;39m c.e.d.filter.FilterForAllTemplates - Filter 1 for all templates URL : https://localhost/css/index23.css
+13:46:34.648 [https-jsse-nio-443-exec-4] [34mINFO [0;39m c.e.d.filter.FilterForAllTemplates - Filter 1 for all templates URL : https://localhost/ConstantBlock.html
+13:46:34.670 [https-jsse-nio-443-exec-1] [34mINFO [0;39m c.e.d.filter.FilterForAllTemplates - Filter 1 for all templates URL : https://localhost/filesInfo/findAllFilesName
+13:52:14.321 [https-jsse-nio-443-exec-7] [34mINFO [0;39m c.e.d.filter.FilterForAllTemplates - Filter 1 for all templates URL : https://localhost/workingWithFields.html
+13:52:14.342 [https-jsse-nio-443-exec-2] [34mINFO [0;39m c.e.d.filter.FilterForAllTemplates - Filter 1 for all templates URL : https://localhost/css/index23.css
+13:52:14.352 [https-jsse-nio-443-exec-6] [34mINFO [0;39m c.e.d.filter.FilterForAllTemplates - Filter 1 for all templates URL : https://localhost/js/workingWithFields.js
+13:52:14.379 [https-jsse-nio-443-exec-3] [34mINFO [0;39m c.e.d.filter.FilterForAllTemplates - Filter 1 for all templates URL : https://localhost/ConstantBlock.html
+16:48:04.803 [background-preinit]   [34mINFO [0;39m o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final
+16:48:04.818 [main]                 [34mINFO [0;39m com.example.demo2.Application - Starting Application using Java 21.0.1 on My-PC with PID 2548 (D:\Java\Project IDEA\demo2\target\classes started by Макс in D:\Java\Project IDEA\demo2)
+16:48:04.865 [main]                 [34mINFO [0;39m com.example.demo2.Application - No active profile set, falling back to default profiles: default
+16:48:05.177 [background-preinit]   [31mWARN [0;39m o.s.h.c.j.Jackson2ObjectMapperBuilder - For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+16:48:05.771 [main]                 [34mINFO [0;39m o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+16:48:05.849 [main]                 [34mINFO [0;39m o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 67 ms. Found 6 JPA repository interfaces.
+16:48:06.223 [main]                 [34mINFO [0;39m o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@49ec6a9f' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+16:48:06.223 [main]                 [34mINFO [0;39m o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+16:48:06.582 [main]                 [34mINFO [0;39m o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 443 (https)
+16:48:06.598 [main]                 [34mINFO [0;39m o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["https-jsse-nio-443"]
+16:48:06.598 [main]                 [34mINFO [0;39m o.a.catalina.core.StandardService - Starting service [Tomcat]
+16:48:06.598 [main]                 [34mINFO [0;39m o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.46]
+16:48:06.707 [main]                 [34mINFO [0;39m o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+16:48:06.707 [main]                 [34mINFO [0;39m o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1795 ms
+16:48:06.863 [main]                 [34mINFO [0;39m com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+16:48:07.347 [main]                 [34mINFO [0;39m com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+16:48:07.393 [main]                 [34mINFO [0;39m o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+16:48:07.456 [main]                 [34mINFO [0;39m org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.31.Final
+16:48:07.659 [main]                 [34mINFO [0;39m o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+16:48:07.783 [main]                 [34mINFO [0;39m org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+16:48:08.501 [main]                 [34mINFO [0;39m o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+16:48:08.517 [main]                 [34mINFO [0;39m o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+16:48:08.579 [main]                 [31mWARN [0;39m o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+16:48:09.250 [main]                 [34mINFO [0;39m o.s.s.web.DefaultSecurityFilterChain - Will secure Ant [pattern='/css/**'] with []
+16:48:09.265 [main]                 [34mINFO [0;39m o.s.s.web.DefaultSecurityFilterChain - Will secure Ant [pattern='/js/**'] with []
+16:48:09.265 [main]                 [34mINFO [0;39m o.s.s.web.DefaultSecurityFilterChain - Will secure Ant [pattern='/fonts/**'] with []
+16:48:09.265 [main]                 [34mINFO [0;39m o.s.s.web.DefaultSecurityFilterChain - Will secure Ant [pattern='/images/**'] with []
+16:48:09.281 [main]                 [34mINFO [0;39m o.s.s.w.a.c.ChannelProcessingFilter - Validated configuration attributes
+16:48:09.281 [main]                 [34mINFO [0;39m o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.access.channel.ChannelProcessingFilter@f0d01c9, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3c205259, org.springframework.security.web.context.SecurityContextPersistenceFilter@2a666c8e, org.springframework.security.web.header.HeaderWriterFilter@72ea6fcb, org.springframework.security.web.authentication.logout.LogoutFilter@464abed, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@205b73d8, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7e7987b8, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@209b4b35, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5bc40f5d, org.springframework.security.web.session.SessionManagementFilter@4154ecd3, org.springframework.security.web.access.ExceptionTranslationFilter@75d95b67, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@6ffa8126]
+16:48:09.484 [main]                 [34mINFO [0;39m o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+16:48:09.640 [main]                 [34mINFO [0;39m o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 3d89f3de-f0e9-4a54-9c2e-a2281be68981
+
+16:48:09.655 [main]                 [34mINFO [0;39m o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["https-jsse-nio-443"]
+16:48:10.014 [main]                 [34mINFO [0;39m o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 443 (https) with context path ''
+16:48:10.030 [main]                 [34mINFO [0;39m com.example.demo2.Application - Started Application in 5.875 seconds (JVM running for 6.533)
+16:48:10.030 [main]                 [34mINFO [0;39m o.s.b.a.ApplicationAvailabilityBean - Application availability state LivenessState changed to CORRECT
+16:48:10.030 [main]                 [34mINFO [0;39m o.s.b.a.ApplicationAvailabilityBean - Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+16:48:33.927 [https-jsse-nio-443-exec-9] [34mINFO [0;39m o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+16:48:33.927 [https-jsse-nio-443-exec-9] [34mINFO [0;39m o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+16:48:33.942 [https-jsse-nio-443-exec-9] [34mINFO [0;39m o.s.web.servlet.DispatcherServlet - Completed initialization in 15 ms
+16:48:33.943 [https-jsse-nio-443-exec-9] [34mINFO [0;39m c.e.d.filter.FilterForAllTemplates - Filter 1 for all templates URL : https://localhost/
+16:48:34.130 [https-jsse-nio-443-exec-10] [34mINFO [0;39m c.e.d.filter.FilterForAllTemplates - Filter 1 for all templates URL : https://localhost/css/index.css
+16:48:34.169 [https-jsse-nio-443-exec-9] [34mINFO [0;39m c.e.d.filter.FilterForAllTemplates - Filter 1 for all templates URL : https://localhost/images/photo.jpg
+16:48:34.744 [https-jsse-nio-443-exec-2] [34mINFO [0;39m c.e.d.filter.FilterForAllTemplates - Filter 1 for all templates URL : https://localhost/
+16:48:34.773 [https-jsse-nio-443-exec-1] [34mINFO [0;39m c.e.d.filter.FilterForAllTemplates - Filter 1 for all templates URL : https://localhost/css/index.css
+16:48:34.844 [https-jsse-nio-443-exec-3] [34mINFO [0;39m c.e.d.filter.FilterForAllTemplates - Filter 1 for all templates URL : https://localhost/images/photo.jpg
+16:48:34.891 [https-jsse-nio-443-exec-6] [34mINFO [0;39m c.e.d.filter.FilterForAllTemplates - Filter 1 for all templates URL : https://localhost/login
+16:48:38.077 [https-jsse-nio-443-exec-8] [34mINFO [0;39m c.e.d.filter.FilterForAllTemplates - Filter 1 for all templates URL : https://localhost/login
+16:48:38.149 [https-jsse-nio-443-exec-10] [34mINFO [0;39m c.e.d.filter.FilterForAllTemplates - Filter 1 for all templates URL : https://localhost/login
+16:48:44.267 [https-jsse-nio-443-exec-2] [34mINFO [0;39m c.e.d.filter.FilterForAllTemplates - Filter 1 for all templates URL : https://localhost/maiin.html
+16:48:44.313 [https-jsse-nio-443-exec-1] [34mINFO [0;39m c.e.d.filter.FilterForAllTemplates - Filter 1 for all templates URL : https://localhost/css/index.css
+16:48:44.332 [https-jsse-nio-443-exec-3] [34mINFO [0;39m c.e.d.filter.FilterForAllTemplates - Filter 1 for all templates URL : https://localhost/images/photo.jpg
+16:48:44.342 [https-jsse-nio-443-exec-5] [34mINFO [0;39m c.e.d.filter.FilterForAllTemplates - Filter 1 for all templates URL : https://localhost/ConstantBlock.html
+16:48:44.354 [https-jsse-nio-443-exec-6] [34mINFO [0;39m c.e.d.filter.FilterForAllTemplates - Filter 1 for all templates URL : https://localhost/favicon.ico
+16:48:51.028 [https-jsse-nio-443-exec-7] [34mINFO [0;39m c.e.d.filter.FilterForAllTemplates - Filter 1 for all templates URL : https://localhost/workingWithFields.html
+16:48:51.058 [https-jsse-nio-443-exec-4] [34mINFO [0;39m c.e.d.filter.FilterForAllTemplates - Filter 1 for all templates URL : https://localhost/js/workingWithFields.js
+16:48:51.058 [https-jsse-nio-443-exec-8] [34mINFO [0;39m c.e.d.filter.FilterForAllTemplates - Filter 1 for all templates URL : https://localhost/css/index23.css
+16:48:51.099 [https-jsse-nio-443-exec-10] [34mINFO [0;39m c.e.d.filter.FilterForAllTemplates - Filter 1 for all templates URL : https://localhost/ConstantBlock.html
+16:52:59.487 [https-jsse-nio-443-exec-6] [34mINFO [0;39m c.e.d.filter.FilterForAllTemplates - Filter 1 for all templates URL : https://localhost/users/findByLogin
+16:53:33.226 [https-jsse-nio-443-exec-7] [34mINFO [0;39m c.e.d.filter.FilterForAllTemplates - Filter 1 for all templates URL : https://localhost/users/findByLogin
+16:53:42.478 [https-jsse-nio-443-exec-1] [34mINFO [0;39m c.e.d.filter.FilterForAllTemplates - Filter 1 for all templates URL : https://localhost/users/findByLogin
+16:54:06.491 [https-jsse-nio-443-exec-4] [34mINFO [0;39m c.e.d.filter.FilterForAllTemplates - Filter 1 for all templates URL : https://localhost/users/findByLogin
+18:25:03.074 [https-jsse-nio-443-exec-1] [34mINFO [0;39m c.e.d.filter.FilterForAllTemplates - Filter 1 for all templates URL : https://localhost/
+18:25:03.093 [https-jsse-nio-443-exec-7] [34mINFO [0;39m c.e.d.filter.FilterForAllTemplates - Filter 1 for all templates URL : https://localhost/css/index.css
+18:25:03.180 [https-jsse-nio-443-exec-10] [34mINFO [0;39m c.e.d.filter.FilterForAllTemplates - Filter 1 for all templates URL : https://localhost/images/photo.jpg
+18:25:13.636 [https-jsse-nio-443-exec-6] [34mINFO [0;39m c.e.d.filter.FilterForAllTemplates - Filter 1 for all templates URL : https://localhost/login
+18:28:47.135 [https-jsse-nio-443-exec-2] [34mINFO [0;39m c.e.d.filter.FilterForAllTemplates - Filter 1 for all templates URL : https://localhost/login
+18:35:13.804 [https-jsse-nio-443-exec-9] [34mINFO [0;39m c.e.d.filter.FilterForAllTemplates - Filter 1 for all templates URL : https://localhost/login
+18:53:00.337 [background-preinit]   [34mINFO [0;39m o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final
+18:53:00.368 [main]                 [34mINFO [0;39m com.example.demo2.Application - Starting Application using Java 21.0.1 on My-PC with PID 9204 (D:\Java\Project IDEA\demo2\target\classes started by Макс in D:\Java\Project IDEA\demo2)
+18:53:00.368 [main]                 [34mINFO [0;39m com.example.demo2.Application - No active profile set, falling back to default profiles: default
+18:53:01.007 [background-preinit]   [31mWARN [0;39m o.s.h.c.j.Jackson2ObjectMapperBuilder - For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+18:53:01.335 [main]                 [34mINFO [0;39m o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+18:53:01.413 [main]                 [34mINFO [0;39m o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 67 ms. Found 6 JPA repository interfaces.
+18:53:02.053 [main]                 [34mINFO [0;39m o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 443 (https)
+18:53:02.068 [main]                 [34mINFO [0;39m o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["https-jsse-nio-443"]
+18:53:02.068 [main]                 [34mINFO [0;39m o.a.catalina.core.StandardService - Starting service [Tomcat]
+18:53:02.068 [main]                 [34mINFO [0;39m o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.46]
+18:53:02.146 [main]                 [34mINFO [0;39m o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+18:53:02.146 [main]                 [34mINFO [0;39m o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1700 ms
+18:53:02.287 [main]                 [34mINFO [0;39m com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+18:53:02.645 [main]                 [34mINFO [0;39m com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+18:53:02.692 [main]                 [34mINFO [0;39m o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+18:53:02.739 [main]                 [34mINFO [0;39m org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.31.Final
+18:53:02.864 [main]                 [34mINFO [0;39m o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+18:53:02.957 [main]                 [34mINFO [0;39m org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+18:53:03.597 [main]                 [34mINFO [0;39m o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+18:53:03.597 [main]                 [34mINFO [0;39m o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+18:53:04.081 [main]                 [31mWARN [0;39m o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'registrationController' defined in file [D:\Java\Project IDEA\demo2\target\classes\com\example\demo2\controller\registration\RegistrationController.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'defaultRegistrationService' defined in file [D:\Java\Project IDEA\demo2\target\classes\com\example\demo2\service\registration\DefaultRegistrationService.class]: Unsatisfied dependency expressed through constructor parameter 1; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.springframework.security.crypto.password.PasswordEncoder' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+18:53:04.096 [main]                 [34mINFO [0;39m o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+18:53:04.096 [main]                 [34mINFO [0;39m com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+18:53:04.096 [main]                 [34mINFO [0;39m com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+18:53:04.096 [main]                 [34mINFO [0;39m o.a.catalina.core.StandardService - Stopping service [Tomcat]
+18:53:04.112 [main]                 [34mINFO [0;39m o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+18:53:04.127 [main]                 [1;31mERROR[0;39m o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 1 of constructor in com.example.demo2.service.registration.DefaultRegistrationService required a bean of type 'org.springframework.security.crypto.password.PasswordEncoder' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'org.springframework.security.crypto.password.PasswordEncoder' in your configuration.
+
+18:55:06.519 [background-preinit]   [34mINFO [0;39m o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final
+18:55:06.551 [main]                 [34mINFO [0;39m com.example.demo2.Application - Starting Application using Java 21.0.1 on My-PC with PID 5136 (D:\Java\Project IDEA\demo2\target\classes started by Макс in D:\Java\Project IDEA\demo2)
+18:55:06.551 [main]                 [34mINFO [0;39m com.example.demo2.Application - No active profile set, falling back to default profiles: default
+18:55:06.972 [background-preinit]   [31mWARN [0;39m o.s.h.c.j.Jackson2ObjectMapperBuilder - For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+18:55:07.393 [main]                 [34mINFO [0;39m o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+18:55:07.471 [main]                 [34mINFO [0;39m o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 67 ms. Found 6 JPA repository interfaces.
+18:55:08.128 [main]                 [34mINFO [0;39m o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 443 (https)
+18:55:08.144 [main]                 [34mINFO [0;39m o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["https-jsse-nio-443"]
+18:55:08.144 [main]                 [34mINFO [0;39m o.a.catalina.core.StandardService - Starting service [Tomcat]
+18:55:08.144 [main]                 [34mINFO [0;39m o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.46]
+18:55:08.237 [main]                 [34mINFO [0;39m o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+18:55:08.237 [main]                 [34mINFO [0;39m o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1624 ms
+18:55:08.362 [main]                 [34mINFO [0;39m com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+18:55:08.799 [main]                 [34mINFO [0;39m com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+18:55:08.846 [main]                 [34mINFO [0;39m o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+18:55:08.893 [main]                 [34mINFO [0;39m org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.31.Final
+18:55:09.017 [main]                 [34mINFO [0;39m o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+18:55:09.111 [main]                 [34mINFO [0;39m org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+18:55:09.735 [main]                 [34mINFO [0;39m o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+18:55:09.751 [main]                 [34mINFO [0;39m o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+18:55:09.797 [main]                 [31mWARN [0;39m o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+18:55:10.343 [main]                 [31mWARN [0;39m o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'registrationController' defined in file [D:\Java\Project IDEA\demo2\target\classes\com\example\demo2\controller\registration\RegistrationController.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'defaultRegistrationService' defined in file [D:\Java\Project IDEA\demo2\target\classes\com\example\demo2\service\registration\DefaultRegistrationService.class]: Unsatisfied dependency expressed through constructor parameter 1; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.springframework.security.crypto.password.PasswordEncoder' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+18:55:10.343 [main]                 [34mINFO [0;39m o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+18:55:10.343 [main]                 [34mINFO [0;39m com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+18:55:10.343 [main]                 [34mINFO [0;39m com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+18:55:10.343 [main]                 [34mINFO [0;39m o.a.catalina.core.StandardService - Stopping service [Tomcat]
+18:55:10.359 [main]                 [34mINFO [0;39m o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+18:55:10.375 [main]                 [1;31mERROR[0;39m o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 1 of constructor in com.example.demo2.service.registration.DefaultRegistrationService required a bean of type 'org.springframework.security.crypto.password.PasswordEncoder' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'org.springframework.security.crypto.password.PasswordEncoder' in your configuration.
+
+18:56:05.749 [background-preinit]   [34mINFO [0;39m o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final
+18:56:05.749 [main]                 [34mINFO [0;39m com.example.demo2.Application - Starting Application using Java 21.0.1 on My-PC with PID 10728 (D:\Java\Project IDEA\demo2\target\classes started by Макс in D:\Java\Project IDEA\demo2)
+18:56:05.749 [main]                 [34mINFO [0;39m com.example.demo2.Application - No active profile set, falling back to default profiles: default
+18:56:06.248 [background-preinit]   [31mWARN [0;39m o.s.h.c.j.Jackson2ObjectMapperBuilder - For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+18:56:06.607 [main]                 [34mINFO [0;39m o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+18:56:06.685 [main]                 [34mINFO [0;39m o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 72 ms. Found 6 JPA repository interfaces.
+18:56:07.060 [main]                 [34mINFO [0;39m o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@782be4eb' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+18:56:07.060 [main]                 [34mINFO [0;39m o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+18:56:07.372 [main]                 [34mINFO [0;39m o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 443 (https)
+18:56:07.387 [main]                 [34mINFO [0;39m o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["https-jsse-nio-443"]
+18:56:07.387 [main]                 [34mINFO [0;39m o.a.catalina.core.StandardService - Starting service [Tomcat]
+18:56:07.387 [main]                 [34mINFO [0;39m o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.46]
+18:56:07.481 [main]                 [34mINFO [0;39m o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+18:56:07.481 [main]                 [34mINFO [0;39m o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1669 ms
+18:56:07.637 [main]                 [34mINFO [0;39m com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+18:56:07.996 [main]                 [34mINFO [0;39m com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+18:56:08.042 [main]                 [34mINFO [0;39m o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+18:56:08.089 [main]                 [34mINFO [0;39m org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.31.Final
+18:56:08.230 [main]                 [34mINFO [0;39m o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+18:56:08.323 [main]                 [34mINFO [0;39m org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+18:56:08.932 [main]                 [34mINFO [0;39m o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+18:56:08.932 [main]                 [34mINFO [0;39m o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+18:56:08.994 [main]                 [31mWARN [0;39m o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+18:56:09.493 [main]                 [31mWARN [0;39m o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'registrationController' defined in file [D:\Java\Project IDEA\demo2\target\classes\com\example\demo2\controller\registration\RegistrationController.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'defaultRegistrationService' defined in file [D:\Java\Project IDEA\demo2\target\classes\com\example\demo2\service\registration\DefaultRegistrationService.class]: Unsatisfied dependency expressed through constructor parameter 1; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.springframework.security.crypto.password.PasswordEncoder' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+18:56:09.509 [main]                 [34mINFO [0;39m o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+18:56:09.509 [main]                 [34mINFO [0;39m com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+18:56:09.509 [main]                 [34mINFO [0;39m com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+18:56:09.509 [main]                 [34mINFO [0;39m o.a.catalina.core.StandardService - Stopping service [Tomcat]
+18:56:09.524 [main]                 [34mINFO [0;39m o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+18:56:09.540 [main]                 [1;31mERROR[0;39m o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 1 of constructor in com.example.demo2.service.registration.DefaultRegistrationService required a bean of type 'org.springframework.security.crypto.password.PasswordEncoder' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'org.springframework.security.crypto.password.PasswordEncoder' in your configuration.
+
+18:56:54.416 [background-preinit]   [34mINFO [0;39m o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final
+18:56:54.431 [main]                 [34mINFO [0;39m com.example.demo2.Application - Starting Application using Java 21.0.1 on My-PC with PID 6312 (D:\Java\Project IDEA\demo2\target\classes started by Макс in D:\Java\Project IDEA\demo2)
+18:56:54.447 [main]                 [34mINFO [0;39m com.example.demo2.Application - No active profile set, falling back to default profiles: default
+18:56:54.868 [background-preinit]   [31mWARN [0;39m o.s.h.c.j.Jackson2ObjectMapperBuilder - For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+18:56:55.294 [main]                 [34mINFO [0;39m o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+18:56:55.388 [main]                 [34mINFO [0;39m o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 76 ms. Found 6 JPA repository interfaces.
+18:56:55.747 [main]                 [34mINFO [0;39m o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@64fe9da7' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+18:56:55.747 [main]                 [34mINFO [0;39m o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+18:56:56.074 [main]                 [34mINFO [0;39m o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 443 (https)
+18:56:56.093 [main]                 [34mINFO [0;39m o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["https-jsse-nio-443"]
+18:56:56.093 [main]                 [34mINFO [0;39m o.a.catalina.core.StandardService - Starting service [Tomcat]
+18:56:56.093 [main]                 [34mINFO [0;39m o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.46]
+18:56:56.171 [main]                 [34mINFO [0;39m o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+18:56:56.171 [main]                 [34mINFO [0;39m o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1677 ms
+18:56:56.327 [main]                 [34mINFO [0;39m com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+18:56:56.701 [main]                 [34mINFO [0;39m com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+18:56:56.748 [main]                 [34mINFO [0;39m o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+18:56:56.795 [main]                 [34mINFO [0;39m org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.31.Final
+18:56:56.935 [main]                 [34mINFO [0;39m o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+18:56:57.029 [main]                 [34mINFO [0;39m org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+18:56:57.653 [main]                 [34mINFO [0;39m o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+18:56:57.653 [main]                 [34mINFO [0;39m o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+18:56:57.715 [main]                 [31mWARN [0;39m o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+18:56:58.230 [main]                 [31mWARN [0;39m o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'registrationController' defined in file [D:\Java\Project IDEA\demo2\target\classes\com\example\demo2\controller\registration\RegistrationController.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'defaultRegistrationService' defined in file [D:\Java\Project IDEA\demo2\target\classes\com\example\demo2\service\registration\DefaultRegistrationService.class]: Unsatisfied dependency expressed through constructor parameter 1; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.springframework.security.crypto.password.PasswordEncoder' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+18:56:58.246 [main]                 [34mINFO [0;39m o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+18:56:58.246 [main]                 [34mINFO [0;39m com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+18:56:58.246 [main]                 [34mINFO [0;39m com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+18:56:58.261 [main]                 [34mINFO [0;39m o.a.catalina.core.StandardService - Stopping service [Tomcat]
+18:56:58.261 [main]                 [34mINFO [0;39m o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+18:56:58.277 [main]                 [1;31mERROR[0;39m o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 1 of constructor in com.example.demo2.service.registration.DefaultRegistrationService required a bean of type 'org.springframework.security.crypto.password.PasswordEncoder' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'org.springframework.security.crypto.password.PasswordEncoder' in your configuration.
+
+18:57:19.057 [main]                 [34mINFO [0;39m com.example.demo2.Application - Starting Application using Java 21.0.1 on My-PC with PID 6940 (D:\Java\Project IDEA\demo2\target\classes started by Макс in D:\Java\Project IDEA\demo2)
+18:57:19.057 [main]                 [34mINFO [0;39m com.example.demo2.Application - No active profile set, falling back to default profiles: default
+18:57:19.057 [background-preinit]   [34mINFO [0;39m o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final
+18:57:19.541 [background-preinit]   [31mWARN [0;39m o.s.h.c.j.Jackson2ObjectMapperBuilder - For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+18:57:20.009 [main]                 [34mINFO [0;39m o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+18:57:20.102 [main]                 [34mINFO [0;39m o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 78 ms. Found 6 JPA repository interfaces.
+18:57:20.477 [main]                 [34mINFO [0;39m o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@2412a42b' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+18:57:20.492 [main]                 [34mINFO [0;39m o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+18:57:20.820 [main]                 [34mINFO [0;39m o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 443 (https)
+18:57:20.835 [main]                 [34mINFO [0;39m o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["https-jsse-nio-443"]
+18:57:20.835 [main]                 [34mINFO [0;39m o.a.catalina.core.StandardService - Starting service [Tomcat]
+18:57:20.835 [main]                 [34mINFO [0;39m o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.46]
+18:57:20.913 [main]                 [34mINFO [0;39m o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+18:57:20.913 [main]                 [34mINFO [0;39m o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1794 ms
+18:57:21.085 [main]                 [34mINFO [0;39m com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+18:57:21.428 [main]                 [34mINFO [0;39m com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+18:57:21.491 [main]                 [34mINFO [0;39m o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+18:57:21.522 [main]                 [34mINFO [0;39m org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.31.Final
+18:57:21.662 [main]                 [34mINFO [0;39m o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+18:57:21.771 [main]                 [34mINFO [0;39m org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+18:57:22.427 [main]                 [34mINFO [0;39m o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+18:57:22.442 [main]                 [34mINFO [0;39m o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+18:57:22.505 [main]                 [31mWARN [0;39m o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+18:57:23.051 [main]                 [31mWARN [0;39m o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'registrationController' defined in file [D:\Java\Project IDEA\demo2\target\classes\com\example\demo2\controller\registration\RegistrationController.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'defaultRegistrationService' defined in file [D:\Java\Project IDEA\demo2\target\classes\com\example\demo2\service\registration\DefaultRegistrationService.class]: Unsatisfied dependency expressed through constructor parameter 1; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.springframework.security.crypto.password.PasswordEncoder' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+18:57:23.051 [main]                 [34mINFO [0;39m o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+18:57:23.066 [main]                 [34mINFO [0;39m com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+18:57:23.066 [main]                 [34mINFO [0;39m com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+18:57:23.066 [main]                 [34mINFO [0;39m o.a.catalina.core.StandardService - Stopping service [Tomcat]
+18:57:23.082 [main]                 [34mINFO [0;39m o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+18:57:23.097 [main]                 [1;31mERROR[0;39m o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 1 of constructor in com.example.demo2.service.registration.DefaultRegistrationService required a bean of type 'org.springframework.security.crypto.password.PasswordEncoder' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'org.springframework.security.crypto.password.PasswordEncoder' in your configuration.
+
+18:58:59.895 [background-preinit]   [34mINFO [0;39m o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final
+18:58:59.895 [main]                 [34mINFO [0;39m com.example.demo2.Application - Starting Application using Java 21.0.1 on My-PC with PID 8784 (D:\Java\Project IDEA\demo2\target\classes started by Макс in D:\Java\Project IDEA\demo2)
+18:58:59.895 [main]                 [34mINFO [0;39m com.example.demo2.Application - No active profile set, falling back to default profiles: default
+18:59:00.395 [background-preinit]   [31mWARN [0;39m o.s.h.c.j.Jackson2ObjectMapperBuilder - For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+18:59:00.785 [main]                 [34mINFO [0;39m o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+18:59:00.863 [main]                 [34mINFO [0;39m o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 73 ms. Found 6 JPA repository interfaces.
+18:59:01.253 [main]                 [34mINFO [0;39m o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@38792286' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+18:59:01.253 [main]                 [34mINFO [0;39m o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+18:59:01.580 [main]                 [34mINFO [0;39m o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 443 (https)
+18:59:01.596 [main]                 [34mINFO [0;39m o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["https-jsse-nio-443"]
+18:59:01.596 [main]                 [34mINFO [0;39m o.a.catalina.core.StandardService - Starting service [Tomcat]
+18:59:01.596 [main]                 [34mINFO [0;39m o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.46]
+18:59:01.689 [main]                 [34mINFO [0;39m o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+18:59:01.689 [main]                 [34mINFO [0;39m o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1716 ms
+18:59:01.845 [main]                 [34mINFO [0;39m com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+18:59:02.189 [main]                 [34mINFO [0;39m com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+18:59:02.235 [main]                 [34mINFO [0;39m o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+18:59:02.282 [main]                 [34mINFO [0;39m org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.31.Final
+18:59:02.407 [main]                 [34mINFO [0;39m o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+18:59:02.501 [main]                 [34mINFO [0;39m org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+18:59:03.109 [main]                 [34mINFO [0;39m o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+18:59:03.109 [main]                 [34mINFO [0;39m o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+18:59:03.171 [main]                 [31mWARN [0;39m o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+18:59:03.749 [main]                 [34mINFO [0;39m o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: f284ad16-8653-4fd0-8668-d77b0e070995
+
+18:59:03.858 [main]                 [34mINFO [0;39m o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@18356951, org.springframework.security.web.context.SecurityContextPersistenceFilter@1bb78ae, org.springframework.security.web.header.HeaderWriterFilter@2087c939, org.springframework.security.web.csrf.CsrfFilter@eb1e868, org.springframework.security.web.authentication.logout.LogoutFilter@7e7987b8, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@4a0ee0ba, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@3bd79444, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@53335328, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@820b78a, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@58be583e, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7b11ff9a, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3a0b6aff, org.springframework.security.web.session.SessionManagementFilter@123e9094, org.springframework.security.web.access.ExceptionTranslationFilter@285ac40b, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@6e96f3cd]
+18:59:04.076 [main]                 [34mINFO [0;39m o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+18:59:04.232 [main]                 [34mINFO [0;39m o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["https-jsse-nio-443"]
+18:59:04.560 [main]                 [34mINFO [0;39m o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 443 (https) with context path ''
+18:59:04.575 [main]                 [34mINFO [0;39m com.example.demo2.Application - Started Application in 5.205 seconds (JVM running for 5.644)
+18:59:04.575 [main]                 [34mINFO [0;39m o.s.b.a.ApplicationAvailabilityBean - Application availability state LivenessState changed to CORRECT
+18:59:04.575 [main]                 [34mINFO [0;39m o.s.b.a.ApplicationAvailabilityBean - Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+18:59:27.584 [https-jsse-nio-443-exec-9] [34mINFO [0;39m o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+18:59:27.584 [https-jsse-nio-443-exec-9] [34mINFO [0;39m o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+18:59:27.600 [https-jsse-nio-443-exec-9] [34mINFO [0;39m o.s.web.servlet.DispatcherServlet - Completed initialization in 16 ms
+19:00:24.758 [background-preinit]   [34mINFO [0;39m o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final
+19:00:24.758 [main]                 [34mINFO [0;39m com.example.demo2.Application - Starting Application using Java 21.0.1 on My-PC with PID 10384 (D:\Java\Project IDEA\demo2\target\classes started by Макс in D:\Java\Project IDEA\demo2)
+19:00:24.758 [main]                 [34mINFO [0;39m com.example.demo2.Application - No active profile set, falling back to default profiles: default
+19:00:25.179 [background-preinit]   [31mWARN [0;39m o.s.h.c.j.Jackson2ObjectMapperBuilder - For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+19:00:25.632 [main]                 [34mINFO [0;39m o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+19:00:25.710 [main]                 [34mINFO [0;39m o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 71 ms. Found 6 JPA repository interfaces.
+19:00:26.350 [main]                 [34mINFO [0;39m o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 443 (https)
+19:00:26.350 [main]                 [34mINFO [0;39m o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["https-jsse-nio-443"]
+19:00:26.350 [main]                 [34mINFO [0;39m o.a.catalina.core.StandardService - Starting service [Tomcat]
+19:00:26.350 [main]                 [34mINFO [0;39m o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.46]
+19:00:26.444 [main]                 [34mINFO [0;39m o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+19:00:26.444 [main]                 [34mINFO [0;39m o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1624 ms
+19:00:26.569 [main]                 [34mINFO [0;39m com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+19:00:26.914 [main]                 [34mINFO [0;39m com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+19:00:26.961 [main]                 [34mINFO [0;39m o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+19:00:27.007 [main]                 [34mINFO [0;39m org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.31.Final
+19:00:27.148 [main]                 [34mINFO [0;39m o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+19:00:27.241 [main]                 [34mINFO [0;39m org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+19:00:27.912 [main]                 [34mINFO [0;39m o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+19:00:27.912 [main]                 [34mINFO [0;39m o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+19:00:28.474 [main]                 [31mWARN [0;39m o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+19:00:28.645 [main]                 [34mINFO [0;39m o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+19:00:28.879 [main]                 [34mINFO [0;39m o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: cc587f2e-104d-465a-bec6-05d9add0ab28
+
+19:00:28.973 [main]                 [34mINFO [0;39m o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2a15bbf3, org.springframework.security.web.context.SecurityContextPersistenceFilter@1a99692, org.springframework.security.web.header.HeaderWriterFilter@13087c75, org.springframework.security.web.csrf.CsrfFilter@112a50a1, org.springframework.security.web.authentication.logout.LogoutFilter@404566e7, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@5fe024a7, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@3ed87b6e, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@46c19350, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@760d6350, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7a85454b, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4d0d568f, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5b4b6f3b, org.springframework.security.web.session.SessionManagementFilter@1fa24e7, org.springframework.security.web.access.ExceptionTranslationFilter@37c762aa, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@3c29f6be]
+19:00:29.035 [main]                 [34mINFO [0;39m o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["https-jsse-nio-443"]
+19:00:29.379 [main]                 [34mINFO [0;39m o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 443 (https) with context path ''
+19:00:29.379 [main]                 [34mINFO [0;39m com.example.demo2.Application - Started Application in 5.143 seconds (JVM running for 5.6)
+19:00:29.379 [main]                 [34mINFO [0;39m o.s.b.a.ApplicationAvailabilityBean - Application availability state LivenessState changed to CORRECT
+19:00:29.379 [main]                 [34mINFO [0;39m o.s.b.a.ApplicationAvailabilityBean - Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+19:00:54.282 [https-jsse-nio-443-exec-9] [34mINFO [0;39m o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+19:00:54.282 [https-jsse-nio-443-exec-9] [34mINFO [0;39m o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+19:00:54.282 [https-jsse-nio-443-exec-9] [34mINFO [0;39m o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+19:02:17.660 [background-preinit]   [34mINFO [0;39m o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final
+19:02:17.675 [main]                 [34mINFO [0;39m com.example.demo2.Application - Starting Application using Java 21.0.1 on My-PC with PID 2560 (D:\Java\Project IDEA\demo2\target\classes started by Макс in D:\Java\Project IDEA\demo2)
+19:02:17.675 [main]                 [34mINFO [0;39m com.example.demo2.Application - No active profile set, falling back to default profiles: default
+19:02:18.096 [background-preinit]   [31mWARN [0;39m o.s.h.c.j.Jackson2ObjectMapperBuilder - For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+19:02:18.471 [main]                 [34mINFO [0;39m o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+19:02:18.549 [main]                 [34mINFO [0;39m o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 70 ms. Found 6 JPA repository interfaces.
+19:02:19.204 [main]                 [34mINFO [0;39m o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 443 (https)
+19:02:19.204 [main]                 [34mINFO [0;39m o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["https-jsse-nio-443"]
+19:02:19.220 [main]                 [34mINFO [0;39m o.a.catalina.core.StandardService - Starting service [Tomcat]
+19:02:19.220 [main]                 [34mINFO [0;39m o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.46]
+19:02:19.298 [main]                 [34mINFO [0;39m o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+19:02:19.298 [main]                 [34mINFO [0;39m o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1560 ms
+19:02:19.422 [main]                 [34mINFO [0;39m com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+19:02:19.812 [main]                 [34mINFO [0;39m com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+19:02:19.859 [main]                 [34mINFO [0;39m o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+19:02:19.906 [main]                 [34mINFO [0;39m org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.31.Final
+19:02:20.031 [main]                 [34mINFO [0;39m o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+19:02:20.124 [main]                 [34mINFO [0;39m org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+19:02:20.733 [main]                 [34mINFO [0;39m o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+19:02:20.748 [main]                 [34mINFO [0;39m o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+19:02:21.294 [main]                 [31mWARN [0;39m o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+19:02:21.466 [main]                 [34mINFO [0;39m o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+19:02:21.638 [main]                 [34mINFO [0;39m o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 52165b65-524c-49ed-89db-a57c91c15c9a
+
+19:02:21.747 [main]                 [34mINFO [0;39m o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@148f94dc, org.springframework.security.web.context.SecurityContextPersistenceFilter@3dbb7bb, org.springframework.security.web.header.HeaderWriterFilter@23dda7a3, org.springframework.security.web.csrf.CsrfFilter@11ad327f, org.springframework.security.web.authentication.logout.LogoutFilter@6a358906, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@3fe11091, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@893081e, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@2f11d889, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@734a2c17, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6632eb19, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7402bfe7, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@d1973e8, org.springframework.security.web.session.SessionManagementFilter@18139a43, org.springframework.security.web.access.ExceptionTranslationFilter@71689ee2, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@641ab175]
+19:02:21.794 [main]                 [34mINFO [0;39m o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["https-jsse-nio-443"]
+19:02:22.168 [main]                 [34mINFO [0;39m o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 443 (https) with context path ''
+19:02:22.184 [main]                 [34mINFO [0;39m com.example.demo2.Application - Started Application in 5.043 seconds (JVM running for 5.48)
+19:02:22.184 [main]                 [34mINFO [0;39m o.s.b.a.ApplicationAvailabilityBean - Application availability state LivenessState changed to CORRECT
+19:02:22.184 [main]                 [34mINFO [0;39m o.s.b.a.ApplicationAvailabilityBean - Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+19:08:44.705 [background-preinit]   [34mINFO [0;39m o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final
+19:08:44.705 [main]                 [34mINFO [0;39m com.example.demo2.Application - Starting Application using Java 21.0.1 on My-PC with PID 7236 (D:\Java\Project IDEA\demo2\target\classes started by Макс in D:\Java\Project IDEA\demo2)
+19:08:44.705 [main]                 [34mINFO [0;39m com.example.demo2.Application - No active profile set, falling back to default profiles: default
+19:08:44.877 [main]                 [31mWARN [0;39m o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanDefinitionStoreException: Failed to read candidate component class: file [D:\Java\Project IDEA\demo2\target\classes\com\example\demo2\Application.class]; nested exception is org.springframework.core.NestedIOException: ASM ClassReader failed to parse class file - probably due to a new Java class file version that isn't supported yet: file [D:\Java\Project IDEA\demo2\target\classes\com\example\demo2\Application.class]; nested exception is java.lang.IllegalArgumentException: Unsupported class file major version 65
+19:08:45.095 [background-preinit]   [31mWARN [0;39m o.s.h.c.j.Jackson2ObjectMapperBuilder - For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+19:08:45.126 [main]                 [1;31mERROR[0;39m o.s.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.BeanDefinitionStoreException: Failed to read candidate component class: file [D:\Java\Project IDEA\demo2\target\classes\com\example\demo2\Application.class]; nested exception is org.springframework.core.NestedIOException: ASM ClassReader failed to parse class file - probably due to a new Java class file version that isn't supported yet: file [D:\Java\Project IDEA\demo2\target\classes\com\example\demo2\Application.class]; nested exception is java.lang.IllegalArgumentException: Unsupported class file major version 65
+	at org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider.scanCandidateComponents(ClassPathScanningCandidateComponentProvider.java:452)
+	at org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider.findCandidateComponents(ClassPathScanningCandidateComponentProvider.java:315)
+	at org.springframework.context.annotation.ClassPathBeanDefinitionScanner.doScan(ClassPathBeanDefinitionScanner.java:276)
+	at org.springframework.context.annotation.ComponentScanAnnotationParser.parse(ComponentScanAnnotationParser.java:132)
+	at org.springframework.context.annotation.ConfigurationClassParser.doProcessConfigurationClass(ConfigurationClassParser.java:296)
+	at org.springframework.context.annotation.ConfigurationClassParser.processConfigurationClass(ConfigurationClassParser.java:250)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:207)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:175)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:331)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:247)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:311)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:112)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:746)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:564)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:758)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:438)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:337)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1336)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1325)
+	at com.example.demo2.Application.main(Application.java:16)
+Caused by: org.springframework.core.NestedIOException: ASM ClassReader failed to parse class file - probably due to a new Java class file version that isn't supported yet: file [D:\Java\Project IDEA\demo2\target\classes\com\example\demo2\Application.class]; nested exception is java.lang.IllegalArgumentException: Unsupported class file major version 65
+	at org.springframework.core.type.classreading.SimpleMetadataReader.getClassReader(SimpleMetadataReader.java:60)
+	at org.springframework.core.type.classreading.SimpleMetadataReader.<init>(SimpleMetadataReader.java:49)
+	at org.springframework.core.type.classreading.SimpleMetadataReaderFactory.getMetadataReader(SimpleMetadataReaderFactory.java:103)
+	at org.springframework.core.type.classreading.CachingMetadataReaderFactory.getMetadataReader(CachingMetadataReaderFactory.java:123)
+	at org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider.scanCandidateComponents(ClassPathScanningCandidateComponentProvider.java:429)
+	... 20 common frames omitted
+Caused by: java.lang.IllegalArgumentException: Unsupported class file major version 65
+	at org.springframework.asm.ClassReader.<init>(ClassReader.java:196)
+	at org.springframework.asm.ClassReader.<init>(ClassReader.java:177)
+	at org.springframework.asm.ClassReader.<init>(ClassReader.java:163)
+	at org.springframework.asm.ClassReader.<init>(ClassReader.java:284)
+	at org.springframework.core.type.classreading.SimpleMetadataReader.getClassReader(SimpleMetadataReader.java:57)
+	... 24 common frames omitted
+19:10:18.823 [background-preinit]   [34mINFO [0;39m o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final
+19:10:18.839 [main]                 [34mINFO [0;39m com.example.demo2.Application - Starting Application using Java 21.0.1 on My-PC with PID 10252 (D:\Java\Project IDEA\demo2\target\classes started by Макс in D:\Java\Project IDEA\demo2)
+19:10:18.839 [main]                 [34mINFO [0;39m com.example.demo2.Application - No active profile set, falling back to default profiles: default
+19:10:19.026 [main]                 [31mWARN [0;39m o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanDefinitionStoreException: Failed to read candidate component class: file [D:\Java\Project IDEA\demo2\target\classes\com\example\demo2\Application.class]; nested exception is org.springframework.core.NestedIOException: ASM ClassReader failed to parse class file - probably due to a new Java class file version that isn't supported yet: file [D:\Java\Project IDEA\demo2\target\classes\com\example\demo2\Application.class]; nested exception is java.lang.IllegalArgumentException: Unsupported class file major version 65
+19:10:19.244 [background-preinit]   [31mWARN [0;39m o.s.h.c.j.Jackson2ObjectMapperBuilder - For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+19:10:19.291 [main]                 [1;31mERROR[0;39m o.s.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.BeanDefinitionStoreException: Failed to read candidate component class: file [D:\Java\Project IDEA\demo2\target\classes\com\example\demo2\Application.class]; nested exception is org.springframework.core.NestedIOException: ASM ClassReader failed to parse class file - probably due to a new Java class file version that isn't supported yet: file [D:\Java\Project IDEA\demo2\target\classes\com\example\demo2\Application.class]; nested exception is java.lang.IllegalArgumentException: Unsupported class file major version 65
+	at org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider.scanCandidateComponents(ClassPathScanningCandidateComponentProvider.java:452)
+	at org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider.findCandidateComponents(ClassPathScanningCandidateComponentProvider.java:315)
+	at org.springframework.context.annotation.ClassPathBeanDefinitionScanner.doScan(ClassPathBeanDefinitionScanner.java:276)
+	at org.springframework.context.annotation.ComponentScanAnnotationParser.parse(ComponentScanAnnotationParser.java:132)
+	at org.springframework.context.annotation.ConfigurationClassParser.doProcessConfigurationClass(ConfigurationClassParser.java:296)
+	at org.springframework.context.annotation.ConfigurationClassParser.processConfigurationClass(ConfigurationClassParser.java:250)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:207)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:175)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:331)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:247)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:311)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:112)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:746)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:564)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:758)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:438)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:337)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1336)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1325)
+	at com.example.demo2.Application.main(Application.java:16)
+Caused by: org.springframework.core.NestedIOException: ASM ClassReader failed to parse class file - probably due to a new Java class file version that isn't supported yet: file [D:\Java\Project IDEA\demo2\target\classes\com\example\demo2\Application.class]; nested exception is java.lang.IllegalArgumentException: Unsupported class file major version 65
+	at org.springframework.core.type.classreading.SimpleMetadataReader.getClassReader(SimpleMetadataReader.java:60)
+	at org.springframework.core.type.classreading.SimpleMetadataReader.<init>(SimpleMetadataReader.java:49)
+	at org.springframework.core.type.classreading.SimpleMetadataReaderFactory.getMetadataReader(SimpleMetadataReaderFactory.java:103)
+	at org.springframework.core.type.classreading.CachingMetadataReaderFactory.getMetadataReader(CachingMetadataReaderFactory.java:123)
+	at org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider.scanCandidateComponents(ClassPathScanningCandidateComponentProvider.java:429)
+	... 20 common frames omitted
+Caused by: java.lang.IllegalArgumentException: Unsupported class file major version 65
+	at org.springframework.asm.ClassReader.<init>(ClassReader.java:196)
+	at org.springframework.asm.ClassReader.<init>(ClassReader.java:177)
+	at org.springframework.asm.ClassReader.<init>(ClassReader.java:163)
+	at org.springframework.asm.ClassReader.<init>(ClassReader.java:284)
+	at org.springframework.core.type.classreading.SimpleMetadataReader.getClassReader(SimpleMetadataReader.java:57)
+	... 24 common frames omitted
+19:11:04.397 [background-preinit]   [34mINFO [0;39m o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final
+19:11:04.413 [main]                 [34mINFO [0;39m com.example.demo2.Application - Starting Application using Java 21.0.1 on My-PC with PID 6056 (D:\Java\Project IDEA\demo2\target\classes started by Макс in D:\Java\Project IDEA\demo2)
+19:11:04.413 [main]                 [34mINFO [0;39m com.example.demo2.Application - No active profile set, falling back to default profiles: default
+19:11:04.584 [main]                 [31mWARN [0;39m o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanDefinitionStoreException: Failed to read candidate component class: file [D:\Java\Project IDEA\demo2\target\classes\com\example\demo2\Application.class]; nested exception is org.springframework.core.NestedIOException: ASM ClassReader failed to parse class file - probably due to a new Java class file version that isn't supported yet: file [D:\Java\Project IDEA\demo2\target\classes\com\example\demo2\Application.class]; nested exception is java.lang.IllegalArgumentException: Unsupported class file major version 65
+19:11:04.787 [background-preinit]   [31mWARN [0;39m o.s.h.c.j.Jackson2ObjectMapperBuilder - For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+19:11:04.818 [main]                 [1;31mERROR[0;39m o.s.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.BeanDefinitionStoreException: Failed to read candidate component class: file [D:\Java\Project IDEA\demo2\target\classes\com\example\demo2\Application.class]; nested exception is org.springframework.core.NestedIOException: ASM ClassReader failed to parse class file - probably due to a new Java class file version that isn't supported yet: file [D:\Java\Project IDEA\demo2\target\classes\com\example\demo2\Application.class]; nested exception is java.lang.IllegalArgumentException: Unsupported class file major version 65
+	at org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider.scanCandidateComponents(ClassPathScanningCandidateComponentProvider.java:452)
+	at org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider.findCandidateComponents(ClassPathScanningCandidateComponentProvider.java:315)
+	at org.springframework.context.annotation.ClassPathBeanDefinitionScanner.doScan(ClassPathBeanDefinitionScanner.java:276)
+	at org.springframework.context.annotation.ComponentScanAnnotationParser.parse(ComponentScanAnnotationParser.java:132)
+	at org.springframework.context.annotation.ConfigurationClassParser.doProcessConfigurationClass(ConfigurationClassParser.java:296)
+	at org.springframework.context.annotation.ConfigurationClassParser.processConfigurationClass(ConfigurationClassParser.java:250)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:207)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:175)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:331)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:247)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:311)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:112)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:746)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:564)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:758)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:438)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:337)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1336)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1325)
+	at com.example.demo2.Application.main(Application.java:16)
+Caused by: org.springframework.core.NestedIOException: ASM ClassReader failed to parse class file - probably due to a new Java class file version that isn't supported yet: file [D:\Java\Project IDEA\demo2\target\classes\com\example\demo2\Application.class]; nested exception is java.lang.IllegalArgumentException: Unsupported class file major version 65
+	at org.springframework.core.type.classreading.SimpleMetadataReader.getClassReader(SimpleMetadataReader.java:60)
+	at org.springframework.core.type.classreading.SimpleMetadataReader.<init>(SimpleMetadataReader.java:49)
+	at org.springframework.core.type.classreading.SimpleMetadataReaderFactory.getMetadataReader(SimpleMetadataReaderFactory.java:103)
+	at org.springframework.core.type.classreading.CachingMetadataReaderFactory.getMetadataReader(CachingMetadataReaderFactory.java:123)
+	at org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider.scanCandidateComponents(ClassPathScanningCandidateComponentProvider.java:429)
+	... 20 common frames omitted
+Caused by: java.lang.IllegalArgumentException: Unsupported class file major version 65
+	at org.springframework.asm.ClassReader.<init>(ClassReader.java:196)
+	at org.springframework.asm.ClassReader.<init>(ClassReader.java:177)
+	at org.springframework.asm.ClassReader.<init>(ClassReader.java:163)
+	at org.springframework.asm.ClassReader.<init>(ClassReader.java:284)
+	at org.springframework.core.type.classreading.SimpleMetadataReader.getClassReader(SimpleMetadataReader.java:57)
+	... 24 common frames omitted
+19:12:18.492 [background-preinit]   [34mINFO [0;39m o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final
+19:12:18.507 [main]                 [34mINFO [0;39m com.example.demo2.Application - Starting Application using Java 21.0.1 on My-PC with PID 5096 (D:\Java\Project IDEA\demo2\target\classes started by Макс in D:\Java\Project IDEA\demo2)
+19:12:18.507 [main]                 [34mINFO [0;39m com.example.demo2.Application - No active profile set, falling back to default profiles: default
+19:12:18.679 [main]                 [31mWARN [0;39m o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanDefinitionStoreException: Failed to read candidate component class: file [D:\Java\Project IDEA\demo2\target\classes\com\example\demo2\Application.class]; nested exception is org.springframework.core.NestedIOException: ASM ClassReader failed to parse class file - probably due to a new Java class file version that isn't supported yet: file [D:\Java\Project IDEA\demo2\target\classes\com\example\demo2\Application.class]; nested exception is java.lang.IllegalArgumentException: Unsupported class file major version 65
+19:12:18.866 [background-preinit]   [31mWARN [0;39m o.s.h.c.j.Jackson2ObjectMapperBuilder - For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+19:12:18.882 [main]                 [1;31mERROR[0;39m o.s.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.BeanDefinitionStoreException: Failed to read candidate component class: file [D:\Java\Project IDEA\demo2\target\classes\com\example\demo2\Application.class]; nested exception is org.springframework.core.NestedIOException: ASM ClassReader failed to parse class file - probably due to a new Java class file version that isn't supported yet: file [D:\Java\Project IDEA\demo2\target\classes\com\example\demo2\Application.class]; nested exception is java.lang.IllegalArgumentException: Unsupported class file major version 65
+	at org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider.scanCandidateComponents(ClassPathScanningCandidateComponentProvider.java:452)
+	at org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider.findCandidateComponents(ClassPathScanningCandidateComponentProvider.java:315)
+	at org.springframework.context.annotation.ClassPathBeanDefinitionScanner.doScan(ClassPathBeanDefinitionScanner.java:276)
+	at org.springframework.context.annotation.ComponentScanAnnotationParser.parse(ComponentScanAnnotationParser.java:132)
+	at org.springframework.context.annotation.ConfigurationClassParser.doProcessConfigurationClass(ConfigurationClassParser.java:296)
+	at org.springframework.context.annotation.ConfigurationClassParser.processConfigurationClass(ConfigurationClassParser.java:250)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:207)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:175)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:331)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:247)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:311)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:112)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:746)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:564)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:758)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:438)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:337)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1336)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1325)
+	at com.example.demo2.Application.main(Application.java:16)
+Caused by: org.springframework.core.NestedIOException: ASM ClassReader failed to parse class file - probably due to a new Java class file version that isn't supported yet: file [D:\Java\Project IDEA\demo2\target\classes\com\example\demo2\Application.class]; nested exception is java.lang.IllegalArgumentException: Unsupported class file major version 65
+	at org.springframework.core.type.classreading.SimpleMetadataReader.getClassReader(SimpleMetadataReader.java:60)
+	at org.springframework.core.type.classreading.SimpleMetadataReader.<init>(SimpleMetadataReader.java:49)
+	at org.springframework.core.type.classreading.SimpleMetadataReaderFactory.getMetadataReader(SimpleMetadataReaderFactory.java:103)
+	at org.springframework.core.type.classreading.CachingMetadataReaderFactory.getMetadataReader(CachingMetadataReaderFactory.java:123)
+	at org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider.scanCandidateComponents(ClassPathScanningCandidateComponentProvider.java:429)
+	... 20 common frames omitted
+Caused by: java.lang.IllegalArgumentException: Unsupported class file major version 65
+	at org.springframework.asm.ClassReader.<init>(ClassReader.java:196)
+	at org.springframework.asm.ClassReader.<init>(ClassReader.java:177)
+	at org.springframework.asm.ClassReader.<init>(ClassReader.java:163)
+	at org.springframework.asm.ClassReader.<init>(ClassReader.java:284)
+	at org.springframework.core.type.classreading.SimpleMetadataReader.getClassReader(SimpleMetadataReader.java:57)
+	... 24 common frames omitted
+19:13:46.430 [main]                 [34mINFO [0;39m com.example.demo2.Application - Starting Application using Java 21.0.1 on My-PC with PID 8828 (D:\Java\Project IDEA\demo2\target\classes started by Макс in D:\Java\Project IDEA\demo2)
+19:13:46.430 [main]                 [34mINFO [0;39m com.example.demo2.Application - No active profile set, falling back to default profiles: default
+19:13:46.586 [background-preinit]   [34mINFO [0;39m o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final
+19:13:46.633 [main]                 [31mWARN [0;39m o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanDefinitionStoreException: Failed to read candidate component class: file [D:\Java\Project IDEA\demo2\target\classes\com\example\demo2\Application.class]; nested exception is org.springframework.core.NestedIOException: ASM ClassReader failed to parse class file - probably due to a new Java class file version that isn't supported yet: file [D:\Java\Project IDEA\demo2\target\classes\com\example\demo2\Application.class]; nested exception is java.lang.IllegalArgumentException: Unsupported class file major version 65
+19:13:46.929 [background-preinit]   [31mWARN [0;39m o.s.h.c.j.Jackson2ObjectMapperBuilder - For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+19:13:46.945 [main]                 [1;31mERROR[0;39m o.s.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.BeanDefinitionStoreException: Failed to read candidate component class: file [D:\Java\Project IDEA\demo2\target\classes\com\example\demo2\Application.class]; nested exception is org.springframework.core.NestedIOException: ASM ClassReader failed to parse class file - probably due to a new Java class file version that isn't supported yet: file [D:\Java\Project IDEA\demo2\target\classes\com\example\demo2\Application.class]; nested exception is java.lang.IllegalArgumentException: Unsupported class file major version 65
+	at org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider.scanCandidateComponents(ClassPathScanningCandidateComponentProvider.java:452)
+	at org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider.findCandidateComponents(ClassPathScanningCandidateComponentProvider.java:315)
+	at org.springframework.context.annotation.ClassPathBeanDefinitionScanner.doScan(ClassPathBeanDefinitionScanner.java:276)
+	at org.springframework.context.annotation.ComponentScanAnnotationParser.parse(ComponentScanAnnotationParser.java:132)
+	at org.springframework.context.annotation.ConfigurationClassParser.doProcessConfigurationClass(ConfigurationClassParser.java:296)
+	at org.springframework.context.annotation.ConfigurationClassParser.processConfigurationClass(ConfigurationClassParser.java:250)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:207)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:175)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:331)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:247)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:311)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:112)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:746)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:564)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:758)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:438)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:337)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1336)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1325)
+	at com.example.demo2.Application.main(Application.java:16)
+Caused by: org.springframework.core.NestedIOException: ASM ClassReader failed to parse class file - probably due to a new Java class file version that isn't supported yet: file [D:\Java\Project IDEA\demo2\target\classes\com\example\demo2\Application.class]; nested exception is java.lang.IllegalArgumentException: Unsupported class file major version 65
+	at org.springframework.core.type.classreading.SimpleMetadataReader.getClassReader(SimpleMetadataReader.java:60)
+	at org.springframework.core.type.classreading.SimpleMetadataReader.<init>(SimpleMetadataReader.java:49)
+	at org.springframework.core.type.classreading.SimpleMetadataReaderFactory.getMetadataReader(SimpleMetadataReaderFactory.java:103)
+	at org.springframework.core.type.classreading.CachingMetadataReaderFactory.getMetadataReader(CachingMetadataReaderFactory.java:123)
+	at org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider.scanCandidateComponents(ClassPathScanningCandidateComponentProvider.java:429)
+	... 20 common frames omitted
+Caused by: java.lang.IllegalArgumentException: Unsupported class file major version 65
+	at org.springframework.asm.ClassReader.<init>(ClassReader.java:196)
+	at org.springframework.asm.ClassReader.<init>(ClassReader.java:177)
+	at org.springframework.asm.ClassReader.<init>(ClassReader.java:163)
+	at org.springframework.asm.ClassReader.<init>(ClassReader.java:284)
+	at org.springframework.core.type.classreading.SimpleMetadataReader.getClassReader(SimpleMetadataReader.java:57)
+	... 24 common frames omitted
+19:14:14.635 [background-preinit]   [34mINFO [0;39m o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final
+19:14:14.651 [main]                 [34mINFO [0;39m com.example.demo2.Application - Starting Application using Java 21.0.1 on My-PC with PID 1608 (D:\Java\Project IDEA\demo2\target\classes started by Макс in D:\Java\Project IDEA\demo2)
+19:14:14.651 [main]                 [34mINFO [0;39m com.example.demo2.Application - No active profile set, falling back to default profiles: default
+19:14:15.103 [background-preinit]   [31mWARN [0;39m o.s.h.c.j.Jackson2ObjectMapperBuilder - For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+19:14:15.587 [main]                 [34mINFO [0;39m o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+19:14:15.665 [main]                 [34mINFO [0;39m o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 71 ms. Found 6 JPA repository interfaces.
+19:14:16.039 [main]                 [34mINFO [0;39m o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@2123064f' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+19:14:16.055 [main]                 [34mINFO [0;39m o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+19:14:16.383 [main]                 [34mINFO [0;39m o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 443 (https)
+19:14:16.383 [main]                 [34mINFO [0;39m o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["https-jsse-nio-443"]
+19:14:16.383 [main]                 [34mINFO [0;39m o.a.catalina.core.StandardService - Starting service [Tomcat]
+19:14:16.398 [main]                 [34mINFO [0;39m o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.46]
+19:14:16.476 [main]                 [34mINFO [0;39m o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+19:14:16.476 [main]                 [34mINFO [0;39m o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1747 ms
+19:14:16.648 [main]                 [34mINFO [0;39m com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+19:14:17.022 [main]                 [34mINFO [0;39m com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+19:14:17.085 [main]                 [34mINFO [0;39m o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+19:14:17.116 [main]                 [34mINFO [0;39m org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.31.Final
+19:14:17.256 [main]                 [34mINFO [0;39m o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+19:14:17.350 [main]                 [34mINFO [0;39m org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+19:14:18.052 [main]                 [34mINFO [0;39m o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+19:14:18.052 [main]                 [34mINFO [0;39m o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+19:14:18.114 [main]                 [31mWARN [0;39m o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+19:14:18.816 [main]                 [34mINFO [0;39m o.s.s.web.DefaultSecurityFilterChain - Will secure Ant [pattern='/css/**'] with []
+19:14:18.816 [main]                 [34mINFO [0;39m o.s.s.web.DefaultSecurityFilterChain - Will secure Ant [pattern='/js/**'] with []
+19:14:18.816 [main]                 [34mINFO [0;39m o.s.s.web.DefaultSecurityFilterChain - Will secure Ant [pattern='/fonts/**'] with []
+19:14:18.816 [main]                 [34mINFO [0;39m o.s.s.web.DefaultSecurityFilterChain - Will secure Ant [pattern='/images/**'] with []
+19:14:18.847 [main]                 [34mINFO [0;39m o.s.s.w.a.c.ChannelProcessingFilter - Validated configuration attributes
+19:14:18.847 [main]                 [34mINFO [0;39m o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.access.channel.ChannelProcessingFilter@5b2c41f9, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2f5a092e, org.springframework.security.web.context.SecurityContextPersistenceFilter@36e98434, org.springframework.security.web.header.HeaderWriterFilter@7e7987b8, org.springframework.security.web.authentication.logout.LogoutFilter@13cae908, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@1ee52741, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@77acc95a, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1cd2e348, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1640a6b5, org.springframework.security.web.session.SessionManagementFilter@7254a68a, org.springframework.security.web.access.ExceptionTranslationFilter@2a666c8e, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@2de82bf8]
+19:14:19.050 [main]                 [34mINFO [0;39m o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+19:14:19.206 [main]                 [34mINFO [0;39m o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 54f97084-baa4-4f9c-a67a-47e86c2f1ce7
+
+19:14:19.206 [main]                 [34mINFO [0;39m o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["https-jsse-nio-443"]
+19:14:19.705 [main]                 [34mINFO [0;39m o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 443 (https) with context path ''
+19:14:19.705 [main]                 [34mINFO [0;39m com.example.demo2.Application - Started Application in 5.632 seconds (JVM running for 6.115)
+19:14:19.705 [main]                 [34mINFO [0;39m o.s.b.a.ApplicationAvailabilityBean - Application availability state LivenessState changed to CORRECT
+19:14:19.721 [main]                 [34mINFO [0;39m o.s.b.a.ApplicationAvailabilityBean - Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+19:14:36.182 [https-jsse-nio-443-exec-9] [34mINFO [0;39m o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+19:14:36.182 [https-jsse-nio-443-exec-9] [34mINFO [0;39m o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+19:14:36.182 [https-jsse-nio-443-exec-9] [34mINFO [0;39m o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+19:14:36.197 [https-jsse-nio-443-exec-9] [34mINFO [0;39m c.e.d.filter.FilterForAllTemplates - Filter 1 for all templates URL : https://localhost/
+19:14:36.384 [https-jsse-nio-443-exec-10] [34mINFO [0;39m c.e.d.filter.FilterForAllTemplates - Filter 1 for all templates URL : https://localhost/css/index.css
+19:14:36.414 [https-jsse-nio-443-exec-9] [34mINFO [0;39m c.e.d.filter.FilterForAllTemplates - Filter 1 for all templates URL : https://localhost/images/photo.jpg
+19:14:47.666 [https-jsse-nio-443-exec-1] [34mINFO [0;39m c.e.d.filter.FilterForAllTemplates - Filter 1 for all templates URL : https://localhost/
+19:14:47.694 [https-jsse-nio-443-exec-2] [34mINFO [0;39m c.e.d.filter.FilterForAllTemplates - Filter 1 for all templates URL : https://localhost/css/index.css
+19:14:47.770 [https-jsse-nio-443-exec-3] [34mINFO [0;39m c.e.d.filter.FilterForAllTemplates - Filter 1 for all templates URL : https://localhost/images/photo.jpg
+19:14:47.819 [https-jsse-nio-443-exec-10] [34mINFO [0;39m c.e.d.filter.FilterForAllTemplates - Filter 1 for all templates URL : https://localhost/login
+19:15:08.584 [https-jsse-nio-443-exec-6] [34mINFO [0;39m c.e.d.filter.FilterForAllTemplates - Filter 1 for all templates URL : https://localhost/
+19:15:08.598 [https-jsse-nio-443-exec-8] [34mINFO [0;39m c.e.d.filter.FilterForAllTemplates - Filter 1 for all templates URL : https://localhost/css/index.css
+19:15:08.617 [https-jsse-nio-443-exec-6] [34mINFO [0;39m c.e.d.filter.FilterForAllTemplates - Filter 1 for all templates URL : https://localhost/images/photo.jpg
+19:15:13.145 [https-jsse-nio-443-exec-8] [34mINFO [0;39m c.e.d.filter.FilterForAllTemplates - Filter 1 for all templates URL : https://localhost/
+19:15:13.177 [https-jsse-nio-443-exec-7] [34mINFO [0;39m c.e.d.filter.FilterForAllTemplates - Filter 1 for all templates URL : https://localhost/css/index.css
+19:15:13.235 [https-jsse-nio-443-exec-4] [34mINFO [0;39m c.e.d.filter.FilterForAllTemplates - Filter 1 for all templates URL : https://localhost/images/photo.jpg
+19:15:13.279 [https-jsse-nio-443-exec-1] [34mINFO [0;39m c.e.d.filter.FilterForAllTemplates - Filter 1 for all templates URL : https://localhost/login
+19:15:14.891 [https-jsse-nio-443-exec-5] [34mINFO [0;39m c.e.d.filter.FilterForAllTemplates - Filter 1 for all templates URL : https://localhost/login
+19:15:14.960 [https-jsse-nio-443-exec-10] [34mINFO [0;39m c.e.d.filter.FilterForAllTemplates - Filter 1 for all templates URL : https://localhost/login
+19:15:19.826 [https-jsse-nio-443-exec-8] [34mINFO [0;39m c.e.d.filter.FilterForAllTemplates - Filter 1 for all templates URL : https://localhost/maiin.html
+19:15:19.921 [https-jsse-nio-443-exec-7] [34mINFO [0;39m c.e.d.filter.FilterForAllTemplates - Filter 1 for all templates URL : https://localhost/ConstantBlock.html
+19:15:19.927 [https-jsse-nio-443-exec-4] [34mINFO [0;39m c.e.d.filter.FilterForAllTemplates - Filter 1 for all templates URL : https://localhost/favicon.ico
+19:15:21.798 [https-jsse-nio-443-exec-9] [34mINFO [0;39m c.e.d.filter.FilterForAllTemplates - Filter 1 for all templates URL : https://localhost/workingWithFields.html
+19:15:21.839 [https-jsse-nio-443-exec-1] [34mINFO [0;39m c.e.d.filter.FilterForAllTemplates - Filter 1 for all templates URL : https://localhost/css/index23.css
+19:15:21.841 [https-jsse-nio-443-exec-3] [34mINFO [0;39m c.e.d.filter.FilterForAllTemplates - Filter 1 for all templates URL : https://localhost/js/workingWithFields.js
+19:15:21.879 [https-jsse-nio-443-exec-5] [34mINFO [0;39m c.e.d.filter.FilterForAllTemplates - Filter 1 for all templates URL : https://localhost/ConstantBlock.html

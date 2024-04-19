@@ -1,0 +1,746 @@
+11:02:45.038 [background-preinit]   [34mINFO [0;39m o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final
+11:02:45.053 [main]                 [34mINFO [0;39m com.example.demo2.Application - Starting Application using Java 21.0.1 on My-PC with PID 1824 (D:\Java\Project IDEA\demo2\target\classes started by ���� in D:\Java\Project IDEA\demo2)
+11:02:45.053 [main]                 [34mINFO [0;39m com.example.demo2.Application - No active profile set, falling back to default profiles: default
+11:02:45.443 [background-preinit]   [31mWARN [0;39m o.s.h.c.j.Jackson2ObjectMapperBuilder - For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+11:02:45.974 [main]                 [34mINFO [0;39m o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+11:02:46.052 [main]                 [34mINFO [0;39m o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 65 ms. Found 6 JPA repository interfaces.
+11:02:46.395 [main]                 [34mINFO [0;39m o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@716e431d' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+11:02:46.411 [main]                 [34mINFO [0;39m o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+11:02:46.801 [main]                 [34mINFO [0;39m o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 443 (https)
+11:02:46.816 [main]                 [34mINFO [0;39m o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["https-jsse-nio-443"]
+11:02:46.816 [main]                 [34mINFO [0;39m o.a.catalina.core.StandardService - Starting service [Tomcat]
+11:02:46.816 [main]                 [34mINFO [0;39m o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.46]
+11:02:46.910 [main]                 [34mINFO [0;39m o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+11:02:46.910 [main]                 [34mINFO [0;39m o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1779 ms
+11:02:47.050 [main]                 [34mINFO [0;39m com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+11:02:47.518 [main]                 [34mINFO [0;39m com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+11:02:47.565 [main]                 [34mINFO [0;39m o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+11:02:47.643 [main]                 [34mINFO [0;39m org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.31.Final
+11:02:47.877 [main]                 [34mINFO [0;39m o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+11:02:47.986 [main]                 [34mINFO [0;39m org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+11:02:48.688 [main]                 [34mINFO [0;39m o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+11:02:48.704 [main]                 [34mINFO [0;39m o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+11:02:48.751 [main]                 [31mWARN [0;39m o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+11:02:49.453 [main]                 [34mINFO [0;39m o.s.s.web.DefaultSecurityFilterChain - Will secure Ant [pattern='/css/**'] with []
+11:02:49.453 [main]                 [34mINFO [0;39m o.s.s.web.DefaultSecurityFilterChain - Will secure Ant [pattern='/js/**'] with []
+11:02:49.453 [main]                 [34mINFO [0;39m o.s.s.web.DefaultSecurityFilterChain - Will secure Ant [pattern='/fonts/**'] with []
+11:02:49.453 [main]                 [34mINFO [0;39m o.s.s.web.DefaultSecurityFilterChain - Will secure Ant [pattern='/images/**'] with []
+11:02:49.484 [main]                 [34mINFO [0;39m o.s.s.w.a.c.ChannelProcessingFilter - Validated configuration attributes
+11:02:49.484 [main]                 [34mINFO [0;39m o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.access.channel.ChannelProcessingFilter@41433530, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@28dd8786, org.springframework.security.web.context.SecurityContextPersistenceFilter@46610fc9, org.springframework.security.web.header.HeaderWriterFilter@eee26bd, org.springframework.security.web.authentication.logout.LogoutFilter@1921b43c, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@2569afda, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2cd877d3, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5655278d, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@70efdd18, org.springframework.security.web.session.SessionManagementFilter@498f5728, org.springframework.security.web.access.ExceptionTranslationFilter@6ca30886, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@f7b7720]
+11:02:49.702 [main]                 [34mINFO [0;39m o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+11:02:49.858 [main]                 [34mINFO [0;39m o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 51f2ec9c-4288-4acb-9f13-cacf4866123c
+
+11:02:49.858 [main]                 [34mINFO [0;39m o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["https-jsse-nio-443"]
+11:02:50.217 [main]                 [34mINFO [0;39m o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 443 (https) with context path ''
+11:02:50.217 [main]                 [34mINFO [0;39m com.example.demo2.Application - Started Application in 5.778 seconds (JVM running for 6.444)
+11:02:50.233 [main]                 [34mINFO [0;39m o.s.b.a.ApplicationAvailabilityBean - Application availability state LivenessState changed to CORRECT
+11:02:50.233 [main]                 [34mINFO [0;39m o.s.b.a.ApplicationAvailabilityBean - Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+11:03:17.548 [https-jsse-nio-443-exec-9] [34mINFO [0;39m o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+11:03:17.548 [https-jsse-nio-443-exec-9] [34mINFO [0;39m o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+11:03:17.548 [https-jsse-nio-443-exec-9] [34mINFO [0;39m o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+11:03:17.564 [https-jsse-nio-443-exec-9] [34mINFO [0;39m c.e.d.filter.FilterForAllTemplates - Filter 1 for all templates URL : https://localhost/
+11:03:17.801 [https-jsse-nio-443-exec-10] [34mINFO [0;39m c.e.d.filter.FilterForAllTemplates - Filter 1 for all templates URL : https://localhost/css/index.css
+11:03:17.837 [https-jsse-nio-443-exec-9] [34mINFO [0;39m c.e.d.filter.FilterForAllTemplates - Filter 1 for all templates URL : https://localhost/images/photo.jpg
+11:03:26.670 [https-jsse-nio-443-exec-4] [34mINFO [0;39m c.e.d.filter.FilterForAllTemplates - Filter 1 for all templates URL : https://localhost/
+11:03:26.711 [https-jsse-nio-443-exec-5] [34mINFO [0;39m c.e.d.filter.FilterForAllTemplates - Filter 1 for all templates URL : https://localhost/css/index.css
+11:03:26.772 [https-jsse-nio-443-exec-3] [34mINFO [0;39m c.e.d.filter.FilterForAllTemplates - Filter 1 for all templates URL : https://localhost/images/photo.jpg
+11:03:26.818 [https-jsse-nio-443-exec-7] [34mINFO [0;39m c.e.d.filter.FilterForAllTemplates - Filter 1 for all templates URL : https://localhost/login
+11:03:30.979 [https-jsse-nio-443-exec-1] [34mINFO [0;39m c.e.d.filter.FilterForAllTemplates - Filter 1 for all templates URL : https://localhost/login
+11:03:31.048 [https-jsse-nio-443-exec-2] [34mINFO [0;39m c.e.d.filter.FilterForAllTemplates - Filter 1 for all templates URL : https://localhost/login
+11:03:38.358 [https-jsse-nio-443-exec-4] [34mINFO [0;39m c.e.d.filter.FilterForAllTemplates - Filter 1 for all templates URL : https://localhost/maiin.html
+11:03:38.401 [https-jsse-nio-443-exec-5] [34mINFO [0;39m c.e.d.filter.FilterForAllTemplates - Filter 1 for all templates URL : https://localhost/css/index.css
+11:03:38.420 [https-jsse-nio-443-exec-3] [34mINFO [0;39m c.e.d.filter.FilterForAllTemplates - Filter 1 for all templates URL : https://localhost/images/photo.jpg
+11:03:38.431 [https-jsse-nio-443-exec-10] [34mINFO [0;39m c.e.d.filter.FilterForAllTemplates - Filter 1 for all templates URL : https://localhost/ConstantBlock.html
+11:03:38.441 [https-jsse-nio-443-exec-7] [34mINFO [0;39m c.e.d.filter.FilterForAllTemplates - Filter 1 for all templates URL : https://localhost/favicon.ico
+12:01:06.392 [https-jsse-nio-443-exec-9] [34mINFO [0;39m c.e.d.filter.FilterForAllTemplates - Filter 1 for all templates URL : https://localhost/login
+12:01:55.119 [https-jsse-nio-443-exec-2] [34mINFO [0;39m c.e.d.filter.FilterForAllTemplates - Filter 1 for all templates URL : https://localhost/login
+12:02:20.701 [https-jsse-nio-443-exec-6] [34mINFO [0;39m c.e.d.filter.FilterForAllTemplates - Filter 1 for all templates URL : https://localhost/login
+12:03:18.715 [https-jsse-nio-443-exec-1] [34mINFO [0;39m c.e.d.filter.FilterForAllTemplates - Filter 1 for all templates URL : https://localhost/login
+12:07:06.750 [https-jsse-nio-443-exec-8] [34mINFO [0;39m c.e.d.filter.FilterForAllTemplates - Filter 1 for all templates URL : https://localhost/login
+12:35:54.409 [background-preinit]   [34mINFO [0;39m o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final
+12:35:54.425 [main]                 [34mINFO [0;39m com.example.demo2.Application - Starting Application using Java 21.0.1 on My-PC with PID 2268 (D:\Java\Project IDEA\demo2\target\classes started by ���� in D:\Java\Project IDEA\demo2)
+12:35:54.425 [main]                 [34mINFO [0;39m com.example.demo2.Application - No active profile set, falling back to default profiles: default
+12:35:54.884 [background-preinit]   [31mWARN [0;39m o.s.h.c.j.Jackson2ObjectMapperBuilder - For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+12:35:55.337 [main]                 [34mINFO [0;39m o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+12:35:55.415 [main]                 [34mINFO [0;39m o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 71 ms. Found 6 JPA repository interfaces.
+12:35:55.793 [main]                 [34mINFO [0;39m o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@10fda3d0' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+12:35:55.793 [main]                 [34mINFO [0;39m o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+12:35:56.105 [main]                 [34mINFO [0;39m o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 443 (https)
+12:35:56.121 [main]                 [34mINFO [0;39m o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["https-jsse-nio-443"]
+12:35:56.121 [main]                 [34mINFO [0;39m o.a.catalina.core.StandardService - Starting service [Tomcat]
+12:35:56.121 [main]                 [34mINFO [0;39m o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.46]
+12:35:56.199 [main]                 [34mINFO [0;39m o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+12:35:56.199 [main]                 [34mINFO [0;39m o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1712 ms
+12:35:56.355 [main]                 [34mINFO [0;39m com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+12:35:56.698 [main]                 [34mINFO [0;39m com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+12:35:56.747 [main]                 [34mINFO [0;39m o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+12:35:56.794 [main]                 [34mINFO [0;39m org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.31.Final
+12:35:56.931 [main]                 [34mINFO [0;39m o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+12:35:57.041 [main]                 [34mINFO [0;39m org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+12:35:57.665 [main]                 [34mINFO [0;39m o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+12:35:57.680 [main]                 [34mINFO [0;39m o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+12:35:57.727 [main]                 [31mWARN [0;39m o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+12:35:58.409 [main]                 [34mINFO [0;39m o.s.s.web.DefaultSecurityFilterChain - Will secure Ant [pattern='/css/**'] with []
+12:35:58.409 [main]                 [34mINFO [0;39m o.s.s.web.DefaultSecurityFilterChain - Will secure Ant [pattern='/js/**'] with []
+12:35:58.409 [main]                 [34mINFO [0;39m o.s.s.web.DefaultSecurityFilterChain - Will secure Ant [pattern='/fonts/**'] with []
+12:35:58.409 [main]                 [34mINFO [0;39m o.s.s.web.DefaultSecurityFilterChain - Will secure Ant [pattern='/images/**'] with []
+12:35:58.424 [main]                 [34mINFO [0;39m o.s.s.w.a.c.ChannelProcessingFilter - Validated configuration attributes
+12:35:58.440 [main]                 [34mINFO [0;39m o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.access.channel.ChannelProcessingFilter@18ffc008, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3b11deb6, org.springframework.security.web.context.SecurityContextPersistenceFilter@5671078e, org.springframework.security.web.header.HeaderWriterFilter@6870a76f, org.springframework.security.web.authentication.logout.LogoutFilter@77acc95a, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@694f0655, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4b4bc73d, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2ce3d95a, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5d08a65c, org.springframework.security.web.session.SessionManagementFilter@7b11ff9a, org.springframework.security.web.access.ExceptionTranslationFilter@1a34772e, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@f1e1d66]
+12:35:58.612 [main]                 [34mINFO [0;39m o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+12:35:58.770 [main]                 [34mINFO [0;39m o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 44c3ea09-d6b4-4c5a-baeb-4d39ae6c9ae8
+
+12:35:58.785 [main]                 [34mINFO [0;39m o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["https-jsse-nio-443"]
+12:35:59.097 [main]                 [34mINFO [0;39m o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 443 (https) with context path ''
+12:35:59.113 [main]                 [34mINFO [0;39m com.example.demo2.Application - Started Application in 5.23 seconds (JVM running for 5.692)
+12:35:59.113 [main]                 [34mINFO [0;39m o.s.b.a.ApplicationAvailabilityBean - Application availability state LivenessState changed to CORRECT
+12:35:59.113 [main]                 [34mINFO [0;39m o.s.b.a.ApplicationAvailabilityBean - Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+12:47:05.381 [https-jsse-nio-443-exec-9] [34mINFO [0;39m o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+12:47:05.381 [https-jsse-nio-443-exec-9] [34mINFO [0;39m o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+12:47:05.382 [https-jsse-nio-443-exec-9] [34mINFO [0;39m o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+12:47:05.401 [https-jsse-nio-443-exec-9] [34mINFO [0;39m c.e.d.filter.FilterForAllTemplates - Filter 1 for all templates URL : https://localhost/
+12:47:05.567 [https-jsse-nio-443-exec-10] [34mINFO [0;39m c.e.d.filter.FilterForAllTemplates - Filter 1 for all templates URL : https://localhost/css/index.css
+12:47:05.587 [https-jsse-nio-443-exec-9] [34mINFO [0;39m c.e.d.filter.FilterForAllTemplates - Filter 1 for all templates URL : https://localhost/images/photo.jpg
+12:47:12.429 [https-jsse-nio-443-exec-1] [34mINFO [0;39m c.e.d.filter.FilterForAllTemplates - Filter 1 for all templates URL : https://localhost/
+12:47:12.462 [https-jsse-nio-443-exec-2] [34mINFO [0;39m c.e.d.filter.FilterForAllTemplates - Filter 1 for all templates URL : https://localhost/css/index.css
+12:47:12.526 [https-jsse-nio-443-exec-3] [34mINFO [0;39m c.e.d.filter.FilterForAllTemplates - Filter 1 for all templates URL : https://localhost/images/photo.jpg
+12:47:14.505 [https-jsse-nio-443-exec-5] [34mINFO [0;39m c.e.d.filter.FilterForAllTemplates - Filter 1 for all templates URL : https://localhost/login
+12:47:20.654 [https-jsse-nio-443-exec-7] [34mINFO [0;39m c.e.d.filter.FilterForAllTemplates - Filter 1 for all templates URL : https://localhost/maiin.html
+12:47:20.707 [https-jsse-nio-443-exec-8] [34mINFO [0;39m c.e.d.filter.FilterForAllTemplates - Filter 1 for all templates URL : https://localhost/css/index.css
+12:47:20.723 [https-jsse-nio-443-exec-10] [34mINFO [0;39m c.e.d.filter.FilterForAllTemplates - Filter 1 for all templates URL : https://localhost/images/photo.jpg
+12:47:20.734 [https-jsse-nio-443-exec-9] [34mINFO [0;39m c.e.d.filter.FilterForAllTemplates - Filter 1 for all templates URL : https://localhost/ConstantBlock.html
+12:47:33.418 [https-jsse-nio-443-exec-1] [34mINFO [0;39m c.e.d.filter.FilterForAllTemplates - Filter 1 for all templates URL : https://localhost/
+12:47:33.451 [https-jsse-nio-443-exec-2] [34mINFO [0;39m c.e.d.filter.FilterForAllTemplates - Filter 1 for all templates URL : https://localhost/css/index.css
+12:47:33.519 [https-jsse-nio-443-exec-3] [34mINFO [0;39m c.e.d.filter.FilterForAllTemplates - Filter 1 for all templates URL : https://localhost/images/photo.jpg
+12:47:36.883 [https-jsse-nio-443-exec-4] [34mINFO [0;39m c.e.d.filter.FilterForAllTemplates - Filter 1 for all templates URL : https://localhost/login
+12:47:42.539 [https-jsse-nio-443-exec-6] [34mINFO [0;39m c.e.d.filter.FilterForAllTemplates - Filter 1 for all templates URL : https://localhost/maiin.html
+12:47:42.556 [https-jsse-nio-443-exec-7] [34mINFO [0;39m c.e.d.filter.FilterForAllTemplates - Filter 1 for all templates URL : https://localhost/css/index.css
+12:47:42.572 [https-jsse-nio-443-exec-8] [34mINFO [0;39m c.e.d.filter.FilterForAllTemplates - Filter 1 for all templates URL : https://localhost/images/photo.jpg
+12:47:42.581 [https-jsse-nio-443-exec-9] [34mINFO [0;39m c.e.d.filter.FilterForAllTemplates - Filter 1 for all templates URL : https://localhost/ConstantBlock.html
+12:48:14.803 [https-jsse-nio-443-exec-4] [34mINFO [0;39m c.e.d.filter.FilterForAllTemplates - Filter 1 for all templates URL : https://192.168.1.135/
+13:46:23.228 [https-jsse-nio-443-exec-4] [34mINFO [0;39m c.e.d.filter.FilterForAllTemplates - Filter 1 for all templates URL : https://127.0.0.1/
+13:46:23.250 [https-jsse-nio-443-exec-6] [34mINFO [0;39m c.e.d.filter.FilterForAllTemplates - Filter 1 for all templates URL : https://127.0.0.1/css/index.css
+13:46:23.318 [https-jsse-nio-443-exec-2] [34mINFO [0;39m c.e.d.filter.FilterForAllTemplates - Filter 1 for all templates URL : https://127.0.0.1/images/photo.jpg
+13:46:23.386 [https-jsse-nio-443-exec-3] [34mINFO [0;39m c.e.d.filter.FilterForAllTemplates - Filter 1 for all templates URL : https://127.0.0.1/login
+13:48:43.471 [https-jsse-nio-443-exec-2] [34mINFO [0;39m c.e.d.filter.FilterForAllTemplates - Filter 1 for all templates URL : https://127.0.0.1/
+13:49:34.529 [https-jsse-nio-443-exec-4] [34mINFO [0;39m c.e.d.filter.FilterForAllTemplates - Filter 1 for all templates URL : https://127.0.0.1/
+13:50:20.571 [https-jsse-nio-443-exec-5] [34mINFO [0;39m c.e.d.filter.FilterForAllTemplates - Filter 1 for all templates URL : https://localhost/login
+13:53:08.903 [https-jsse-nio-443-exec-1] [34mINFO [0;39m c.e.d.filter.FilterForAllTemplates - Filter 1 for all templates URL : https://localhost/login
+13:53:47.213 [https-jsse-nio-443-exec-8] [34mINFO [0;39m c.e.d.filter.FilterForAllTemplates - Filter 1 for all templates URL : https://localhost/login
+14:55:35.837 [background-preinit]   [34mINFO [0;39m o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final
+14:55:35.850 [main]                 [34mINFO [0;39m com.example.demo2.Application - Starting Application using Java 21.0.1 on My-PC with PID 11856 (D:\Java\Project IDEA\demo2\target\classes started by ���� in D:\Java\Project IDEA\demo2)
+14:55:35.851 [main]                 [34mINFO [0;39m com.example.demo2.Application - No active profile set, falling back to default profiles: default
+14:55:36.335 [background-preinit]   [31mWARN [0;39m o.s.h.c.j.Jackson2ObjectMapperBuilder - For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+14:55:36.787 [main]                 [34mINFO [0;39m o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+14:55:36.867 [main]                 [34mINFO [0;39m o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 73 ms. Found 6 JPA repository interfaces.
+14:55:37.238 [main]                 [34mINFO [0;39m o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@77ec6a3d' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+14:55:37.243 [main]                 [34mINFO [0;39m o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+14:55:37.576 [main]                 [34mINFO [0;39m o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 443 (https)
+14:55:37.587 [main]                 [34mINFO [0;39m o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["https-jsse-nio-443"]
+14:55:37.588 [main]                 [34mINFO [0;39m o.a.catalina.core.StandardService - Starting service [Tomcat]
+14:55:37.588 [main]                 [34mINFO [0;39m o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.46]
+14:55:37.676 [main]                 [34mINFO [0;39m o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+14:55:37.676 [main]                 [34mINFO [0;39m o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1764 ms
+14:55:37.837 [main]                 [34mINFO [0;39m com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+14:55:38.185 [main]                 [34mINFO [0;39m com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+14:55:38.238 [main]                 [34mINFO [0;39m o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+14:55:38.280 [main]                 [34mINFO [0;39m org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.31.Final
+14:55:38.426 [main]                 [34mINFO [0;39m o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+14:55:38.523 [main]                 [34mINFO [0;39m org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+14:55:39.146 [main]                 [34mINFO [0;39m o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+14:55:39.154 [main]                 [34mINFO [0;39m o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+14:55:39.212 [main]                 [31mWARN [0;39m o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+14:55:39.891 [main]                 [34mINFO [0;39m o.s.s.web.DefaultSecurityFilterChain - Will secure Ant [pattern='/css/**'] with []
+14:55:39.892 [main]                 [34mINFO [0;39m o.s.s.web.DefaultSecurityFilterChain - Will secure Ant [pattern='/js/**'] with []
+14:55:39.892 [main]                 [34mINFO [0;39m o.s.s.web.DefaultSecurityFilterChain - Will secure Ant [pattern='/fonts/**'] with []
+14:55:39.892 [main]                 [34mINFO [0;39m o.s.s.web.DefaultSecurityFilterChain - Will secure Ant [pattern='/images/**'] with []
+14:55:39.918 [main]                 [34mINFO [0;39m o.s.s.w.a.c.ChannelProcessingFilter - Validated configuration attributes
+14:55:39.921 [main]                 [34mINFO [0;39m o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.access.channel.ChannelProcessingFilter@205b73d8, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@20923380, org.springframework.security.web.context.SecurityContextPersistenceFilter@7e7987b8, org.springframework.security.web.header.HeaderWriterFilter@4154ecd3, org.springframework.security.web.authentication.logout.LogoutFilter@5c46a957, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@5bc40f5d, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7254a68a, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@ff1a5a0, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5b2c41f9, org.springframework.security.web.session.SessionManagementFilter@2a666c8e, org.springframework.security.web.access.ExceptionTranslationFilter@72ea6fcb, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@47f416d0]
+14:55:40.131 [main]                 [34mINFO [0;39m o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+14:55:40.294 [main]                 [34mINFO [0;39m o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 77b40afb-a218-492f-a32a-bc89bf51b32e
+
+14:55:40.302 [main]                 [34mINFO [0;39m o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["https-jsse-nio-443"]
+14:55:40.701 [main]                 [34mINFO [0;39m o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 443 (https) with context path ''
+14:55:40.710 [main]                 [34mINFO [0;39m com.example.demo2.Application - Started Application in 5.388 seconds (JVM running for 5.832)
+14:55:40.712 [main]                 [34mINFO [0;39m o.s.b.a.ApplicationAvailabilityBean - Application availability state LivenessState changed to CORRECT
+14:55:40.713 [main]                 [34mINFO [0;39m o.s.b.a.ApplicationAvailabilityBean - Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+14:55:52.519 [https-jsse-nio-443-exec-6] [34mINFO [0;39m o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+14:55:52.519 [https-jsse-nio-443-exec-6] [34mINFO [0;39m o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+14:55:52.520 [https-jsse-nio-443-exec-6] [34mINFO [0;39m o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+15:09:30.839 [https-jsse-nio-443-exec-3] [34mINFO [0;39m c.e.d.filter.FilterForAllTemplates - Filter 1 for all templates URL : https://localhost/login
+18:03:39.977 [background-preinit]   [34mINFO [0;39m o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final
+18:03:39.993 [main]                 [34mINFO [0;39m com.example.demo2.Application - Starting Application using Java 21.0.1 on My-PC with PID 4604 (D:\Java\Project IDEA\demo2\target\classes started by ���� in D:\Java\Project IDEA\demo2)
+18:03:39.993 [main]                 [34mINFO [0;39m com.example.demo2.Application - No active profile set, falling back to default profiles: default
+18:03:40.523 [background-preinit]   [31mWARN [0;39m o.s.h.c.j.Jackson2ObjectMapperBuilder - For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+18:03:40.992 [main]                 [34mINFO [0;39m o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+18:03:41.076 [main]                 [34mINFO [0;39m o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 76 ms. Found 6 JPA repository interfaces.
+18:03:41.496 [main]                 [34mINFO [0;39m o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@17c2d509' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+18:03:41.502 [main]                 [34mINFO [0;39m o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+18:03:41.832 [main]                 [34mINFO [0;39m o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 443 (https)
+18:03:41.843 [main]                 [34mINFO [0;39m o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["https-jsse-nio-443"]
+18:03:41.843 [main]                 [34mINFO [0;39m o.a.catalina.core.StandardService - Starting service [Tomcat]
+18:03:41.844 [main]                 [34mINFO [0;39m o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.46]
+18:03:41.928 [main]                 [34mINFO [0;39m o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+18:03:41.928 [main]                 [34mINFO [0;39m o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1873 ms
+18:03:42.108 [main]                 [34mINFO [0;39m com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+18:03:42.458 [main]                 [34mINFO [0;39m com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+18:03:42.513 [main]                 [34mINFO [0;39m o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+18:03:42.558 [main]                 [34mINFO [0;39m org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.31.Final
+18:03:42.709 [main]                 [34mINFO [0;39m o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+18:03:42.809 [main]                 [34mINFO [0;39m org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+18:03:43.488 [main]                 [34mINFO [0;39m o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+18:03:43.504 [main]                 [34mINFO [0;39m o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+18:03:43.566 [main]                 [31mWARN [0;39m o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+18:03:44.306 [main]                 [34mINFO [0;39m o.s.s.web.DefaultSecurityFilterChain - Will secure Ant [pattern='/css/**'] with []
+18:03:44.306 [main]                 [34mINFO [0;39m o.s.s.web.DefaultSecurityFilterChain - Will secure Ant [pattern='/js/**'] with []
+18:03:44.306 [main]                 [34mINFO [0;39m o.s.s.web.DefaultSecurityFilterChain - Will secure Ant [pattern='/fonts/**'] with []
+18:03:44.306 [main]                 [34mINFO [0;39m o.s.s.web.DefaultSecurityFilterChain - Will secure Ant [pattern='/images/**'] with []
+18:03:44.337 [main]                 [34mINFO [0;39m o.s.s.w.a.c.ChannelProcessingFilter - Validated configuration attributes
+18:03:44.353 [main]                 [34mINFO [0;39m o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.access.channel.ChannelProcessingFilter@1fb00a6d, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@10f192d8, org.springframework.security.web.context.SecurityContextPersistenceFilter@72ea6fcb, org.springframework.security.web.header.HeaderWriterFilter@2ce3d95a, org.springframework.security.web.authentication.logout.LogoutFilter@37fd496a, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@25f73119, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4154ecd3, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6bcfb561, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@f0d01c9, org.springframework.security.web.session.SessionManagementFilter@75d95b67, org.springframework.security.web.access.ExceptionTranslationFilter@3dc4ed6f, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@270ab7bc]
+18:03:44.571 [main]                 [34mINFO [0;39m o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+18:03:44.717 [main]                 [34mINFO [0;39m o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: c7c6762c-a03a-4105-99af-93c8c2bb6d9c
+
+18:03:44.732 [main]                 [34mINFO [0;39m o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["https-jsse-nio-443"]
+18:03:45.138 [main]                 [34mINFO [0;39m o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 443 (https) with context path ''
+18:03:45.138 [main]                 [34mINFO [0;39m com.example.demo2.Application - Started Application in 5.711 seconds (JVM running for 6.151)
+18:03:45.138 [main]                 [34mINFO [0;39m o.s.b.a.ApplicationAvailabilityBean - Application availability state LivenessState changed to CORRECT
+18:03:45.154 [main]                 [34mINFO [0;39m o.s.b.a.ApplicationAvailabilityBean - Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+18:04:06.209 [https-jsse-nio-443-exec-6] [34mINFO [0;39m o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+18:04:06.209 [https-jsse-nio-443-exec-6] [34mINFO [0;39m o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+18:04:06.209 [https-jsse-nio-443-exec-6] [34mINFO [0;39m o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+18:04:06.241 [https-jsse-nio-443-exec-6] [34mINFO [0;39m c.e.d.filter.FilterForAllTemplates - Filter 1 for all templates URL : https://localhost/
+18:06:04.069 [https-jsse-nio-443-exec-5] [34mINFO [0;39m c.e.d.filter.FilterForAllTemplates - Filter 1 for all templates URL : https://localhost/login
+18:08:34.172 [https-jsse-nio-443-exec-4] [34mINFO [0;39m c.e.d.filter.FilterForAllTemplates - Filter 1 for all templates URL : https://localhost/login
+18:24:22.704 [background-preinit]   [34mINFO [0;39m o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final
+18:24:22.720 [main]                 [34mINFO [0;39m com.example.demo2.Application - Starting Application using Java 21.0.1 on My-PC with PID 2708 (D:\Java\Project IDEA\SiteForTest\target\classes started by Макс in D:\Java\Project IDEA\SiteForTest)
+18:24:22.720 [main]                 [34mINFO [0;39m com.example.demo2.Application - No active profile set, falling back to default profiles: default
+18:24:22.907 [main]                 [31mWARN [0;39m o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanDefinitionStoreException: Failed to read candidate component class: file [D:\Java\Project IDEA\SiteForTest\target\classes\com\example\demo2\Application.class]; nested exception is org.springframework.core.NestedIOException: ASM ClassReader failed to parse class file - probably due to a new Java class file version that isn't supported yet: file [D:\Java\Project IDEA\SiteForTest\target\classes\com\example\demo2\Application.class]; nested exception is java.lang.IllegalArgumentException: Unsupported class file major version 65
+18:24:23.110 [background-preinit]   [31mWARN [0;39m o.s.h.c.j.Jackson2ObjectMapperBuilder - For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+18:24:23.141 [main]                 [1;31mERROR[0;39m o.s.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.BeanDefinitionStoreException: Failed to read candidate component class: file [D:\Java\Project IDEA\SiteForTest\target\classes\com\example\demo2\Application.class]; nested exception is org.springframework.core.NestedIOException: ASM ClassReader failed to parse class file - probably due to a new Java class file version that isn't supported yet: file [D:\Java\Project IDEA\SiteForTest\target\classes\com\example\demo2\Application.class]; nested exception is java.lang.IllegalArgumentException: Unsupported class file major version 65
+	at org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider.scanCandidateComponents(ClassPathScanningCandidateComponentProvider.java:452)
+	at org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider.findCandidateComponents(ClassPathScanningCandidateComponentProvider.java:315)
+	at org.springframework.context.annotation.ClassPathBeanDefinitionScanner.doScan(ClassPathBeanDefinitionScanner.java:276)
+	at org.springframework.context.annotation.ComponentScanAnnotationParser.parse(ComponentScanAnnotationParser.java:132)
+	at org.springframework.context.annotation.ConfigurationClassParser.doProcessConfigurationClass(ConfigurationClassParser.java:296)
+	at org.springframework.context.annotation.ConfigurationClassParser.processConfigurationClass(ConfigurationClassParser.java:250)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:207)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:175)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:331)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:247)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:311)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:112)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:746)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:564)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:758)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:438)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:337)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1336)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1325)
+	at com.example.demo2.Application.main(Application.java:16)
+Caused by: org.springframework.core.NestedIOException: ASM ClassReader failed to parse class file - probably due to a new Java class file version that isn't supported yet: file [D:\Java\Project IDEA\SiteForTest\target\classes\com\example\demo2\Application.class]; nested exception is java.lang.IllegalArgumentException: Unsupported class file major version 65
+	at org.springframework.core.type.classreading.SimpleMetadataReader.getClassReader(SimpleMetadataReader.java:60)
+	at org.springframework.core.type.classreading.SimpleMetadataReader.<init>(SimpleMetadataReader.java:49)
+	at org.springframework.core.type.classreading.SimpleMetadataReaderFactory.getMetadataReader(SimpleMetadataReaderFactory.java:103)
+	at org.springframework.core.type.classreading.CachingMetadataReaderFactory.getMetadataReader(CachingMetadataReaderFactory.java:123)
+	at org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider.scanCandidateComponents(ClassPathScanningCandidateComponentProvider.java:429)
+	... 20 common frames omitted
+Caused by: java.lang.IllegalArgumentException: Unsupported class file major version 65
+	at org.springframework.asm.ClassReader.<init>(ClassReader.java:196)
+	at org.springframework.asm.ClassReader.<init>(ClassReader.java:177)
+	at org.springframework.asm.ClassReader.<init>(ClassReader.java:163)
+	at org.springframework.asm.ClassReader.<init>(ClassReader.java:284)
+	at org.springframework.core.type.classreading.SimpleMetadataReader.getClassReader(SimpleMetadataReader.java:57)
+	... 24 common frames omitted
+18:31:11.035 [background-preinit]   [34mINFO [0;39m o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final
+18:31:11.051 [main]                 [34mINFO [0;39m com.example.demo2.Application - Starting Application using Java 21.0.1 on My-PC with PID 13772 (D:\Java\Project IDEA\SiteForTest\target\classes started by Макс in D:\Java\Project IDEA\SiteForTest)
+18:31:11.051 [main]                 [34mINFO [0;39m com.example.demo2.Application - No active profile set, falling back to default profiles: default
+18:31:11.520 [background-preinit]   [31mWARN [0;39m o.s.h.c.j.Jackson2ObjectMapperBuilder - For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+18:31:11.972 [main]                 [34mINFO [0;39m o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+18:31:12.050 [main]                 [34mINFO [0;39m o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 69 ms. Found 6 JPA repository interfaces.
+18:31:12.425 [main]                 [34mINFO [0;39m o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@782be4eb' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+18:31:12.440 [main]                 [34mINFO [0;39m o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+18:31:12.752 [main]                 [34mINFO [0;39m o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 443 (https)
+18:31:12.752 [main]                 [34mINFO [0;39m o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["https-jsse-nio-443"]
+18:31:12.768 [main]                 [34mINFO [0;39m o.a.catalina.core.StandardService - Starting service [Tomcat]
+18:31:12.768 [main]                 [34mINFO [0;39m o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.46]
+18:31:12.846 [main]                 [34mINFO [0;39m o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+18:31:12.846 [main]                 [34mINFO [0;39m o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1733 ms
+18:31:13.017 [main]                 [34mINFO [0;39m com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+18:31:13.345 [main]                 [34mINFO [0;39m com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+18:31:13.407 [main]                 [34mINFO [0;39m o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+18:31:13.439 [main]                 [34mINFO [0;39m org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.31.Final
+18:31:13.595 [main]                 [34mINFO [0;39m o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+18:31:13.688 [main]                 [34mINFO [0;39m org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+18:31:14.297 [main]                 [34mINFO [0;39m o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+18:31:14.312 [main]                 [34mINFO [0;39m o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+18:31:14.359 [main]                 [31mWARN [0;39m o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+18:31:15.014 [main]                 [34mINFO [0;39m o.s.s.web.DefaultSecurityFilterChain - Will secure Ant [pattern='/css/**'] with []
+18:31:15.014 [main]                 [34mINFO [0;39m o.s.s.web.DefaultSecurityFilterChain - Will secure Ant [pattern='/js/**'] with []
+18:31:15.014 [main]                 [34mINFO [0;39m o.s.s.web.DefaultSecurityFilterChain - Will secure Ant [pattern='/fonts/**'] with []
+18:31:15.014 [main]                 [34mINFO [0;39m o.s.s.web.DefaultSecurityFilterChain - Will secure Ant [pattern='/images/**'] with []
+18:31:15.045 [main]                 [34mINFO [0;39m o.s.s.w.a.c.ChannelProcessingFilter - Validated configuration attributes
+18:31:15.045 [main]                 [34mINFO [0;39m o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.access.channel.ChannelProcessingFilter@608c7b5b, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1fb00a6d, org.springframework.security.web.context.SecurityContextPersistenceFilter@6f6c6c70, org.springframework.security.web.header.HeaderWriterFilter@12aa2cca, org.springframework.security.web.authentication.logout.LogoutFilter@5d10df04, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@17d45cfb, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@40f15786, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2a666c8e, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1c65ec63, org.springframework.security.web.session.SessionManagementFilter@2823b7c5, org.springframework.security.web.access.ExceptionTranslationFilter@4b4bc73d, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@1631dbbc]
+18:31:15.264 [main]                 [34mINFO [0;39m o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+18:31:15.420 [main]                 [34mINFO [0;39m o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 6103be17-cc26-4c17-b98b-46d05dae8680
+
+18:31:15.420 [main]                 [34mINFO [0;39m o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["https-jsse-nio-443"]
+18:31:15.872 [main]                 [34mINFO [0;39m o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 443 (https) with context path ''
+18:31:15.872 [main]                 [34mINFO [0;39m com.example.demo2.Application - Started Application in 5.363 seconds (JVM running for 5.848)
+18:31:15.872 [main]                 [34mINFO [0;39m o.s.b.a.ApplicationAvailabilityBean - Application availability state LivenessState changed to CORRECT
+18:31:15.872 [main]                 [34mINFO [0;39m o.s.b.a.ApplicationAvailabilityBean - Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+18:36:22.350 [background-preinit]   [34mINFO [0;39m o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final
+18:36:22.366 [main]                 [34mINFO [0;39m com.example.demo2.Application - Starting Application using Java 21.0.1 on My-PC with PID 5536 (D:\Java\Project IDEA\SiteForTest\target\classes started by Макс in D:\Java\Project IDEA\SiteForTest)
+18:36:22.366 [main]                 [34mINFO [0;39m com.example.demo2.Application - No active profile set, falling back to default profiles: default
+18:36:22.818 [background-preinit]   [31mWARN [0;39m o.s.h.c.j.Jackson2ObjectMapperBuilder - For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+18:36:23.193 [main]                 [34mINFO [0;39m o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+18:36:23.286 [main]                 [34mINFO [0;39m o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 71 ms. Found 6 JPA repository interfaces.
+18:36:23.926 [main]                 [34mINFO [0;39m o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+18:36:23.942 [main]                 [34mINFO [0;39m o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+18:36:23.942 [main]                 [34mINFO [0;39m o.a.catalina.core.StandardService - Starting service [Tomcat]
+18:36:23.942 [main]                 [34mINFO [0;39m o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.46]
+18:36:24.020 [main]                 [34mINFO [0;39m o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+18:36:24.020 [main]                 [34mINFO [0;39m o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1592 ms
+18:36:24.160 [main]                 [34mINFO [0;39m com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+18:36:24.519 [main]                 [34mINFO [0;39m com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+18:36:24.566 [main]                 [34mINFO [0;39m o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+18:36:24.612 [main]                 [34mINFO [0;39m org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.31.Final
+18:36:24.737 [main]                 [34mINFO [0;39m o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+18:36:24.831 [main]                 [34mINFO [0;39m org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+18:36:25.455 [main]                 [34mINFO [0;39m o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+18:36:25.470 [main]                 [34mINFO [0;39m o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+18:36:25.970 [main]                 [31mWARN [0;39m o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'registrationController' defined in file [D:\Java\Project IDEA\SiteForTest\target\classes\com\example\demo2\controller\registration\RegistrationController.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'defaultRegistrationService' defined in file [D:\Java\Project IDEA\SiteForTest\target\classes\com\example\demo2\service\registration\DefaultRegistrationService.class]: Unsatisfied dependency expressed through constructor parameter 1; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.springframework.security.crypto.password.PasswordEncoder' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+18:36:25.970 [main]                 [34mINFO [0;39m o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+18:36:25.970 [main]                 [34mINFO [0;39m com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+18:36:25.985 [main]                 [34mINFO [0;39m com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+18:36:25.985 [main]                 [34mINFO [0;39m o.a.catalina.core.StandardService - Stopping service [Tomcat]
+18:36:25.985 [main]                 [34mINFO [0;39m o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+18:36:26.001 [main]                 [1;31mERROR[0;39m o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 1 of constructor in com.example.demo2.service.registration.DefaultRegistrationService required a bean of type 'org.springframework.security.crypto.password.PasswordEncoder' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'org.springframework.security.crypto.password.PasswordEncoder' in your configuration.
+
+18:46:40.367 [main]                 [34mINFO [0;39m c.e.demo2.SpringCrudApplicationTests - Starting SpringCrudApplicationTests using Java 21.0.1 on My-PC with PID 10916 (started by Макс in D:\Java\Project IDEA\SiteForTest)
+18:46:40.367 [main]                 [34mINFO [0;39m c.e.demo2.SpringCrudApplicationTests - No active profile set, falling back to default profiles: default
+18:46:40.382 [background-preinit]   [34mINFO [0;39m o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final
+18:46:41.038 [main]                 [34mINFO [0;39m o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+18:46:41.100 [main]                 [34mINFO [0;39m o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 60 ms. Found 4 JPA repository interfaces.
+18:46:41.615 [main]                 [34mINFO [0;39m com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+18:46:42.067 [main]                 [34mINFO [0;39m com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+18:46:42.130 [main]                 [34mINFO [0;39m o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+18:46:42.176 [main]                 [34mINFO [0;39m org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.31.Final
+18:46:42.348 [main]                 [34mINFO [0;39m o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+18:46:42.457 [main]                 [34mINFO [0;39m org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+18:46:43.050 [main]                 [34mINFO [0;39m o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+18:46:43.050 [main]                 [34mINFO [0;39m o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+18:46:43.066 [main]                 [31mWARN [0;39m o.s.w.c.s.GenericWebApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'adminController' defined in file [D:\Java\Project IDEA\SiteForTest\target\classes\com\example\demo2\controller\admin\AdminController.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.example.demo2.service.admin.AdminService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+18:46:43.066 [main]                 [34mINFO [0;39m o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+18:46:43.081 [main]                 [34mINFO [0;39m com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+18:46:43.081 [main]                 [34mINFO [0;39m com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+18:46:43.097 [main]                 [34mINFO [0;39m o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+18:46:43.112 [main]                 [1;31mERROR[0;39m o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of constructor in com.example.demo2.controller.admin.AdminController required a bean of type 'com.example.demo2.service.admin.AdminService' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.example.demo2.service.admin.AdminService' in your configuration.
+
+18:46:43.112 [main]                 [1;31mERROR[0;39m o.s.test.context.TestContextManager - Caught exception while allowing TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener@27adc16e] to prepare test instance [com.example.demo2.SpringCrudApplicationTests@390a7532]
+java.lang.IllegalStateException: Failed to load ApplicationContext
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:132)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:124)
+	at org.springframework.test.context.web.ServletTestExecutionListener.setUpRequestContextIfNecessary(ServletTestExecutionListener.java:190)
+	at org.springframework.test.context.web.ServletTestExecutionListener.prepareTestInstance(ServletTestExecutionListener.java:132)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:244)
+	at org.springframework.test.context.junit.jupiter.SpringExtension.postProcessTestInstance(SpringExtension.java:138)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$6(ClassBasedTestDescriptor.java:350)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.executeAndMaskThrowable(ClassBasedTestDescriptor.java:355)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$7(ClassBasedTestDescriptor.java:350)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1708)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.StreamSpliterators$WrappingSpliterator.forEachRemaining(StreamSpliterators.java:310)
+	at java.base/java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:735)
+	at java.base/java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:734)
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.invokeTestInstancePostProcessors(ClassBasedTestDescriptor.java:349)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$instantiateAndPostProcessTestInstance$4(ClassBasedTestDescriptor.java:270)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.instantiateAndPostProcessTestInstance(ClassBasedTestDescriptor.java:269)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$2(ClassBasedTestDescriptor.java:259)
+	at java.base/java.util.Optional.orElseGet(Optional.java:364)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$3(ClassBasedTestDescriptor.java:258)
+	at org.junit.jupiter.engine.execution.TestInstancesProvider.getTestInstances(TestInstancesProvider.java:31)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$prepare$0(TestMethodTestDescriptor.java:101)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:100)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:65)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$prepare$1(NodeTestTask.java:111)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.prepare(NodeTestTask.java:111)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:79)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:143)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:129)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:127)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:143)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:129)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:127)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:32)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:51)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:108)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:88)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:67)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:52)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:96)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:75)
+	at com.intellij.junit5.JUnit5IdeaTestRunner.startRunnerWithArgs(JUnit5IdeaTestRunner.java:71)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:33)
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:235)
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:54)
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'adminController' defined in file [D:\Java\Project IDEA\SiteForTest\target\classes\com\example\demo2\controller\admin\AdminController.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.example.demo2.service.admin.AdminService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:800)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:229)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1354)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1204)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:564)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:524)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:944)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:758)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:438)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:337)
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:123)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:99)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:124)
+	... 67 common frames omitted
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.example.demo2.service.admin.AdminService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.raiseNoMatchingBeanFound(DefaultListableBeanFactory.java:1790)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1346)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1300)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:887)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791)
+	... 85 common frames omitted
+18:48:38.572 [main]                 [34mINFO [0;39m c.e.demo2.SpringCrudApplicationTests - Starting SpringCrudApplicationTests using Java 21.0.1 on My-PC with PID 1668 (started by Макс in D:\Java\Project IDEA\SiteForTest)
+18:48:38.588 [main]                 [34mINFO [0;39m c.e.demo2.SpringCrudApplicationTests - No active profile set, falling back to default profiles: default
+18:48:38.588 [background-preinit]   [34mINFO [0;39m o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final
+18:48:39.243 [main]                 [34mINFO [0;39m o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+18:48:39.305 [main]                 [34mINFO [0;39m o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 59 ms. Found 4 JPA repository interfaces.
+18:48:39.789 [main]                 [34mINFO [0;39m com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+18:48:40.241 [main]                 [34mINFO [0;39m com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+18:48:40.288 [main]                 [34mINFO [0;39m o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+18:48:40.351 [main]                 [34mINFO [0;39m org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.31.Final
+18:48:40.491 [main]                 [34mINFO [0;39m o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+18:48:40.585 [main]                 [34mINFO [0;39m org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+18:48:41.193 [main]                 [34mINFO [0;39m o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+18:48:41.209 [main]                 [34mINFO [0;39m o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+18:48:41.957 [main]                 [31mWARN [0;39m o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+18:48:42.238 [main]                 [34mINFO [0;39m o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+18:48:42.519 [main]                 [34mINFO [0;39m c.e.demo2.SpringCrudApplicationTests - Started SpringCrudApplicationTests in 4.365 seconds (JVM running for 5.381)
+18:48:42.519 [main]                 [34mINFO [0;39m o.s.b.a.ApplicationAvailabilityBean - Application availability state LivenessState changed to CORRECT
+18:48:42.519 [main]                 [34mINFO [0;39m o.s.b.a.ApplicationAvailabilityBean - Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+18:49:00.246 [background-preinit]   [34mINFO [0;39m o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final
+18:49:00.261 [main]                 [34mINFO [0;39m c.e.demo2.SpringCrudApplicationTests - Starting SpringCrudApplicationTests using Java 21.0.1 on My-PC with PID 6248 (started by Макс in D:\Java\Project IDEA\SiteForTest)
+18:49:00.261 [main]                 [34mINFO [0;39m c.e.demo2.SpringCrudApplicationTests - No active profile set, falling back to default profiles: default
+18:49:00.916 [main]                 [34mINFO [0;39m o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+18:49:00.979 [main]                 [34mINFO [0;39m o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 60 ms. Found 4 JPA repository interfaces.
+18:49:01.525 [main]                 [34mINFO [0;39m com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+18:49:02.024 [main]                 [34mINFO [0;39m com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+18:49:02.086 [main]                 [34mINFO [0;39m o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+18:49:02.133 [main]                 [34mINFO [0;39m org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.31.Final
+18:49:02.289 [main]                 [34mINFO [0;39m o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+18:49:02.398 [main]                 [34mINFO [0;39m org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+18:49:02.991 [main]                 [34mINFO [0;39m o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+18:49:02.991 [main]                 [34mINFO [0;39m o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+18:49:03.818 [main]                 [31mWARN [0;39m o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+18:49:04.114 [main]                 [34mINFO [0;39m o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+18:49:04.442 [main]                 [34mINFO [0;39m c.e.demo2.SpringCrudApplicationTests - Started SpringCrudApplicationTests in 4.608 seconds (JVM running for 5.677)
+18:49:04.442 [main]                 [34mINFO [0;39m o.s.b.a.ApplicationAvailabilityBean - Application availability state LivenessState changed to CORRECT
+18:49:04.442 [main]                 [34mINFO [0;39m o.s.b.a.ApplicationAvailabilityBean - Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+18:49:30.717 [background-preinit]   [34mINFO [0;39m o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final
+18:49:30.717 [main]                 [34mINFO [0;39m com.example.demo2.Application - Starting Application using Java 21.0.1 on My-PC with PID 6308 (D:\Java\Project IDEA\SiteForTest\target\classes started by Макс in D:\Java\Project IDEA\SiteForTest)
+18:49:30.717 [main]                 [34mINFO [0;39m com.example.demo2.Application - No active profile set, falling back to default profiles: default
+18:49:31.575 [main]                 [34mINFO [0;39m o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+18:49:31.638 [main]                 [34mINFO [0;39m o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 64 ms. Found 4 JPA repository interfaces.
+18:49:32.262 [main]                 [34mINFO [0;39m o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+18:49:32.277 [main]                 [34mINFO [0;39m o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+18:49:32.277 [main]                 [34mINFO [0;39m o.a.catalina.core.StandardService - Starting service [Tomcat]
+18:49:32.277 [main]                 [34mINFO [0;39m o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.46]
+18:49:32.355 [main]                 [34mINFO [0;39m o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+18:49:32.355 [main]                 [34mINFO [0;39m o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1575 ms
+18:49:32.511 [main]                 [34mINFO [0;39m com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+18:49:32.886 [main]                 [34mINFO [0;39m com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+18:49:32.933 [main]                 [34mINFO [0;39m o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+18:49:32.979 [main]                 [34mINFO [0;39m org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.31.Final
+18:49:33.104 [main]                 [34mINFO [0;39m o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+18:49:33.198 [main]                 [34mINFO [0;39m org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+18:49:33.806 [main]                 [34mINFO [0;39m o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+18:49:33.806 [main]                 [34mINFO [0;39m o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+18:49:34.415 [main]                 [31mWARN [0;39m o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+18:49:34.602 [main]                 [34mINFO [0;39m o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+18:49:34.758 [main]                 [34mINFO [0;39m o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+18:49:34.773 [main]                 [34mINFO [0;39m o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+18:49:34.773 [main]                 [34mINFO [0;39m com.example.demo2.Application - Started Application in 4.601 seconds (JVM running for 5.08)
+18:49:34.789 [main]                 [34mINFO [0;39m o.s.b.a.ApplicationAvailabilityBean - Application availability state LivenessState changed to CORRECT
+18:49:34.789 [main]                 [34mINFO [0;39m o.s.b.a.ApplicationAvailabilityBean - Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+18:50:02.136 [http-nio-8080-exec-1] [34mINFO [0;39m o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+18:50:02.137 [http-nio-8080-exec-1] [34mINFO [0;39m o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+18:50:02.138 [http-nio-8080-exec-1] [34mINFO [0;39m o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+18:50:02.145 [http-nio-8080-exec-1] [34mINFO [0;39m c.e.d.filter.FilterForAllTemplates - Filter 1 for all templates URL : http://localhost:8080/
+18:50:02.332 [http-nio-8080-exec-2] [34mINFO [0;39m c.e.d.filter.FilterForAllTemplates - Filter 1 for all templates URL : http://localhost:8080/css/index.css
+18:50:02.335 [http-nio-8080-exec-3] [34mINFO [0;39m c.e.d.filter.FilterForAllTemplates - Filter 1 for all templates URL : http://localhost:8080/images/photo.jpg
+18:50:02.387 [http-nio-8080-exec-4] [34mINFO [0;39m c.e.d.filter.FilterForAllTemplates - Filter 1 for all templates URL : http://localhost:8080/favicon.ico
+18:50:22.705 [http-nio-8080-exec-5] [34mINFO [0;39m c.e.d.filter.FilterForAllTemplates - Filter 1 for all templates URL : http://localhost:8080/admin.html
+18:50:22.768 [http-nio-8080-exec-7] [34mINFO [0;39m c.e.d.filter.FilterForAllTemplates - Filter 1 for all templates URL : http://localhost:8080/css/index23.css
+18:50:24.107 [http-nio-8080-exec-9] [34mINFO [0;39m c.e.d.filter.FilterForAllTemplates - Filter 1 for all templates URL : http://localhost:8080/ConstantBlock.html
+18:50:26.039 [http-nio-8080-exec-8] [34mINFO [0;39m c.e.d.filter.FilterForAllTemplates - Filter 1 for all templates URL : http://localhost:8080/workingWithFields.html
+18:50:42.745 [http-nio-8080-exec-10] [34mINFO [0;39m c.e.d.filter.FilterForAllTemplates - Filter 1 for all templates URL : http://localhost:8080/workingWithFiles.html
+18:51:35.751 [http-nio-8080-exec-1] [34mINFO [0;39m c.e.d.filter.FilterForAllTemplates - Filter 1 for all templates URL : http://localhost:8080/maiin.html
+18:52:16.022 [http-nio-8080-exec-2] [34mINFO [0;39m c.e.d.filter.FilterForAllTemplates - Filter 1 for all templates URL : http://localhost:8080/workingWithFields.html
+18:52:20.335 [http-nio-8080-exec-3] [34mINFO [0;39m c.e.d.filter.FilterForAllTemplates - Filter 1 for all templates URL : http://localhost:8080/workingWithFields.html
+18:56:20.646 [background-preinit]   [34mINFO [0;39m o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final
+18:56:20.661 [main]                 [34mINFO [0;39m com.example.demo2.Application - Starting Application using Java 21.0.1 on My-PC with PID 7908 (D:\Java\Project IDEA\SiteForTest\target\classes started by Макс in D:\Java\Project IDEA\SiteForTest)
+18:56:20.661 [main]                 [34mINFO [0;39m com.example.demo2.Application - No active profile set, falling back to default profiles: default
+18:56:21.583 [main]                 [34mINFO [0;39m o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+18:56:21.661 [main]                 [34mINFO [0;39m o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 56 ms. Found 4 JPA repository interfaces.
+18:56:22.253 [main]                 [34mINFO [0;39m o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+18:56:22.253 [main]                 [34mINFO [0;39m o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+18:56:22.253 [main]                 [34mINFO [0;39m o.a.catalina.core.StandardService - Starting service [Tomcat]
+18:56:22.253 [main]                 [34mINFO [0;39m o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.46]
+18:56:22.331 [main]                 [34mINFO [0;39m o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+18:56:22.331 [main]                 [34mINFO [0;39m o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1623 ms
+18:56:22.487 [main]                 [34mINFO [0;39m com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+18:56:22.848 [main]                 [34mINFO [0;39m com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+18:56:22.879 [main]                 [34mINFO [0;39m o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+18:56:22.926 [main]                 [34mINFO [0;39m org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.31.Final
+18:56:23.067 [main]                 [34mINFO [0;39m o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+18:56:23.176 [main]                 [34mINFO [0;39m org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+18:56:23.784 [main]                 [34mINFO [0;39m o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+18:56:23.800 [main]                 [34mINFO [0;39m o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+18:56:24.330 [main]                 [31mWARN [0;39m o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+18:56:24.517 [main]                 [34mINFO [0;39m o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+18:56:24.642 [main]                 [34mINFO [0;39m o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+18:56:24.673 [main]                 [34mINFO [0;39m o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+18:56:24.689 [main]                 [34mINFO [0;39m com.example.demo2.Application - Started Application in 4.546 seconds (JVM running for 4.984)
+18:56:24.689 [main]                 [34mINFO [0;39m o.s.b.a.ApplicationAvailabilityBean - Application availability state LivenessState changed to CORRECT
+18:56:24.689 [main]                 [34mINFO [0;39m o.s.b.a.ApplicationAvailabilityBean - Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+18:56:40.356 [http-nio-8080-exec-1] [34mINFO [0;39m o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+18:56:40.356 [http-nio-8080-exec-1] [34mINFO [0;39m o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+18:56:40.358 [http-nio-8080-exec-1] [34mINFO [0;39m o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+18:56:40.364 [http-nio-8080-exec-1] [34mINFO [0;39m c.e.d.filter.FilterForAllTemplates - Filter 1 for all templates URL : http://localhost:8080/workingWithFields.html
+18:56:40.429 [http-nio-8080-exec-2] [34mINFO [0;39m c.e.d.filter.FilterForAllTemplates - Filter 1 for all templates URL : http://localhost:8080/js/workingWithFields.js
+18:56:44.970 [http-nio-8080-exec-3] [34mINFO [0;39m c.e.d.filter.FilterForAllTemplates - Filter 1 for all templates URL : http://localhost:8080/workingWithFields.html
+18:57:30.734 [http-nio-8080-exec-6] [34mINFO [0;39m c.e.d.filter.FilterForAllTemplates - Filter 1 for all templates URL : http://localhost:8080/
+18:57:31.006 [http-nio-8080-exec-7] [34mINFO [0;39m c.e.d.filter.FilterForAllTemplates - Filter 1 for all templates URL : http://localhost:8080/favicon.ico
+19:00:19.528 [background-preinit]   [34mINFO [0;39m o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final
+19:00:19.528 [main]                 [34mINFO [0;39m com.example.demo2.Application - Starting Application using Java 21.0.1 on My-PC with PID 7624 (D:\Java\Project IDEA\SiteForTest\target\classes started by Макс in D:\Java\Project IDEA\SiteForTest)
+19:00:19.528 [main]                 [34mINFO [0;39m com.example.demo2.Application - No active profile set, falling back to default profiles: default
+19:00:20.433 [main]                 [34mINFO [0;39m o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+19:00:20.495 [main]                 [34mINFO [0;39m o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 65 ms. Found 4 JPA repository interfaces.
+19:00:21.151 [main]                 [34mINFO [0;39m o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+19:00:21.166 [main]                 [34mINFO [0;39m o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+19:00:21.166 [main]                 [34mINFO [0;39m o.a.catalina.core.StandardService - Starting service [Tomcat]
+19:00:21.166 [main]                 [34mINFO [0;39m o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.46]
+19:00:21.244 [main]                 [34mINFO [0;39m o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+19:00:21.244 [main]                 [34mINFO [0;39m o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1653 ms
+19:00:21.385 [main]                 [34mINFO [0;39m com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+19:00:21.790 [main]                 [34mINFO [0;39m com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+19:00:21.837 [main]                 [34mINFO [0;39m o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+19:00:21.884 [main]                 [34mINFO [0;39m org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.31.Final
+19:00:22.009 [main]                 [34mINFO [0;39m o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+19:00:22.118 [main]                 [34mINFO [0;39m org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+19:00:22.742 [main]                 [34mINFO [0;39m o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+19:00:22.742 [main]                 [34mINFO [0;39m o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+19:00:23.335 [main]                 [31mWARN [0;39m o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+19:00:23.522 [main]                 [34mINFO [0;39m o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+19:00:23.678 [main]                 [34mINFO [0;39m o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+19:00:23.693 [main]                 [34mINFO [0;39m o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+19:00:23.709 [main]                 [34mINFO [0;39m com.example.demo2.Application - Started Application in 4.767 seconds (JVM running for 5.256)
+19:00:23.709 [main]                 [34mINFO [0;39m o.s.b.a.ApplicationAvailabilityBean - Application availability state LivenessState changed to CORRECT
+19:00:23.709 [main]                 [34mINFO [0;39m o.s.b.a.ApplicationAvailabilityBean - Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+19:00:58.400 [http-nio-8080-exec-1] [34mINFO [0;39m o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+19:00:58.400 [http-nio-8080-exec-1] [34mINFO [0;39m o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+19:00:58.401 [http-nio-8080-exec-1] [34mINFO [0;39m o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+19:00:58.408 [http-nio-8080-exec-1] [34mINFO [0;39m c.e.d.filter.FilterForAllTemplates - Filter 1 for all templates URL : http://localhost:8080/
+19:00:58.702 [http-nio-8080-exec-2] [34mINFO [0;39m c.e.d.filter.FilterForAllTemplates - Filter 1 for all templates URL : http://localhost:8080/favicon.ico
+19:02:42.401 [http-nio-8080-exec-5] [34mINFO [0;39m o.a.coyote.http11.Http11Processor - Error parsing HTTP request header
+ Note: further occurrences of HTTP request parsing errors will be logged at DEBUG level.
+java.lang.IllegalArgumentException: Invalid character found in method name [0x160x030x010x020x000x010x000x010xfc0x030x03OC:0x9c0x8fjD2U0xc80xfawDZ0xa20x8f0x86W0xf40x82_0xd60x96|0x89z[0xccw}0xfc} ]. HTTP method names must be tokens
+	at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:417)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:261)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1707)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+19:02:42.401 [http-nio-8080-exec-6] [34mINFO [0;39m o.a.coyote.http11.Http11Processor - Error parsing HTTP request header
+ Note: further occurrences of HTTP request parsing errors will be logged at DEBUG level.
+java.lang.IllegalArgumentException: Invalid character found in method name [0x160x030x010x020x000x010x000x010xfc0x030x03jh0x7f0x190x1c!0x010x03Fx0xab0x9b0xbaU0x810x950xda0xac0xa6]0xfa0x130xc30xd00x090xaf0xbd0xc80xdc0x7f0xf30x89 ]. HTTP method names must be tokens
+	at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:417)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:261)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1707)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+19:03:42.644 [background-preinit]   [34mINFO [0;39m o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final
+19:03:42.659 [main]                 [34mINFO [0;39m com.example.demo2.Application - Starting Application using Java 21.0.1 on My-PC with PID 968 (D:\Java\Project IDEA\SiteForTest\target\classes started by Макс in D:\Java\Project IDEA\SiteForTest)
+19:03:42.675 [main]                 [34mINFO [0;39m com.example.demo2.Application - No active profile set, falling back to default profiles: default
+19:03:43.564 [main]                 [34mINFO [0;39m o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+19:03:43.642 [main]                 [34mINFO [0;39m o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 60 ms. Found 4 JPA repository interfaces.
+19:03:44.297 [main]                 [34mINFO [0;39m o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+19:03:44.313 [main]                 [34mINFO [0;39m o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+19:03:44.313 [main]                 [34mINFO [0;39m o.a.catalina.core.StandardService - Starting service [Tomcat]
+19:03:44.313 [main]                 [34mINFO [0;39m o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.46]
+19:03:44.407 [main]                 [34mINFO [0;39m o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+19:03:44.407 [main]                 [34mINFO [0;39m o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1670 ms
+19:03:44.547 [main]                 [34mINFO [0;39m com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+19:03:44.937 [main]                 [34mINFO [0;39m com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+19:03:44.984 [main]                 [34mINFO [0;39m o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+19:03:45.031 [main]                 [34mINFO [0;39m org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.31.Final
+19:03:45.171 [main]                 [34mINFO [0;39m o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+19:03:45.280 [main]                 [34mINFO [0;39m org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+19:03:45.889 [main]                 [34mINFO [0;39m o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+19:03:45.904 [main]                 [34mINFO [0;39m o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+19:03:46.497 [main]                 [31mWARN [0;39m o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+19:03:46.684 [main]                 [34mINFO [0;39m o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+19:03:46.840 [main]                 [34mINFO [0;39m o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+19:03:46.856 [main]                 [34mINFO [0;39m o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+19:03:46.871 [main]                 [34mINFO [0;39m com.example.demo2.Application - Started Application in 4.74 seconds (JVM running for 5.199)
+19:03:46.871 [main]                 [34mINFO [0;39m o.s.b.a.ApplicationAvailabilityBean - Application availability state LivenessState changed to CORRECT
+19:03:46.871 [main]                 [34mINFO [0;39m o.s.b.a.ApplicationAvailabilityBean - Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+19:03:51.325 [http-nio-8080-exec-2] [34mINFO [0;39m o.a.coyote.http11.Http11Processor - Error parsing HTTP request header
+ Note: further occurrences of HTTP request parsing errors will be logged at DEBUG level.
+java.lang.IllegalArgumentException: Invalid character found in method name [0x160x030x010x020x000x010x000x010xfc0x030x030xb5k0xf30xceon0xfbA0x050x0d0x7f6 ]. HTTP method names must be tokens
+	at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:417)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:261)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1707)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+19:03:51.325 [http-nio-8080-exec-1] [34mINFO [0;39m o.a.coyote.http11.Http11Processor - Error parsing HTTP request header
+ Note: further occurrences of HTTP request parsing errors will be logged at DEBUG level.
+java.lang.IllegalArgumentException: Invalid character found in method name [0x160x030x010x020x000x010x000x010xfc0x030x030xcd0x08H~{0xa0B0xceL0xd60x1br0xcdL0x820xd90x0d0xf30x17g_0x800xa20xef{dr0xce0xd70x8e0xf38 ]. HTTP method names must be tokens
+	at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:417)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:261)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1707)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+19:04:05.402 [background-preinit]   [34mINFO [0;39m o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final
+19:04:05.417 [main]                 [34mINFO [0;39m com.example.demo2.Application - Starting Application using Java 21.0.1 on My-PC with PID 7196 (D:\Java\Project IDEA\SiteForTest\target\classes started by Макс in D:\Java\Project IDEA\SiteForTest)
+19:04:05.417 [main]                 [34mINFO [0;39m com.example.demo2.Application - No active profile set, falling back to default profiles: default
+19:04:06.275 [main]                 [34mINFO [0;39m o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+19:04:06.338 [main]                 [34mINFO [0;39m o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 54 ms. Found 4 JPA repository interfaces.
+19:04:07.024 [main]                 [34mINFO [0;39m o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+19:04:07.024 [main]                 [34mINFO [0;39m o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+19:04:07.024 [main]                 [34mINFO [0;39m o.a.catalina.core.StandardService - Starting service [Tomcat]
+19:04:07.024 [main]                 [34mINFO [0;39m o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.46]
+19:04:07.118 [main]                 [34mINFO [0;39m o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+19:04:07.118 [main]                 [34mINFO [0;39m o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1638 ms
+19:04:07.258 [main]                 [34mINFO [0;39m com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+19:04:07.634 [main]                 [34mINFO [0;39m com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+19:04:07.697 [main]                 [34mINFO [0;39m o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+19:04:07.728 [main]                 [34mINFO [0;39m org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.31.Final
+19:04:07.868 [main]                 [34mINFO [0;39m o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+19:04:07.962 [main]                 [34mINFO [0;39m org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+19:04:08.570 [main]                 [34mINFO [0;39m o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+19:04:08.586 [main]                 [34mINFO [0;39m o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+19:04:09.132 [main]                 [31mWARN [0;39m o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+19:04:09.304 [main]                 [34mINFO [0;39m o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+19:04:09.460 [main]                 [34mINFO [0;39m o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+19:04:09.475 [main]                 [34mINFO [0;39m o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+19:04:09.491 [main]                 [34mINFO [0;39m com.example.demo2.Application - Started Application in 4.758 seconds (JVM running for 5.232)
+19:04:09.491 [main]                 [34mINFO [0;39m o.s.b.a.ApplicationAvailabilityBean - Application availability state LivenessState changed to CORRECT
+19:04:09.491 [main]                 [34mINFO [0;39m o.s.b.a.ApplicationAvailabilityBean - Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+19:04:39.672 [http-nio-8080-exec-1] [34mINFO [0;39m o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+19:04:39.673 [http-nio-8080-exec-1] [34mINFO [0;39m o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+19:04:39.674 [http-nio-8080-exec-1] [34mINFO [0;39m o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+19:04:39.680 [http-nio-8080-exec-1] [34mINFO [0;39m c.e.d.filter.FilterForAllTemplates - Filter 1 for all templates URL : http://localhost:8080/
+19:04:39.849 [http-nio-8080-exec-2] [34mINFO [0;39m c.e.d.filter.FilterForAllTemplates - Filter 1 for all templates URL : http://localhost:8080/css/index.css
+19:04:39.906 [http-nio-8080-exec-3] [34mINFO [0;39m c.e.d.filter.FilterForAllTemplates - Filter 1 for all templates URL : http://localhost:8080/images/photo.jpg
+19:04:39.982 [http-nio-8080-exec-4] [34mINFO [0;39m c.e.d.filter.FilterForAllTemplates - Filter 1 for all templates URL : http://localhost:8080/favicon.ico
+19:04:43.914 [http-nio-8080-exec-5] [34mINFO [0;39m c.e.d.filter.FilterForAllTemplates - Filter 1 for all templates URL : http://localhost:8080/workingWithFields.html
+19:04:43.957 [http-nio-8080-exec-6] [34mINFO [0;39m c.e.d.filter.FilterForAllTemplates - Filter 1 for all templates URL : http://localhost:8080/css/index23.css
+19:04:43.960 [http-nio-8080-exec-6] [34mINFO [0;39m c.e.d.filter.FilterForAllTemplates - Filter 1 for all templates URL : http://localhost:8080/js/workingWithFields.js
+19:04:44.009 [http-nio-8080-exec-8] [34mINFO [0;39m c.e.d.filter.FilterForAllTemplates - Filter 1 for all templates URL : http://localhost:8080/ConstantBlock.html
+19:04:45.850 [http-nio-8080-exec-9] [34mINFO [0;39m c.e.d.filter.FilterForAllTemplates - Filter 1 for all templates URL : http://localhost:8080/users/findAll
+19:04:45.850 [http-nio-8080-exec-9] [34mINFO [0;39m c.e.d.filter.FilterForSomeTemplates - Filter 2 for templates - /users/delete and /users/findAll. URI : /users/findAll, User Name : null
+19:04:52.784 [http-nio-8080-exec-10] [34mINFO [0;39m c.e.d.filter.FilterForAllTemplates - Filter 1 for all templates URL : http://localhost:8080/users/findByLogin
+19:05:04.469 [http-nio-8080-exec-1] [34mINFO [0;39m c.e.d.filter.FilterForAllTemplates - Filter 1 for all templates URL : http://localhost:8080/users/form
+19:05:12.184 [http-nio-8080-exec-2] [34mINFO [0;39m c.e.d.filter.FilterForAllTemplates - Filter 1 for all templates URL : http://localhost:8080/workingWithFiles.html
+19:05:12.252 [http-nio-8080-exec-3] [34mINFO [0;39m c.e.d.filter.FilterForAllTemplates - Filter 1 for all templates URL : http://localhost:8080/js/workingWithFiles.js
+19:05:12.294 [http-nio-8080-exec-4] [34mINFO [0;39m c.e.d.filter.FilterForAllTemplates - Filter 1 for all templates URL : http://localhost:8080/filesInfo/findAllFilesName
+19:05:33.787 [http-nio-8080-exec-5] [34mINFO [0;39m c.e.d.filter.FilterForAllTemplates - Filter 1 for all templates URL : http://localhost:8080/filesInfo/download
+19:05:36.802 [http-nio-8080-exec-6] [34mINFO [0;39m c.e.d.filter.FilterForAllTemplates - Filter 1 for all templates URL : http://localhost:8080/filesInfo/delete/0001.jpg
+19:05:37.010 [http-nio-8080-exec-7] [34mINFO [0;39m c.e.d.filter.FilterForAllTemplates - Filter 1 for all templates URL : http://localhost:8080/filesInfo/findAllFilesName
+19:05:43.720 [http-nio-8080-exec-8] [34mINFO [0;39m c.e.d.filter.FilterForAllTemplates - Filter 1 for all templates URL : http://localhost:8080/filesInfo/upload
+19:05:45.236 [http-nio-8080-exec-10] [34mINFO [0;39m c.e.d.filter.FilterForAllTemplates - Filter 1 for all templates URL : http://localhost:8080/filesInfo/findAllFilesName

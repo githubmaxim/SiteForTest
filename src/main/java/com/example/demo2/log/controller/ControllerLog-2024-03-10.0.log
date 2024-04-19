@@ -1,0 +1,120 @@
+12:02:00.837 [background-preinit]   [34mINFO [0;39m o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final
+12:02:00.946 [main]                 [34mINFO [0;39m com.example.demo2.Application - Starting Application using Java 21.0.1 on My-PC with PID 6888 (D:\Java\Project IDEA\SiteForTest\target\classes started by Макс in D:\Java\Project IDEA\SiteForTest)
+12:02:00.946 [main]                 [34mINFO [0;39m com.example.demo2.Application - No active profile set, falling back to default profiles: default
+12:02:02.117 [main]                 [34mINFO [0;39m o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+12:02:02.304 [main]                 [34mINFO [0;39m o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 165 ms. Found 4 JPA repository interfaces.
+12:02:04.129 [main]                 [34mINFO [0;39m o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+12:02:04.145 [main]                 [34mINFO [0;39m o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+12:02:04.145 [main]                 [34mINFO [0;39m o.a.catalina.core.StandardService - Starting service [Tomcat]
+12:02:04.145 [main]                 [34mINFO [0;39m o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.46]
+12:02:04.504 [main]                 [34mINFO [0;39m o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+12:02:04.504 [main]                 [34mINFO [0;39m o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3464 ms
+12:02:05.081 [main]                 [34mINFO [0;39m com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+12:02:06.111 [main]                 [34mINFO [0;39m com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+12:02:06.345 [main]                 [34mINFO [0;39m o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+12:02:06.438 [main]                 [34mINFO [0;39m org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.31.Final
+12:02:06.625 [main]                 [34mINFO [0;39m o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+12:02:06.750 [main]                 [34mINFO [0;39m org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+12:02:07.561 [main]                 [34mINFO [0;39m o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+12:02:07.577 [main]                 [34mINFO [0;39m o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+12:02:08.451 [main]                 [31mWARN [0;39m o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+12:02:08.669 [main]                 [34mINFO [0;39m o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+12:02:08.809 [main]                 [34mINFO [0;39m o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+12:02:08.841 [main]                 [34mINFO [0;39m o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+12:02:08.872 [main]                 [34mINFO [0;39m com.example.demo2.Application - Started Application in 9.176 seconds (JVM running for 10.105)
+12:02:08.872 [main]                 [34mINFO [0;39m o.s.b.a.ApplicationAvailabilityBean - Application availability state LivenessState changed to CORRECT
+12:02:08.872 [main]                 [34mINFO [0;39m o.s.b.a.ApplicationAvailabilityBean - Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+13:14:55.790 [http-nio-8080-exec-1] [34mINFO [0;39m o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+13:14:55.790 [http-nio-8080-exec-1] [34mINFO [0;39m o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+13:14:55.790 [http-nio-8080-exec-1] [34mINFO [0;39m o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+13:14:55.790 [http-nio-8080-exec-1] [34mINFO [0;39m c.e.d.filter.FilterForAllTemplates - Filter 1 for all templates URL : http://192.168.1.135:8080/
+13:14:59.272 [http-nio-8080-exec-3] [34mINFO [0;39m c.e.d.filter.FilterForAllTemplates - Filter 1 for all templates URL : http://192.168.1.135/HNAP1/
+17:39:01.967 [background-preinit]   [34mINFO [0;39m o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final
+17:39:01.983 [main]                 [34mINFO [0;39m com.example.demo2.Application - Starting Application using Java 21.0.1 on My-PC with PID 3632 (D:\Java\Project IDEA\SiteForTest\target\classes started by Макс in D:\Java\Project IDEA\SiteForTest)
+17:39:01.983 [main]                 [34mINFO [0;39m com.example.demo2.Application - No active profile set, falling back to default profiles: default
+17:39:02.779 [main]                 [34mINFO [0;39m o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+17:39:02.841 [main]                 [34mINFO [0;39m o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 58 ms. Found 4 JPA repository interfaces.
+17:39:03.527 [main]                 [34mINFO [0;39m o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+17:39:03.543 [main]                 [34mINFO [0;39m o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+17:39:03.543 [main]                 [34mINFO [0;39m o.a.catalina.core.StandardService - Starting service [Tomcat]
+17:39:03.543 [main]                 [34mINFO [0;39m o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.46]
+17:39:03.652 [main]                 [34mINFO [0;39m o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+17:39:03.652 [main]                 [34mINFO [0;39m o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1622 ms
+17:39:03.824 [main]                 [34mINFO [0;39m com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+17:39:04.323 [main]                 [34mINFO [0;39m com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+17:39:04.385 [main]                 [34mINFO [0;39m o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+17:39:04.463 [main]                 [34mINFO [0;39m org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.31.Final
+17:39:04.760 [main]                 [34mINFO [0;39m o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+17:39:04.947 [main]                 [34mINFO [0;39m org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+17:39:05.992 [main]                 [34mINFO [0;39m o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+17:39:06.008 [main]                 [34mINFO [0;39m o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+17:39:07.115 [main]                 [31mWARN [0;39m o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+17:39:07.552 [main]                 [34mINFO [0;39m o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+17:39:07.849 [main]                 [34mINFO [0;39m o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+17:39:07.958 [main]                 [34mINFO [0;39m o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+17:39:07.973 [main]                 [34mINFO [0;39m com.example.demo2.Application - Started Application in 6.63 seconds (JVM running for 7.281)
+17:39:07.973 [main]                 [34mINFO [0;39m o.s.b.a.ApplicationAvailabilityBean - Application availability state LivenessState changed to CORRECT
+17:39:07.973 [main]                 [34mINFO [0;39m o.s.b.a.ApplicationAvailabilityBean - Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+17:47:22.291 [http-nio-8080-exec-1] [34mINFO [0;39m o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+17:47:22.291 [http-nio-8080-exec-1] [34mINFO [0;39m o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+17:47:22.291 [http-nio-8080-exec-1] [34mINFO [0;39m o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+17:47:22.291 [http-nio-8080-exec-1] [34mINFO [0;39m c.e.d.filter.FilterForAllTemplates - Filter 1 for all templates URL : http://localhost:8080/users/findAll
+17:47:22.291 [http-nio-8080-exec-1] [34mINFO [0;39m c.e.d.filter.FilterForSomeTemplates - Filter 2 for templates - /users/delete and /users/findAll. URI : /users/findAll, User Name : null
+17:47:22.307 [http-nio-8080-exec-1] [34mINFO [0;39m c.e.d.c.users.UsersController - +++message by UserController, method findAllUsers+++
+17:47:22.307 [http-nio-8080-exec-1] [34mINFO [0;39m c.e.d.c.users.UsersController - UserController: Handling find all users request
+17:51:52.676 [http-nio-8080-exec-3] [34mINFO [0;39m c.e.d.filter.FilterForAllTemplates - Filter 1 for all templates URL : http://localhost:8080/users/findAll
+17:51:52.676 [http-nio-8080-exec-3] [34mINFO [0;39m c.e.d.filter.FilterForSomeTemplates - Filter 2 for templates - /users/delete and /users/findAll. URI : /users/findAll, User Name : null
+17:51:52.676 [http-nio-8080-exec-3] [34mINFO [0;39m c.e.d.c.users.UsersController - +++message by UserController, method findAllUsers+++
+17:51:52.676 [http-nio-8080-exec-3] [34mINFO [0;39m c.e.d.c.users.UsersController - UserController: Handling find all users request
+17:53:52.032 [http-nio-8080-exec-6] [34mINFO [0;39m c.e.d.filter.FilterForAllTemplates - Filter 1 for all templates URL : http://localhost:8080/users/findAll
+17:53:52.032 [http-nio-8080-exec-6] [34mINFO [0;39m c.e.d.filter.FilterForSomeTemplates - Filter 2 for templates - /users/delete and /users/findAll. URI : /users/findAll, User Name : null
+17:53:52.032 [http-nio-8080-exec-6] [34mINFO [0;39m c.e.d.c.users.UsersController - +++message by UserController, method findAllUsers+++
+17:53:52.032 [http-nio-8080-exec-6] [34mINFO [0;39m c.e.d.c.users.UsersController - UserController: Handling find all users request
+17:58:07.046 [http-nio-8080-exec-4] [34mINFO [0;39m c.e.d.filter.FilterForAllTemplates - Filter 1 for all templates URL : http://localhost:8080/users/findAll
+17:58:07.046 [http-nio-8080-exec-4] [34mINFO [0;39m c.e.d.filter.FilterForSomeTemplates - Filter 2 for templates - /users/delete and /users/findAll. URI : /users/findAll, User Name : null
+17:58:07.046 [http-nio-8080-exec-4] [34mINFO [0;39m c.e.d.c.users.UsersController - +++message by UserController, method findAllUsers+++
+17:58:07.046 [http-nio-8080-exec-4] [34mINFO [0;39m c.e.d.c.users.UsersController - UserController: Handling find all users request
+17:59:18.307 [http-nio-8080-exec-10] [34mINFO [0;39m c.e.d.filter.FilterForAllTemplates - Filter 1 for all templates URL : http://localhost:8080/users/findAll
+17:59:18.307 [http-nio-8080-exec-10] [34mINFO [0;39m c.e.d.filter.FilterForSomeTemplates - Filter 2 for templates - /users/delete and /users/findAll. URI : /users/findAll, User Name : null
+17:59:18.307 [http-nio-8080-exec-10] [34mINFO [0;39m c.e.d.c.users.UsersController - +++message by UserController, method findAllUsers+++
+17:59:18.307 [http-nio-8080-exec-10] [34mINFO [0;39m c.e.d.c.users.UsersController - UserController: Handling find all users request
+18:10:15.662 [http-nio-8080-exec-1] [34mINFO [0;39m c.e.d.filter.FilterForAllTemplates - Filter 1 for all templates URL : http://localhost:8080/users/findAll
+18:10:15.662 [http-nio-8080-exec-1] [34mINFO [0;39m c.e.d.filter.FilterForSomeTemplates - Filter 2 for templates - /users/delete and /users/findAll. URI : /users/findAll, User Name : null
+18:10:15.662 [http-nio-8080-exec-1] [34mINFO [0;39m c.e.d.c.users.UsersController - +++message by UserController, method findAllUsers+++
+18:10:15.662 [http-nio-8080-exec-1] [34mINFO [0;39m c.e.d.c.users.UsersController - UserController: Handling find all users request
+18:12:37.892 [http-nio-8080-exec-3] [34mINFO [0;39m c.e.d.filter.FilterForAllTemplates - Filter 1 for all templates URL : http://localhost:8080/users/findAll
+18:12:37.892 [http-nio-8080-exec-3] [34mINFO [0;39m c.e.d.filter.FilterForSomeTemplates - Filter 2 for templates - /users/delete and /users/findAll. URI : /users/findAll, User Name : null
+18:12:37.892 [http-nio-8080-exec-3] [34mINFO [0;39m c.e.d.c.users.UsersController - +++message by UserController, method findAllUsers+++
+18:12:37.892 [http-nio-8080-exec-3] [34mINFO [0;39m c.e.d.c.users.UsersController - UserController: Handling find all users request
+18:21:02.681 [http-nio-8080-exec-6] [34mINFO [0;39m c.e.d.filter.FilterForAllTemplates - Filter 1 for all templates URL : http://localhost:8080/users/findAll
+18:21:02.681 [http-nio-8080-exec-6] [34mINFO [0;39m c.e.d.filter.FilterForSomeTemplates - Filter 2 for templates - /users/delete and /users/findAll. URI : /users/findAll, User Name : null
+18:21:02.681 [http-nio-8080-exec-6] [34mINFO [0;39m c.e.d.c.users.UsersController - +++message by UserController, method findAllUsers+++
+18:21:02.681 [http-nio-8080-exec-6] [34mINFO [0;39m c.e.d.c.users.UsersController - UserController: Handling find all users request
+18:30:15.617 [http-nio-8080-exec-4] [34mINFO [0;39m c.e.d.filter.FilterForAllTemplates - Filter 1 for all templates URL : http://localhost:8080/users/findAll
+18:30:15.633 [http-nio-8080-exec-4] [34mINFO [0;39m c.e.d.filter.FilterForSomeTemplates - Filter 2 for templates - /users/delete and /users/findAll. URI : /users/findAll, User Name : null
+18:30:15.633 [http-nio-8080-exec-4] [34mINFO [0;39m c.e.d.c.users.UsersController - +++message by UserController, method findAllUsers+++
+18:30:15.633 [http-nio-8080-exec-4] [34mINFO [0;39m c.e.d.c.users.UsersController - UserController: Handling find all users request
+18:32:57.944 [http-nio-8080-exec-10] [34mINFO [0;39m c.e.d.filter.FilterForAllTemplates - Filter 1 for all templates URL : http://localhost:8080/users/findAll
+18:32:57.944 [http-nio-8080-exec-10] [34mINFO [0;39m c.e.d.filter.FilterForSomeTemplates - Filter 2 for templates - /users/delete and /users/findAll. URI : /users/findAll, User Name : null
+18:32:57.944 [http-nio-8080-exec-10] [34mINFO [0;39m c.e.d.c.users.UsersController - +++message by UserController, method findAllUsers+++
+18:32:57.944 [http-nio-8080-exec-10] [34mINFO [0;39m c.e.d.c.users.UsersController - UserController: Handling find all users request
+18:35:41.335 [http-nio-8080-exec-1] [34mINFO [0;39m c.e.d.filter.FilterForAllTemplates - Filter 1 for all templates URL : http://localhost:8080/users/findAll
+18:35:41.335 [http-nio-8080-exec-1] [34mINFO [0;39m c.e.d.filter.FilterForSomeTemplates - Filter 2 for templates - /users/delete and /users/findAll. URI : /users/findAll, User Name : null
+18:35:41.335 [http-nio-8080-exec-1] [34mINFO [0;39m c.e.d.c.users.UsersController - +++message by UserController, method findAllUsers+++
+18:35:41.335 [http-nio-8080-exec-1] [34mINFO [0;39m c.e.d.c.users.UsersController - UserController: Handling find all users request
+18:36:12.129 [http-nio-8080-exec-3] [34mINFO [0;39m c.e.d.filter.FilterForAllTemplates - Filter 1 for all templates URL : http://localhost:8080/users/findAll
+18:36:12.129 [http-nio-8080-exec-3] [34mINFO [0;39m c.e.d.filter.FilterForSomeTemplates - Filter 2 for templates - /users/delete and /users/findAll. URI : /users/findAll, User Name : null
+18:36:12.129 [http-nio-8080-exec-3] [34mINFO [0;39m c.e.d.c.users.UsersController - +++message by UserController, method findAllUsers+++
+18:36:12.129 [http-nio-8080-exec-3] [34mINFO [0;39m c.e.d.c.users.UsersController - UserController: Handling find all users request
+18:37:29.093 [http-nio-8080-exec-6] [34mINFO [0;39m c.e.d.filter.FilterForAllTemplates - Filter 1 for all templates URL : http://localhost:8080/users/findAll
+18:37:29.093 [http-nio-8080-exec-6] [34mINFO [0;39m c.e.d.filter.FilterForSomeTemplates - Filter 2 for templates - /users/delete and /users/findAll. URI : /users/findAll, User Name : null
+18:37:29.093 [http-nio-8080-exec-6] [34mINFO [0;39m c.e.d.c.users.UsersController - +++message by UserController, method findAllUsers+++
+18:37:29.093 [http-nio-8080-exec-6] [34mINFO [0;39m c.e.d.c.users.UsersController - UserController: Handling find all users request
+18:38:03.329 [http-nio-8080-exec-4] [34mINFO [0;39m c.e.d.filter.FilterForAllTemplates - Filter 1 for all templates URL : http://localhost:8080/users/findAll
+18:38:03.329 [http-nio-8080-exec-4] [34mINFO [0;39m c.e.d.filter.FilterForSomeTemplates - Filter 2 for templates - /users/delete and /users/findAll. URI : /users/findAll, User Name : null
+18:38:03.329 [http-nio-8080-exec-4] [34mINFO [0;39m c.e.d.c.users.UsersController - +++message by UserController, method findAllUsers+++
+18:38:03.329 [http-nio-8080-exec-4] [34mINFO [0;39m c.e.d.c.users.UsersController - UserController: Handling find all users request
+18:40:52.802 [http-nio-8080-exec-10] [34mINFO [0;39m c.e.d.filter.FilterForAllTemplates - Filter 1 for all templates URL : http://localhost:8080/users/findAll
+18:40:52.803 [http-nio-8080-exec-10] [34mINFO [0;39m c.e.d.filter.FilterForSomeTemplates - Filter 2 for templates - /users/delete and /users/findAll. URI : /users/findAll, User Name : null
+18:40:52.803 [http-nio-8080-exec-10] [34mINFO [0;39m c.e.d.c.users.UsersController - +++message by UserController, method findAllUsers+++
+18:40:52.803 [http-nio-8080-exec-10] [34mINFO [0;39m c.e.d.c.users.UsersController - UserController: Handling find all users request

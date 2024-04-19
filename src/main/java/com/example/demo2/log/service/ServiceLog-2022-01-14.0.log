@@ -1,0 +1,139 @@
+20:15:24.552 [background-preinit]   [34mINFO [0;39m o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final
+20:15:24.552 [main]                 [34mINFO [0;39m com.example.demo2.Application - Starting Application using Java 10.0.2 on My-PC with PID 6920 (D:\Java\Project IDEA\demo2\target\classes started by Макс in D:\Java\Project IDEA\demo2)
+20:15:24.567 [main]                 [34mINFO [0;39m com.example.demo2.Application - No active profile set, falling back to default profiles: default
+20:15:25.082 [background-preinit]   [31mWARN [0;39m o.s.h.c.j.Jackson2ObjectMapperBuilder - For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+20:15:25.550 [main]                 [34mINFO [0;39m o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+20:15:25.628 [main]                 [34mINFO [0;39m o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 72 ms. Found 6 JPA repository interfaces.
+20:15:26.034 [main]                 [34mINFO [0;39m o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@2d7a9786' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+20:15:26.034 [main]                 [34mINFO [0;39m o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+20:15:26.439 [main]                 [34mINFO [0;39m o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 443 (https)
+20:15:26.455 [main]                 [34mINFO [0;39m o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["https-jsse-nio-443"]
+20:15:26.455 [main]                 [34mINFO [0;39m o.a.catalina.core.StandardService - Starting service [Tomcat]
+20:15:26.455 [main]                 [34mINFO [0;39m o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.46]
+20:15:26.580 [main]                 [34mINFO [0;39m o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+20:15:26.580 [main]                 [34mINFO [0;39m o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1935 ms
+20:15:26.767 [main]                 [34mINFO [0;39m o.f.c.i.license.VersionPrinter - Flyway Community Edition 7.7.3 by Redgate
+20:15:26.767 [main]                 [34mINFO [0;39m com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+20:15:27.126 [main]                 [34mINFO [0;39m com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+20:15:27.172 [main]                 [34mINFO [0;39m o.f.c.i.database.base.DatabaseType - Database: jdbc:mysql://localhost:3306/forflyway (MySQL 8.0)
+20:15:27.250 [main]                 [34mINFO [0;39m o.f.core.internal.command.DbValidate - Successfully validated 2 migrations (execution time 00:00.040s)
+20:15:27.282 [main]                 [34mINFO [0;39m o.f.core.internal.command.DbMigrate - Current version of schema `forflyway`: 2
+20:15:27.282 [main]                 [34mINFO [0;39m o.f.core.internal.command.DbMigrate - Schema `forflyway` is up to date. No migration necessary.
+20:15:27.438 [main]                 [34mINFO [0;39m o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+20:15:27.500 [main]                 [34mINFO [0;39m org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.31.Final
+20:15:27.640 [main]                 [34mINFO [0;39m o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+20:15:27.750 [main]                 [34mINFO [0;39m org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+20:15:28.483 [main]                 [34mINFO [0;39m o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+20:15:28.498 [main]                 [34mINFO [0;39m o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+20:15:28.545 [main]                 [31mWARN [0;39m o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+20:15:29.341 [main]                 [34mINFO [0;39m o.s.s.web.DefaultSecurityFilterChain - Will secure Ant [pattern='/css/**'] with []
+20:15:29.341 [main]                 [34mINFO [0;39m o.s.s.web.DefaultSecurityFilterChain - Will secure Ant [pattern='/js/**'] with []
+20:15:29.341 [main]                 [34mINFO [0;39m o.s.s.web.DefaultSecurityFilterChain - Will secure Ant [pattern='/fonts/**'] with []
+20:15:29.341 [main]                 [34mINFO [0;39m o.s.s.web.DefaultSecurityFilterChain - Will secure Ant [pattern='/images/**'] with []
+20:15:29.372 [main]                 [34mINFO [0;39m o.s.s.w.a.c.ChannelProcessingFilter - Validated configuration attributes
+20:15:29.372 [main]                 [34mINFO [0;39m o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.access.channel.ChannelProcessingFilter@2d568cff, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2487b621, org.springframework.security.web.context.SecurityContextPersistenceFilter@68838767, org.springframework.security.web.header.HeaderWriterFilter@60739eca, org.springframework.security.web.authentication.logout.LogoutFilter@1104ad6a, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@6e4bccc, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1f381eaf, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3c981f76, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3d2ff73a, org.springframework.security.web.session.SessionManagementFilter@17873842, org.springframework.security.web.access.ExceptionTranslationFilter@7833407, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@2b06c388]
+20:15:29.606 [main]                 [34mINFO [0;39m o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+20:15:29.778 [main]                 [34mINFO [0;39m o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: c4ec7a99-95d5-448d-a58b-9fbdb7ee38c7
+
+20:15:29.778 [main]                 [34mINFO [0;39m o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["https-jsse-nio-443"]
+20:15:30.308 [main]                 [34mINFO [0;39m o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 443 (https) with context path ''
+20:15:30.324 [main]                 [34mINFO [0;39m com.example.demo2.Application - Started Application in 6.433 seconds (JVM running for 7.078)
+20:15:30.324 [main]                 [34mINFO [0;39m o.s.b.a.ApplicationAvailabilityBean - Application availability state LivenessState changed to CORRECT
+20:15:30.324 [main]                 [34mINFO [0;39m o.s.b.a.ApplicationAvailabilityBean - Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+20:15:53.096 [https-jsse-nio-443-exec-1] [34mINFO [0;39m o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+20:15:53.096 [https-jsse-nio-443-exec-1] [34mINFO [0;39m o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+20:15:53.098 [https-jsse-nio-443-exec-1] [34mINFO [0;39m o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+20:15:53.122 [https-jsse-nio-443-exec-1] [34mINFO [0;39m c.e.d.filter.FilterForAllTemplates - Filter 1 for all templates URL : https://localhost/
+20:15:53.329 [https-jsse-nio-443-exec-3] [34mINFO [0;39m c.e.d.filter.FilterForAllTemplates - Filter 1 for all templates URL : https://localhost/css/index.css
+20:15:53.349 [https-jsse-nio-443-exec-4] [34mINFO [0;39m c.e.d.filter.FilterForAllTemplates - Filter 1 for all templates URL : https://localhost/images/photo.jpg
+20:15:53.407 [https-jsse-nio-443-exec-7] [34mINFO [0;39m c.e.d.filter.FilterForAllTemplates - Filter 1 for all templates URL : https://localhost/login
+20:15:54.894 [https-jsse-nio-443-exec-10] [34mINFO [0;39m c.e.d.filter.FilterForAllTemplates - Filter 1 for all templates URL : https://localhost/login
+20:15:54.915 [https-jsse-nio-443-exec-3] [34mINFO [0;39m c.e.d.filter.FilterForAllTemplates - Filter 1 for all templates URL : https://localhost/login
+20:16:01.210 [https-jsse-nio-443-exec-9] [34mINFO [0;39m c.e.d.filter.FilterForAllTemplates - Filter 1 for all templates URL : https://localhost/maiin.html
+20:16:01.227 [https-jsse-nio-443-exec-2] [34mINFO [0;39m c.e.d.filter.FilterForAllTemplates - Filter 1 for all templates URL : https://localhost/ConstantBlock.html
+20:16:01.232 [https-jsse-nio-443-exec-8] [34mINFO [0;39m c.e.d.filter.FilterForAllTemplates - Filter 1 for all templates URL : https://localhost/favicon.ico
+20:16:02.850 [https-jsse-nio-443-exec-1] [34mINFO [0;39m c.e.d.filter.FilterForAllTemplates - Filter 1 for all templates URL : https://localhost/admin.html
+20:16:02.873 [https-jsse-nio-443-exec-7] [34mINFO [0;39m c.e.d.filter.FilterForAllTemplates - Filter 1 for all templates URL : https://localhost/css/index23.css
+20:16:02.880 [https-jsse-nio-443-exec-8] [34mINFO [0;39m c.e.d.filter.FilterForAllTemplates - Filter 1 for all templates URL : https://localhost/js/admin.js
+20:16:02.892 [https-jsse-nio-443-exec-1] [34mINFO [0;39m c.e.d.filter.FilterForAllTemplates - Filter 1 for all templates URL : https://localhost/ConstantBlock.html
+20:16:02.897 [https-jsse-nio-443-exec-5] [34mINFO [0;39m c.e.d.filter.FilterForAllTemplates - Filter 1 for all templates URL : https://localhost/admin/findAll
+20:16:02.907 [https-jsse-nio-443-exec-5] [34mINFO [0;39m c.e.d.s.admin.DefaultAdminService - !!!message by DefaultAdminService, method findAll!!!
+20:16:24.991 [background-preinit]   [34mINFO [0;39m o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final
+20:16:25.038 [main]                 [34mINFO [0;39m com.example.demo2.Application - Starting Application using Java 10.0.2 on My-PC with PID 7536 (D:\Java\Project IDEA\demo2\target\classes started by Макс in D:\Java\Project IDEA\demo2)
+20:16:25.038 [main]                 [34mINFO [0;39m com.example.demo2.Application - No active profile set, falling back to default profiles: default
+20:16:25.459 [background-preinit]   [31mWARN [0;39m o.s.h.c.j.Jackson2ObjectMapperBuilder - For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+20:16:25.818 [main]                 [34mINFO [0;39m o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+20:16:25.896 [main]                 [34mINFO [0;39m o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 65 ms. Found 6 JPA repository interfaces.
+20:16:26.302 [main]                 [34mINFO [0;39m o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@5c723f2d' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+20:16:26.302 [main]                 [34mINFO [0;39m o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+20:16:26.676 [main]                 [34mINFO [0;39m o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 443 (https)
+20:16:26.692 [main]                 [34mINFO [0;39m o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["https-jsse-nio-443"]
+20:16:26.692 [main]                 [34mINFO [0;39m o.a.catalina.core.StandardService - Starting service [Tomcat]
+20:16:26.692 [main]                 [34mINFO [0;39m o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.46]
+20:16:26.801 [main]                 [34mINFO [0;39m o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+20:16:26.801 [main]                 [34mINFO [0;39m o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1716 ms
+20:16:26.972 [main]                 [34mINFO [0;39m o.f.c.i.license.VersionPrinter - Flyway Community Edition 7.7.3 by Redgate
+20:16:26.988 [main]                 [34mINFO [0;39m com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+20:16:27.253 [main]                 [34mINFO [0;39m com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+20:16:27.300 [main]                 [34mINFO [0;39m o.f.c.i.database.base.DatabaseType - Database: jdbc:mysql://localhost:3306/forflyway (MySQL 8.0)
+20:16:27.331 [main]                 [34mINFO [0;39m o.f.core.internal.command.DbValidate - Successfully validated 2 migrations (execution time 00:00.021s)
+20:16:27.347 [main]                 [34mINFO [0;39m o.f.core.internal.command.DbMigrate - Current version of schema `forflyway`: 2
+20:16:27.347 [main]                 [34mINFO [0;39m o.f.core.internal.command.DbMigrate - Schema `forflyway` is up to date. No migration necessary.
+20:16:27.425 [main]                 [34mINFO [0;39m o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+20:16:27.472 [main]                 [34mINFO [0;39m org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.31.Final
+20:16:27.612 [main]                 [34mINFO [0;39m o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+20:16:27.721 [main]                 [34mINFO [0;39m org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+20:16:28.330 [main]                 [34mINFO [0;39m o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+20:16:28.330 [main]                 [34mINFO [0;39m o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+20:16:28.376 [main]                 [31mWARN [0;39m o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+20:16:29.219 [main]                 [34mINFO [0;39m o.s.s.web.DefaultSecurityFilterChain - Will secure Ant [pattern='/css/**'] with []
+20:16:29.219 [main]                 [34mINFO [0;39m o.s.s.web.DefaultSecurityFilterChain - Will secure Ant [pattern='/js/**'] with []
+20:16:29.219 [main]                 [34mINFO [0;39m o.s.s.web.DefaultSecurityFilterChain - Will secure Ant [pattern='/fonts/**'] with []
+20:16:29.219 [main]                 [34mINFO [0;39m o.s.s.web.DefaultSecurityFilterChain - Will secure Ant [pattern='/images/**'] with []
+20:16:29.250 [main]                 [34mINFO [0;39m o.s.s.w.a.c.ChannelProcessingFilter - Validated configuration attributes
+20:16:29.250 [main]                 [34mINFO [0;39m o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.access.channel.ChannelProcessingFilter@729d1428, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@252d2ac0, org.springframework.security.web.context.SecurityContextPersistenceFilter@673a5aa7, org.springframework.security.web.header.HeaderWriterFilter@3e5ed0d4, org.springframework.security.web.authentication.logout.LogoutFilter@695c8b32, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@1728d307, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5b160208, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@20d92f1e, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3f0b5619, org.springframework.security.web.session.SessionManagementFilter@56f19f36, org.springframework.security.web.access.ExceptionTranslationFilter@3c717ef2, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@736a8aea]
+20:16:29.484 [main]                 [34mINFO [0;39m o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+20:16:29.640 [main]                 [34mINFO [0;39m o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 6a975304-39c6-495f-9e0b-aabffe39cb8a
+
+20:16:29.640 [main]                 [34mINFO [0;39m o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["https-jsse-nio-443"]
+20:16:30.077 [main]                 [34mINFO [0;39m o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 443 (https) with context path ''
+20:16:30.077 [main]                 [34mINFO [0;39m com.example.demo2.Application - Started Application in 5.687 seconds (JVM running for 6.478)
+20:16:30.077 [main]                 [34mINFO [0;39m o.s.b.a.ApplicationAvailabilityBean - Application availability state LivenessState changed to CORRECT
+20:16:30.092 [main]                 [34mINFO [0;39m o.s.b.a.ApplicationAvailabilityBean - Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+20:16:51.165 [https-jsse-nio-443-exec-8] [34mINFO [0;39m o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+20:16:51.166 [https-jsse-nio-443-exec-8] [34mINFO [0;39m o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+20:16:51.167 [https-jsse-nio-443-exec-8] [34mINFO [0;39m o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+20:16:51.187 [https-jsse-nio-443-exec-8] [34mINFO [0;39m c.e.d.filter.FilterForAllTemplates - Filter 1 for all templates URL : https://localhost/
+20:16:51.383 [https-jsse-nio-443-exec-9] [34mINFO [0;39m c.e.d.filter.FilterForAllTemplates - Filter 1 for all templates URL : https://localhost/css/index.css
+20:16:51.403 [https-jsse-nio-443-exec-3] [34mINFO [0;39m c.e.d.filter.FilterForAllTemplates - Filter 1 for all templates URL : https://localhost/images/photo.jpg
+20:16:53.833 [https-jsse-nio-443-exec-10] [34mINFO [0;39m c.e.d.filter.FilterForAllTemplates - Filter 1 for all templates URL : https://localhost/login
+20:16:55.330 [https-jsse-nio-443-exec-1] [34mINFO [0;39m c.e.d.filter.FilterForAllTemplates - Filter 1 for all templates URL : https://localhost/registration
+20:17:00.618 [https-jsse-nio-443-exec-2] [34mINFO [0;39m c.e.d.filter.FilterForAllTemplates - Filter 1 for all templates URL : https://localhost/registration
+20:17:00.779 [https-jsse-nio-443-exec-5] [34mINFO [0;39m c.e.d.filter.FilterForAllTemplates - Filter 1 for all templates URL : https://localhost/login
+20:17:03.783 [https-jsse-nio-443-exec-9] [34mINFO [0;39m c.e.d.filter.FilterForAllTemplates - Filter 1 for all templates URL : https://localhost/maiin.html
+20:17:03.804 [https-jsse-nio-443-exec-7] [34mINFO [0;39m c.e.d.filter.FilterForAllTemplates - Filter 1 for all templates URL : https://localhost/ConstantBlock.html
+20:17:05.694 [https-jsse-nio-443-exec-4] [34mINFO [0;39m c.e.d.filter.FilterForAllTemplates - Filter 1 for all templates URL : https://localhost/admin.html
+20:17:05.721 [https-jsse-nio-443-exec-8] [34mINFO [0;39m c.e.d.filter.FilterForAllTemplates - Filter 1 for all templates URL : https://localhost/js/admin.js
+20:17:05.721 [https-jsse-nio-443-exec-3] [34mINFO [0;39m c.e.d.filter.FilterForAllTemplates - Filter 1 for all templates URL : https://localhost/css/index23.css
+20:17:05.741 [https-jsse-nio-443-exec-10] [34mINFO [0;39m c.e.d.filter.FilterForAllTemplates - Filter 1 for all templates URL : https://localhost/ConstantBlock.html
+20:17:05.746 [https-jsse-nio-443-exec-1] [34mINFO [0;39m c.e.d.filter.FilterForAllTemplates - Filter 1 for all templates URL : https://localhost/admin/findAll
+20:17:14.703 [https-jsse-nio-443-exec-2] [34mINFO [0;39m c.e.d.filter.FilterForAllTemplates - Filter 1 for all templates URL : https://localhost/maiin.html
+20:17:14.723 [https-jsse-nio-443-exec-6] [34mINFO [0;39m c.e.d.filter.FilterForAllTemplates - Filter 1 for all templates URL : https://localhost/images/photo.jpg
+20:17:14.723 [https-jsse-nio-443-exec-5] [34mINFO [0;39m c.e.d.filter.FilterForAllTemplates - Filter 1 for all templates URL : https://localhost/css/index.css
+20:17:14.735 [https-jsse-nio-443-exec-9] [34mINFO [0;39m c.e.d.filter.FilterForAllTemplates - Filter 1 for all templates URL : https://localhost/ConstantBlock.html
+20:17:31.559 [https-jsse-nio-443-exec-7] [34mINFO [0;39m c.e.d.filter.FilterForAllTemplates - Filter 1 for all templates URL : https://localhost/
+20:17:31.593 [https-jsse-nio-443-exec-4] [34mINFO [0;39m c.e.d.filter.FilterForAllTemplates - Filter 1 for all templates URL : https://localhost/css/index.css
+20:17:31.604 [https-jsse-nio-443-exec-3] [34mINFO [0;39m c.e.d.filter.FilterForAllTemplates - Filter 1 for all templates URL : https://localhost/images/photo.jpg
+20:17:34.013 [https-jsse-nio-443-exec-8] [34mINFO [0;39m c.e.d.filter.FilterForAllTemplates - Filter 1 for all templates URL : https://localhost/login
+20:17:37.588 [https-jsse-nio-443-exec-1] [34mINFO [0;39m c.e.d.filter.FilterForAllTemplates - Filter 1 for all templates URL : https://localhost/maiin.html
+20:17:37.610 [https-jsse-nio-443-exec-2] [34mINFO [0;39m c.e.d.filter.FilterForAllTemplates - Filter 1 for all templates URL : https://localhost/ConstantBlock.html
+20:17:38.833 [https-jsse-nio-443-exec-5] [34mINFO [0;39m c.e.d.filter.FilterForAllTemplates - Filter 1 for all templates URL : https://localhost/admin.html
+20:17:38.858 [https-jsse-nio-443-exec-6] [34mINFO [0;39m c.e.d.filter.FilterForAllTemplates - Filter 1 for all templates URL : https://localhost/css/index23.css
+20:17:38.858 [https-jsse-nio-443-exec-9] [34mINFO [0;39m c.e.d.filter.FilterForAllTemplates - Filter 1 for all templates URL : https://localhost/js/admin.js
+20:17:38.880 [https-jsse-nio-443-exec-7] [34mINFO [0;39m c.e.d.filter.FilterForAllTemplates - Filter 1 for all templates URL : https://localhost/ConstantBlock.html
+20:17:38.884 [https-jsse-nio-443-exec-4] [34mINFO [0;39m c.e.d.filter.FilterForAllTemplates - Filter 1 for all templates URL : https://localhost/admin/findAll
+20:17:38.893 [https-jsse-nio-443-exec-4] [34mINFO [0;39m c.e.d.s.admin.DefaultAdminService - !!!message by DefaultAdminService, method findAll!!!

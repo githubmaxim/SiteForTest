@@ -1,0 +1,214 @@
+14:59:49.616 [main]                 [34mINFO [0;39m com.example.demo2.Application - Starting Application using Java 21.0.1 on My-PC with PID 1160 (D:\Java\Project IDEA\SiteForTest\target\classes started by Макс in D:\Java\Project IDEA\SiteForTest)
+14:59:49.631 [main]                 [34mINFO [0;39m com.example.demo2.Application - No active profile set, falling back to default profiles: default
+14:59:49.647 [background-preinit]   [34mINFO [0;39m o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final
+14:59:51.706 [main]                 [34mINFO [0;39m o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+14:59:51.878 [main]                 [34mINFO [0;39m o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 144 ms. Found 4 JPA repository interfaces.
+14:59:52.814 [main]                 [34mINFO [0;39m o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+14:59:52.829 [main]                 [34mINFO [0;39m o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+14:59:52.829 [main]                 [34mINFO [0;39m o.a.catalina.core.StandardService - Starting service [Tomcat]
+14:59:52.829 [main]                 [34mINFO [0;39m o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.46]
+14:59:52.907 [main]                 [34mINFO [0;39m o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+14:59:52.923 [main]                 [34mINFO [0;39m o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2980 ms
+14:59:53.063 [main]                 [34mINFO [0;39m com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+14:59:53.594 [main]                 [34mINFO [0;39m com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+14:59:53.640 [main]                 [34mINFO [0;39m o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+14:59:53.703 [main]                 [34mINFO [0;39m org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.31.Final
+14:59:53.890 [main]                 [34mINFO [0;39m o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+14:59:54.015 [main]                 [34mINFO [0;39m org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+14:59:55.029 [main]                 [34mINFO [0;39m o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+14:59:55.044 [main]                 [34mINFO [0;39m o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+14:59:56.168 [main]                 [31mWARN [0;39m o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+14:59:56.526 [main]                 [34mINFO [0;39m o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+14:59:56.776 [main]                 [34mINFO [0;39m o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+14:59:56.854 [main]                 [34mINFO [0;39m o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+14:59:56.870 [main]                 [34mINFO [0;39m com.example.demo2.Application - Started Application in 8.508 seconds (JVM running for 9.486)
+14:59:56.870 [main]                 [34mINFO [0;39m o.s.b.a.ApplicationAvailabilityBean - Application availability state LivenessState changed to CORRECT
+14:59:56.870 [main]                 [34mINFO [0;39m o.s.b.a.ApplicationAvailabilityBean - Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+15:02:03.798 [http-nio-8080-exec-1] [34mINFO [0;39m o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+15:02:03.799 [http-nio-8080-exec-1] [34mINFO [0;39m o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+15:02:03.800 [http-nio-8080-exec-1] [34mINFO [0;39m o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+15:02:04.906 [http-nio-8080-exec-2] [34mINFO [0;39m c.e.d.s.f.DefaultFilesInfoService - !!!message by DefaultFilesInfoService, method findAllFilesName!!!
+15:02:05.020 [http-nio-8080-exec-1] [34mINFO [0;39m c.e.d.s.f.DefaultFilesInfoService - !!!message by DefaultFilesInfoService, method findAllFilesName!!!
+15:02:05.113 [http-nio-8080-exec-6] [34mINFO [0;39m c.e.d.s.f.DefaultFilesInfoService - !!!message by DefaultFilesInfoService, method findAllFilesName!!!
+15:02:05.192 [http-nio-8080-exec-7] [34mINFO [0;39m c.e.d.s.f.DefaultFilesInfoService - !!!message by DefaultFilesInfoService, method findAllFilesName!!!
+15:03:06.749 [http-nio-8080-exec-1] [34mINFO [0;39m c.e.d.s.f.DefaultFilesInfoService - !!!message by DefaultFilesInfoService, method findAllFilesName!!!
+15:03:06.892 [http-nio-8080-exec-6] [34mINFO [0;39m c.e.d.s.f.DefaultFilesInfoService - !!!message by DefaultFilesInfoService, method findAllFilesName!!!
+15:03:10.033 [http-nio-8080-exec-9] [34mINFO [0;39m c.e.d.s.f.DefaultFilesInfoService - !!!message by DefaultFilesInfoService, method findAllFilesName!!!
+15:03:10.193 [http-nio-8080-exec-3] [34mINFO [0;39m c.e.d.s.f.DefaultFilesInfoService - !!!message by DefaultFilesInfoService, method findAllFilesName!!!
+15:03:10.318 [http-nio-8080-exec-10] [34mINFO [0;39m c.e.d.filter.FilterForSomeTemplates - Filter 2 for templates - /users/delete and /users/findAll. URI : /users/findAll, User Name : null
+15:03:10.320 [http-nio-8080-exec-10] [34mINFO [0;39m c.e.d.s.users.DefaultUsersService - !!!message by DefaultUserService, method findAll!!!
+15:03:10.813 [http-nio-8080-exec-5] [34mINFO [0;39m c.e.d.s.users.DefaultUsersService - !!!message by DefaultUserService, method findByLogin!!!
+15:03:10.829 [http-nio-8080-exec-5] [34mINFO [0;39m c.e.d.s.users.DefaultUsersService - !!!message by DefaultUserService, method findByLogin!!! - NULL
+15:03:10.829 [http-nio-8080-exec-5] [34mINFO [0;39m c.e.d.s.users.DefaultUsersService - !!!message by DefaultUserService, method saveUser!!!
+15:03:12.293 [http-nio-8080-exec-2] [34mINFO [0;39m c.e.d.filter.FilterForSomeTemplates - Filter 2 for templates - /users/delete and /users/findAll. URI : /users/findAll, User Name : null
+15:03:12.293 [http-nio-8080-exec-2] [34mINFO [0;39m c.e.d.s.users.DefaultUsersService - !!!message by DefaultUserService, method findAll!!!
+15:03:12.885 [http-nio-8080-exec-1] [34mINFO [0;39m c.e.d.s.users.DefaultUsersService - !!!message by DefaultUserService, method deleteUser!!!
+15:03:13.101 [http-nio-8080-exec-4] [34mINFO [0;39m c.e.d.filter.FilterForSomeTemplates - Filter 2 for templates - /users/delete and /users/findAll. URI : /users/findAll, User Name : null
+15:03:13.101 [http-nio-8080-exec-4] [34mINFO [0;39m c.e.d.s.users.DefaultUsersService - !!!message by DefaultUserService, method findAll!!!
+15:03:35.172 [http-nio-8080-exec-10] [34mINFO [0;39m c.e.d.s.f.DefaultFilesInfoService - !!!message by DefaultFilesInfoService, method findAllFilesName!!!
+15:03:35.197 [http-nio-8080-exec-5] [34mINFO [0;39m c.e.d.s.f.DefaultFilesInfoService - !!!message by DefaultFilesInfoService, method findAllFilesName!!!
+15:03:35.356 [http-nio-8080-exec-1] [34mINFO [0;39m c.e.d.s.f.DefaultFilesInfoService - !!!message by DefaultFilesInfoService, method findAllFilesName!!!
+15:03:35.357 [http-nio-8080-exec-4] [34mINFO [0;39m c.e.d.s.f.DefaultFilesInfoService - !!!message by DefaultFilesInfoService, method findAllFilesName!!!
+15:06:29.001 [http-nio-8080-exec-9] [34mINFO [0;39m c.e.d.s.f.DefaultFilesInfoService - !!!message by DefaultFilesInfoService, method findAllFilesName!!!
+15:06:29.158 [http-nio-8080-exec-10] [34mINFO [0;39m c.e.d.s.f.DefaultFilesInfoService - !!!message by DefaultFilesInfoService, method findAllFilesName!!!
+15:06:29.280 [http-nio-8080-exec-5] [34mINFO [0;39m c.e.d.filter.FilterForSomeTemplates - Filter 2 for templates - /users/delete and /users/findAll. URI : /users/findAll, User Name : null
+15:06:29.281 [http-nio-8080-exec-5] [34mINFO [0;39m c.e.d.s.users.DefaultUsersService - !!!message by DefaultUserService, method findAll!!!
+15:06:29.701 [http-nio-8080-exec-2] [34mINFO [0;39m c.e.d.s.users.DefaultUsersService - !!!message by DefaultUserService, method findByLogin!!!
+15:06:29.704 [http-nio-8080-exec-2] [34mINFO [0;39m c.e.d.s.users.DefaultUsersService - !!!message by DefaultUserService, method findByLogin!!! - NULL
+15:06:29.704 [http-nio-8080-exec-2] [34mINFO [0;39m c.e.d.s.users.DefaultUsersService - !!!message by DefaultUserService, method saveUser!!!
+15:06:31.253 [http-nio-8080-exec-1] [34mINFO [0;39m c.e.d.filter.FilterForSomeTemplates - Filter 2 for templates - /users/delete and /users/findAll. URI : /users/findAll, User Name : null
+15:06:31.253 [http-nio-8080-exec-1] [34mINFO [0;39m c.e.d.s.users.DefaultUsersService - !!!message by DefaultUserService, method findAll!!!
+15:06:31.830 [http-nio-8080-exec-4] [34mINFO [0;39m c.e.d.s.users.DefaultUsersService - !!!message by DefaultUserService, method deleteUser!!!
+15:06:32.051 [http-nio-8080-exec-6] [34mINFO [0;39m c.e.d.filter.FilterForSomeTemplates - Filter 2 for templates - /users/delete and /users/findAll. URI : /users/findAll, User Name : null
+15:06:32.051 [http-nio-8080-exec-6] [34mINFO [0;39m c.e.d.s.users.DefaultUsersService - !!!message by DefaultUserService, method findAll!!!
+15:08:00.905 [http-nio-8080-exec-5] [34mINFO [0;39m c.e.d.s.f.DefaultFilesInfoService - !!!message by DefaultFilesInfoService, method findAllFilesName!!!
+15:08:00.954 [http-nio-8080-exec-2] [34mINFO [0;39m c.e.d.s.f.DefaultFilesInfoService - !!!message by DefaultFilesInfoService, method findAllFilesName!!!
+15:08:01.086 [http-nio-8080-exec-4] [34mINFO [0;39m c.e.d.s.f.DefaultFilesInfoService - !!!message by DefaultFilesInfoService, method findAllFilesName!!!
+15:08:01.149 [http-nio-8080-exec-6] [34mINFO [0;39m c.e.d.s.f.DefaultFilesInfoService - !!!message by DefaultFilesInfoService, method findAllFilesName!!!
+15:09:19.223 [http-nio-8080-exec-10] [34mINFO [0;39m c.e.d.filter.FilterForSomeTemplates - Filter 2 for templates - /users/delete and /users/findAll. URI : /users/findAll, User Name : null
+15:09:19.224 [http-nio-8080-exec-10] [34mINFO [0;39m c.e.d.s.users.DefaultUsersService - !!!message by DefaultUserService, method findAll!!!
+15:09:19.613 [http-nio-8080-exec-5] [34mINFO [0;39m c.e.d.s.users.DefaultUsersService - !!!message by DefaultUserService, method findByLogin!!!
+15:09:19.615 [http-nio-8080-exec-5] [34mINFO [0;39m c.e.d.s.users.DefaultUsersService - !!!message by DefaultUserService, method findByLogin!!! - NULL
+15:09:19.615 [http-nio-8080-exec-5] [34mINFO [0;39m c.e.d.s.users.DefaultUsersService - !!!message by DefaultUserService, method saveUser!!!
+15:10:36.751 [http-nio-8080-exec-4] [34mINFO [0;39m c.e.d.s.f.DefaultFilesInfoService - !!!message by DefaultFilesInfoService, method findAllFilesName!!!
+15:10:36.854 [http-nio-8080-exec-3] [34mINFO [0;39m c.e.d.s.f.DefaultFilesInfoService - !!!message by DefaultFilesInfoService, method findAllFilesName!!!
+15:10:36.928 [http-nio-8080-exec-7] [34mINFO [0;39m c.e.d.s.f.DefaultFilesInfoService - !!!message by DefaultFilesInfoService, method findAllFilesName!!!
+15:10:37.011 [http-nio-8080-exec-10] [34mINFO [0;39m c.e.d.s.f.DefaultFilesInfoService - !!!message by DefaultFilesInfoService, method findAllFilesName!!!
+15:10:37.074 [http-nio-8080-exec-1] [34mINFO [0;39m c.e.d.filter.FilterForSomeTemplates - Filter 2 for templates - /users/delete and /users/findAll. URI : /users/findAll, User Name : null
+15:10:37.075 [http-nio-8080-exec-1] [34mINFO [0;39m c.e.d.s.users.DefaultUsersService - !!!message by DefaultUserService, method findAll!!!
+15:10:37.494 [http-nio-8080-exec-4] [34mINFO [0;39m c.e.d.s.users.DefaultUsersService - !!!message by DefaultUserService, method findByLogin!!!
+15:10:37.499 [http-nio-8080-exec-4] [34mINFO [0;39m c.e.d.s.users.DefaultUsersService - !!!message by DefaultUserService, method findByLogin!!! users - Users(id=155, name=MmmName, login=MmmLogin, email=Mmm@ukr.net, universities=[University(id=157, name=null, cities=City(id=158, city=Kiev)), University(id=156, name=KPI, cities=null)])
+15:10:37.499 [http-nio-8080-exec-4] [34mINFO [0;39m c.e.d.s.users.DefaultUsersService - !!!message by DefaultUserService, method findByLogin!!! usersDTO - UsersDto(id=155, name=MmmName, login=MmmLogin, email=Mmm@ukr.net, universities=[University(id=157, name=null, cities=City(id=158, city=Kiev)), University(id=156, name=KPI, cities=null)])
+15:10:39.507 [http-nio-8080-exec-6] [34mINFO [0;39m c.e.d.filter.FilterForSomeTemplates - Filter 2 for templates - /users/delete and /users/findAll. URI : /users/findAll, User Name : null
+15:10:39.509 [http-nio-8080-exec-6] [34mINFO [0;39m c.e.d.s.users.DefaultUsersService - !!!message by DefaultUserService, method findAll!!!
+15:11:12.440 [http-nio-8080-exec-9] [34mINFO [0;39m c.e.d.filter.FilterForSomeTemplates - Filter 2 for templates - /users/delete and /users/findAll. URI : /users/findAll, User Name : null
+15:11:12.455 [http-nio-8080-exec-9] [34mINFO [0;39m c.e.d.s.users.DefaultUsersService - !!!message by DefaultUserService, method findAll!!!
+15:11:14.673 [http-nio-8080-exec-7] [34mINFO [0;39m c.e.d.s.users.DefaultUsersService - !!!message by DefaultUserService, method deleteUser!!!
+15:11:14.890 [http-nio-8080-exec-10] [34mINFO [0;39m c.e.d.filter.FilterForSomeTemplates - Filter 2 for templates - /users/delete and /users/findAll. URI : /users/findAll, User Name : null
+15:11:14.891 [http-nio-8080-exec-10] [34mINFO [0;39m c.e.d.s.users.DefaultUsersService - !!!message by DefaultUserService, method findAll!!!
+15:11:32.362 [http-nio-8080-exec-2] [34mINFO [0;39m c.e.d.s.f.DefaultFilesInfoService - !!!message by DefaultFilesInfoService, method findAllFilesName!!!
+15:11:32.367 [http-nio-8080-exec-4] [34mINFO [0;39m c.e.d.s.f.DefaultFilesInfoService - !!!message by DefaultFilesInfoService, method findAllFilesName!!!
+15:11:32.534 [http-nio-8080-exec-8] [34mINFO [0;39m c.e.d.s.f.DefaultFilesInfoService - !!!message by DefaultFilesInfoService, method findAllFilesName!!!
+15:11:32.570 [http-nio-8080-exec-3] [34mINFO [0;39m c.e.d.s.f.DefaultFilesInfoService - !!!message by DefaultFilesInfoService, method findAllFilesName!!!
+15:11:32.712 [http-nio-8080-exec-10] [34mINFO [0;39m c.e.d.filter.FilterForSomeTemplates - Filter 2 for templates - /users/delete and /users/findAll. URI : /users/findAll, User Name : null
+15:11:32.712 [http-nio-8080-exec-10] [34mINFO [0;39m c.e.d.s.users.DefaultUsersService - !!!message by DefaultUserService, method findAll!!!
+15:11:33.113 [http-nio-8080-exec-5] [34mINFO [0;39m c.e.d.s.users.DefaultUsersService - !!!message by DefaultUserService, method findByLogin!!!
+15:11:33.114 [http-nio-8080-exec-5] [34mINFO [0;39m c.e.d.s.users.DefaultUsersService - !!!message by DefaultUserService, method findByLogin!!! - NULL
+15:11:33.114 [http-nio-8080-exec-5] [34mINFO [0;39m c.e.d.s.users.DefaultUsersService - !!!message by DefaultUserService, method saveUser!!!
+15:11:34.666 [http-nio-8080-exec-1] [34mINFO [0;39m c.e.d.filter.FilterForSomeTemplates - Filter 2 for templates - /users/delete and /users/findAll. URI : /users/findAll, User Name : null
+15:11:34.667 [http-nio-8080-exec-1] [34mINFO [0;39m c.e.d.s.users.DefaultUsersService - !!!message by DefaultUserService, method findAll!!!
+15:11:35.256 [http-nio-8080-exec-2] [34mINFO [0;39m c.e.d.s.users.DefaultUsersService - !!!message by DefaultUserService, method deleteUser!!!
+15:11:35.467 [http-nio-8080-exec-4] [34mINFO [0;39m c.e.d.filter.FilterForSomeTemplates - Filter 2 for templates - /users/delete and /users/findAll. URI : /users/findAll, User Name : null
+15:11:35.467 [http-nio-8080-exec-4] [34mINFO [0;39m c.e.d.s.users.DefaultUsersService - !!!message by DefaultUserService, method findAll!!!
+15:20:03.400 [http-nio-8080-exec-4] [34mINFO [0;39m c.e.d.s.f.DefaultFilesInfoService - !!!message by DefaultFilesInfoService, method findAllFilesName!!!
+15:20:03.407 [http-nio-8080-exec-6] [34mINFO [0;39m c.e.d.s.f.DefaultFilesInfoService - !!!message by DefaultFilesInfoService, method findAllFilesName!!!
+15:20:03.605 [http-nio-8080-exec-3] [34mINFO [0;39m c.e.d.s.f.DefaultFilesInfoService - !!!message by DefaultFilesInfoService, method findAllFilesName!!!
+15:20:03.608 [http-nio-8080-exec-7] [34mINFO [0;39m c.e.d.s.f.DefaultFilesInfoService - !!!message by DefaultFilesInfoService, method findAllFilesName!!!
+15:20:03.748 [http-nio-8080-exec-9] [34mINFO [0;39m c.e.d.filter.FilterForSomeTemplates - Filter 2 for templates - /users/delete and /users/findAll. URI : /users/findAll, User Name : null
+15:20:03.749 [http-nio-8080-exec-9] [34mINFO [0;39m c.e.d.s.users.DefaultUsersService - !!!message by DefaultUserService, method findAll!!!
+15:20:04.184 [http-nio-8080-exec-10] [34mINFO [0;39m c.e.d.s.users.DefaultUsersService - !!!message by DefaultUserService, method findByLogin!!!
+15:20:04.186 [http-nio-8080-exec-10] [34mINFO [0;39m c.e.d.s.users.DefaultUsersService - !!!message by DefaultUserService, method findByLogin!!! - NULL
+15:20:04.186 [http-nio-8080-exec-10] [34mINFO [0;39m c.e.d.s.users.DefaultUsersService - !!!message by DefaultUserService, method saveUser!!!
+15:20:05.737 [http-nio-8080-exec-5] [34mINFO [0;39m c.e.d.filter.FilterForSomeTemplates - Filter 2 for templates - /users/delete and /users/findAll. URI : /users/findAll, User Name : null
+15:20:05.737 [http-nio-8080-exec-5] [34mINFO [0;39m c.e.d.s.users.DefaultUsersService - !!!message by DefaultUserService, method findAll!!!
+15:20:06.328 [http-nio-8080-exec-1] [34mINFO [0;39m c.e.d.s.users.DefaultUsersService - !!!message by DefaultUserService, method deleteUser!!!
+15:20:06.549 [http-nio-8080-exec-2] [34mINFO [0;39m c.e.d.filter.FilterForSomeTemplates - Filter 2 for templates - /users/delete and /users/findAll. URI : /users/findAll, User Name : null
+15:20:06.549 [http-nio-8080-exec-2] [34mINFO [0;39m c.e.d.s.users.DefaultUsersService - !!!message by DefaultUserService, method findAll!!!
+15:25:12.891 [http-nio-8080-exec-2] [34mINFO [0;39m c.e.d.s.f.DefaultFilesInfoService - !!!message by DefaultFilesInfoService, method findAllFilesName!!!
+15:25:13.061 [http-nio-8080-exec-4] [34mINFO [0;39m c.e.d.s.f.DefaultFilesInfoService - !!!message by DefaultFilesInfoService, method findAllFilesName!!!
+15:25:13.197 [http-nio-8080-exec-6] [34mINFO [0;39m c.e.d.filter.FilterForSomeTemplates - Filter 2 for templates - /users/delete and /users/findAll. URI : /users/findAll, User Name : null
+15:25:13.197 [http-nio-8080-exec-6] [34mINFO [0;39m c.e.d.s.users.DefaultUsersService - !!!message by DefaultUserService, method findAll!!!
+15:25:13.603 [http-nio-8080-exec-8] [34mINFO [0;39m c.e.d.s.users.DefaultUsersService - !!!message by DefaultUserService, method findByLogin!!!
+15:25:13.605 [http-nio-8080-exec-8] [34mINFO [0;39m c.e.d.s.users.DefaultUsersService - !!!message by DefaultUserService, method findByLogin!!! - NULL
+15:25:13.605 [http-nio-8080-exec-8] [34mINFO [0;39m c.e.d.s.users.DefaultUsersService - !!!message by DefaultUserService, method saveUser!!!
+15:25:15.164 [http-nio-8080-exec-3] [34mINFO [0;39m c.e.d.filter.FilterForSomeTemplates - Filter 2 for templates - /users/delete and /users/findAll. URI : /users/findAll, User Name : null
+15:25:15.165 [http-nio-8080-exec-3] [34mINFO [0;39m c.e.d.s.users.DefaultUsersService - !!!message by DefaultUserService, method findAll!!!
+15:25:15.759 [http-nio-8080-exec-7] [34mINFO [0;39m c.e.d.s.users.DefaultUsersService - !!!message by DefaultUserService, method deleteUser!!!
+15:25:15.975 [http-nio-8080-exec-9] [34mINFO [0;39m c.e.d.filter.FilterForSomeTemplates - Filter 2 for templates - /users/delete and /users/findAll. URI : /users/findAll, User Name : null
+15:25:15.975 [http-nio-8080-exec-9] [34mINFO [0;39m c.e.d.s.users.DefaultUsersService - !!!message by DefaultUserService, method findAll!!!
+15:26:32.638 [http-nio-8080-exec-5] [34mINFO [0;39m c.e.d.s.f.DefaultFilesInfoService - !!!message by DefaultFilesInfoService, method findAllFilesName!!!
+15:26:32.682 [http-nio-8080-exec-1] [34mINFO [0;39m c.e.d.s.f.DefaultFilesInfoService - !!!message by DefaultFilesInfoService, method findAllFilesName!!!
+15:26:32.806 [http-nio-8080-exec-2] [34mINFO [0;39m c.e.d.s.f.DefaultFilesInfoService - !!!message by DefaultFilesInfoService, method findAllFilesName!!!
+15:26:32.864 [http-nio-8080-exec-6] [34mINFO [0;39m c.e.d.s.f.DefaultFilesInfoService - !!!message by DefaultFilesInfoService, method findAllFilesName!!!
+15:26:43.080 [http-nio-8080-exec-3] [34mINFO [0;39m c.e.d.filter.FilterForSomeTemplates - Filter 2 for templates - /users/delete and /users/findAll. URI : /users/findAll, User Name : null
+15:26:43.081 [http-nio-8080-exec-3] [34mINFO [0;39m c.e.d.s.users.DefaultUsersService - !!!message by DefaultUserService, method findAll!!!
+15:26:43.477 [http-nio-8080-exec-9] [34mINFO [0;39m c.e.d.s.users.DefaultUsersService - !!!message by DefaultUserService, method findByLogin!!!
+15:26:43.479 [http-nio-8080-exec-9] [34mINFO [0;39m c.e.d.s.users.DefaultUsersService - !!!message by DefaultUserService, method findByLogin!!! - NULL
+15:26:43.479 [http-nio-8080-exec-9] [34mINFO [0;39m c.e.d.s.users.DefaultUsersService - !!!message by DefaultUserService, method saveUser!!!
+15:26:45.046 [http-nio-8080-exec-10] [34mINFO [0;39m c.e.d.filter.FilterForSomeTemplates - Filter 2 for templates - /users/delete and /users/findAll. URI : /users/findAll, User Name : null
+15:26:45.047 [http-nio-8080-exec-10] [34mINFO [0;39m c.e.d.s.users.DefaultUsersService - !!!message by DefaultUserService, method findAll!!!
+15:26:45.611 [http-nio-8080-exec-5] [34mINFO [0;39m c.e.d.s.users.DefaultUsersService - !!!message by DefaultUserService, method deleteUser!!!
+15:26:45.832 [http-nio-8080-exec-1] [34mINFO [0;39m c.e.d.filter.FilterForSomeTemplates - Filter 2 for templates - /users/delete and /users/findAll. URI : /users/findAll, User Name : null
+15:26:45.832 [http-nio-8080-exec-1] [34mINFO [0;39m c.e.d.s.users.DefaultUsersService - !!!message by DefaultUserService, method findAll!!!
+15:27:31.172 [http-nio-8080-exec-7] [34mINFO [0;39m c.e.d.s.f.DefaultFilesInfoService - !!!message by DefaultFilesInfoService, method findAllFilesName!!!
+15:27:31.172 [http-nio-8080-exec-9] [34mINFO [0;39m c.e.d.s.f.DefaultFilesInfoService - !!!message by DefaultFilesInfoService, method findAllFilesName!!!
+15:27:31.352 [http-nio-8080-exec-5] [34mINFO [0;39m c.e.d.s.f.DefaultFilesInfoService - !!!message by DefaultFilesInfoService, method findAllFilesName!!!
+15:27:31.369 [http-nio-8080-exec-4] [34mINFO [0;39m c.e.d.s.f.DefaultFilesInfoService - !!!message by DefaultFilesInfoService, method findAllFilesName!!!
+15:34:18.347 [http-nio-8080-exec-9] [34mINFO [0;39m c.e.d.s.f.DefaultFilesInfoService - !!!message by DefaultFilesInfoService, method findAllFilesName!!!
+15:34:18.395 [http-nio-8080-exec-10] [34mINFO [0;39m c.e.d.s.f.DefaultFilesInfoService - !!!message by DefaultFilesInfoService, method findAllFilesName!!!
+15:34:18.534 [http-nio-8080-exec-4] [34mINFO [0;39m c.e.d.s.f.DefaultFilesInfoService - !!!message by DefaultFilesInfoService, method findAllFilesName!!!
+15:34:18.595 [http-nio-8080-exec-2] [34mINFO [0;39m c.e.d.s.f.DefaultFilesInfoService - !!!message by DefaultFilesInfoService, method findAllFilesName!!!
+15:34:18.776 [http-nio-8080-exec-8] [34mINFO [0;39m c.e.d.filter.FilterForSomeTemplates - Filter 2 for templates - /users/delete and /users/findAll. URI : /users/findAll, User Name : null
+15:34:18.776 [http-nio-8080-exec-8] [34mINFO [0;39m c.e.d.s.users.DefaultUsersService - !!!message by DefaultUserService, method findAll!!!
+15:34:19.207 [http-nio-8080-exec-3] [34mINFO [0;39m c.e.d.s.users.DefaultUsersService - !!!message by DefaultUserService, method findByLogin!!!
+15:34:19.208 [http-nio-8080-exec-3] [34mINFO [0;39m c.e.d.s.users.DefaultUsersService - !!!message by DefaultUserService, method findByLogin!!! - NULL
+15:34:19.208 [http-nio-8080-exec-3] [34mINFO [0;39m c.e.d.s.users.DefaultUsersService - !!!message by DefaultUserService, method saveUser!!!
+15:34:20.759 [http-nio-8080-exec-7] [34mINFO [0;39m c.e.d.filter.FilterForSomeTemplates - Filter 2 for templates - /users/delete and /users/findAll. URI : /users/findAll, User Name : null
+15:34:20.760 [http-nio-8080-exec-7] [34mINFO [0;39m c.e.d.s.users.DefaultUsersService - !!!message by DefaultUserService, method findAll!!!
+15:34:21.342 [http-nio-8080-exec-9] [34mINFO [0;39m c.e.d.s.users.DefaultUsersService - !!!message by DefaultUserService, method deleteUser!!!
+15:34:21.564 [http-nio-8080-exec-10] [34mINFO [0;39m c.e.d.filter.FilterForSomeTemplates - Filter 2 for templates - /users/delete and /users/findAll. URI : /users/findAll, User Name : null
+15:34:21.564 [http-nio-8080-exec-10] [34mINFO [0;39m c.e.d.s.users.DefaultUsersService - !!!message by DefaultUserService, method findAll!!!
+15:34:58.636 [http-nio-8080-exec-6] [34mINFO [0;39m c.e.d.s.f.DefaultFilesInfoService - !!!message by DefaultFilesInfoService, method findAllFilesName!!!
+15:34:58.721 [http-nio-8080-exec-3] [34mINFO [0;39m c.e.d.s.f.DefaultFilesInfoService - !!!message by DefaultFilesInfoService, method findAllFilesName!!!
+15:34:58.834 [http-nio-8080-exec-7] [34mINFO [0;39m c.e.d.s.f.DefaultFilesInfoService - !!!message by DefaultFilesInfoService, method findAllFilesName!!!
+15:34:58.884 [http-nio-8080-exec-10] [34mINFO [0;39m c.e.d.s.f.DefaultFilesInfoService - !!!message by DefaultFilesInfoService, method findAllFilesName!!!
+15:34:58.982 [http-nio-8080-exec-4] [34mINFO [0;39m c.e.d.filter.FilterForSomeTemplates - Filter 2 for templates - /users/delete and /users/findAll. URI : /users/findAll, User Name : null
+15:34:58.983 [http-nio-8080-exec-4] [34mINFO [0;39m c.e.d.s.users.DefaultUsersService - !!!message by DefaultUserService, method findAll!!!
+15:34:59.377 [http-nio-8080-exec-6] [34mINFO [0;39m c.e.d.s.users.DefaultUsersService - !!!message by DefaultUserService, method findByLogin!!!
+15:34:59.378 [http-nio-8080-exec-6] [34mINFO [0;39m c.e.d.s.users.DefaultUsersService - !!!message by DefaultUserService, method findByLogin!!! - NULL
+15:34:59.378 [http-nio-8080-exec-6] [34mINFO [0;39m c.e.d.s.users.DefaultUsersService - !!!message by DefaultUserService, method saveUser!!!
+15:35:00.934 [http-nio-8080-exec-2] [34mINFO [0;39m c.e.d.filter.FilterForSomeTemplates - Filter 2 for templates - /users/delete and /users/findAll. URI : /users/findAll, User Name : null
+15:35:00.935 [http-nio-8080-exec-2] [34mINFO [0;39m c.e.d.s.users.DefaultUsersService - !!!message by DefaultUserService, method findAll!!!
+15:35:01.508 [http-nio-8080-exec-8] [34mINFO [0;39m c.e.d.s.users.DefaultUsersService - !!!message by DefaultUserService, method deleteUser!!!
+15:35:01.712 [http-nio-8080-exec-3] [34mINFO [0;39m c.e.d.filter.FilterForSomeTemplates - Filter 2 for templates - /users/delete and /users/findAll. URI : /users/findAll, User Name : null
+15:35:01.712 [http-nio-8080-exec-3] [34mINFO [0;39m c.e.d.s.users.DefaultUsersService - !!!message by DefaultUserService, method findAll!!!
+15:35:34.884 [http-nio-8080-exec-5] [34mINFO [0;39m c.e.d.s.f.DefaultFilesInfoService - !!!message by DefaultFilesInfoService, method findAllFilesName!!!
+15:35:35.010 [http-nio-8080-exec-2] [34mINFO [0;39m c.e.d.s.f.DefaultFilesInfoService - !!!message by DefaultFilesInfoService, method findAllFilesName!!!
+15:35:35.057 [http-nio-8080-exec-8] [34mINFO [0;39m c.e.d.s.f.DefaultFilesInfoService - !!!message by DefaultFilesInfoService, method findAllFilesName!!!
+15:35:35.197 [http-nio-8080-exec-3] [34mINFO [0;39m c.e.d.s.f.DefaultFilesInfoService - !!!message by DefaultFilesInfoService, method findAllFilesName!!!
+15:35:35.323 [http-nio-8080-exec-9] [34mINFO [0;39m c.e.d.filter.FilterForSomeTemplates - Filter 2 for templates - /users/delete and /users/findAll. URI : /users/findAll, User Name : null
+15:35:35.324 [http-nio-8080-exec-9] [34mINFO [0;39m c.e.d.s.users.DefaultUsersService - !!!message by DefaultUserService, method findAll!!!
+15:35:35.751 [http-nio-8080-exec-7] [34mINFO [0;39m c.e.d.s.users.DefaultUsersService - !!!message by DefaultUserService, method findByLogin!!!
+15:35:35.753 [http-nio-8080-exec-7] [34mINFO [0;39m c.e.d.s.users.DefaultUsersService - !!!message by DefaultUserService, method findByLogin!!! - NULL
+15:35:35.753 [http-nio-8080-exec-7] [34mINFO [0;39m c.e.d.s.users.DefaultUsersService - !!!message by DefaultUserService, method saveUser!!!
+15:35:37.314 [http-nio-8080-exec-10] [34mINFO [0;39m c.e.d.filter.FilterForSomeTemplates - Filter 2 for templates - /users/delete and /users/findAll. URI : /users/findAll, User Name : null
+15:35:37.315 [http-nio-8080-exec-10] [34mINFO [0;39m c.e.d.s.users.DefaultUsersService - !!!message by DefaultUserService, method findAll!!!
+15:35:37.892 [http-nio-8080-exec-5] [34mINFO [0;39m c.e.d.s.users.DefaultUsersService - !!!message by DefaultUserService, method deleteUser!!!
+15:36:01.735 [http-nio-8080-exec-9] [34mINFO [0;39m c.e.d.s.f.DefaultFilesInfoService - !!!message by DefaultFilesInfoService, method findAllFilesName!!!
+15:36:01.763 [http-nio-8080-exec-7] [34mINFO [0;39m c.e.d.s.f.DefaultFilesInfoService - !!!message by DefaultFilesInfoService, method findAllFilesName!!!
+15:36:01.938 [http-nio-8080-exec-4] [34mINFO [0;39m c.e.d.s.f.DefaultFilesInfoService - !!!message by DefaultFilesInfoService, method findAllFilesName!!!
+15:36:01.939 [http-nio-8080-exec-5] [34mINFO [0;39m c.e.d.s.f.DefaultFilesInfoService - !!!message by DefaultFilesInfoService, method findAllFilesName!!!
+15:36:02.080 [http-nio-8080-exec-3] [34mINFO [0;39m c.e.d.filter.FilterForSomeTemplates - Filter 2 for templates - /users/delete and /users/findAll. URI : /users/findAll, User Name : null
+15:36:02.080 [http-nio-8080-exec-3] [34mINFO [0;39m c.e.d.s.users.DefaultUsersService - !!!message by DefaultUserService, method findAll!!!
+15:36:02.485 [http-nio-8080-exec-2] [34mINFO [0;39m c.e.d.s.users.DefaultUsersService - !!!message by DefaultUserService, method findByLogin!!!
+15:36:02.486 [http-nio-8080-exec-2] [34mINFO [0;39m c.e.d.s.users.DefaultUsersService - !!!message by DefaultUserService, method findByLogin!!! - NULL
+15:36:02.486 [http-nio-8080-exec-2] [34mINFO [0;39m c.e.d.s.users.DefaultUsersService - !!!message by DefaultUserService, method saveUser!!!
+15:36:04.036 [http-nio-8080-exec-8] [34mINFO [0;39m c.e.d.filter.FilterForSomeTemplates - Filter 2 for templates - /users/delete and /users/findAll. URI : /users/findAll, User Name : null
+15:36:04.037 [http-nio-8080-exec-8] [34mINFO [0;39m c.e.d.s.users.DefaultUsersService - !!!message by DefaultUserService, method findAll!!!
+15:36:04.639 [http-nio-8080-exec-9] [34mINFO [0;39m c.e.d.s.users.DefaultUsersService - !!!message by DefaultUserService, method deleteUser!!!
+15:36:04.863 [http-nio-8080-exec-7] [34mINFO [0;39m c.e.d.filter.FilterForSomeTemplates - Filter 2 for templates - /users/delete and /users/findAll. URI : /users/findAll, User Name : null
+15:36:04.863 [http-nio-8080-exec-7] [34mINFO [0;39m c.e.d.s.users.DefaultUsersService - !!!message by DefaultUserService, method findAll!!!
+15:41:27.320 [http-nio-8080-exec-6] [34mINFO [0;39m c.e.d.s.f.DefaultFilesInfoService - !!!message by DefaultFilesInfoService, method findAllFilesName!!!
+15:41:27.397 [http-nio-8080-exec-2] [34mINFO [0;39m c.e.d.s.f.DefaultFilesInfoService - !!!message by DefaultFilesInfoService, method findAllFilesName!!!
+15:41:27.542 [http-nio-8080-exec-8] [34mINFO [0;39m c.e.d.s.f.DefaultFilesInfoService - !!!message by DefaultFilesInfoService, method findAllFilesName!!!
+15:41:27.581 [http-nio-8080-exec-7] [34mINFO [0;39m c.e.d.s.f.DefaultFilesInfoService - !!!message by DefaultFilesInfoService, method findAllFilesName!!!
+15:41:27.678 [http-nio-8080-exec-10] [34mINFO [0;39m c.e.d.filter.FilterForSomeTemplates - Filter 2 for templates - /users/delete and /users/findAll. URI : /users/findAll, User Name : null
+15:41:27.679 [http-nio-8080-exec-10] [34mINFO [0;39m c.e.d.s.users.DefaultUsersService - !!!message by DefaultUserService, method findAll!!!
+15:41:28.104 [http-nio-8080-exec-4] [34mINFO [0;39m c.e.d.s.users.DefaultUsersService - !!!message by DefaultUserService, method findByLogin!!!
+15:41:28.106 [http-nio-8080-exec-4] [34mINFO [0;39m c.e.d.s.users.DefaultUsersService - !!!message by DefaultUserService, method findByLogin!!! - NULL
+15:41:28.106 [http-nio-8080-exec-4] [34mINFO [0;39m c.e.d.s.users.DefaultUsersService - !!!message by DefaultUserService, method saveUser!!!
+15:41:29.667 [http-nio-8080-exec-5] [34mINFO [0;39m c.e.d.filter.FilterForSomeTemplates - Filter 2 for templates - /users/delete and /users/findAll. URI : /users/findAll, User Name : null
+15:41:29.667 [http-nio-8080-exec-5] [34mINFO [0;39m c.e.d.s.users.DefaultUsersService - !!!message by DefaultUserService, method findAll!!!
+15:41:30.258 [http-nio-8080-exec-6] [34mINFO [0;39m c.e.d.s.users.DefaultUsersService - !!!message by DefaultUserService, method deleteUser!!!
+15:41:30.479 [http-nio-8080-exec-1] [34mINFO [0;39m c.e.d.filter.FilterForSomeTemplates - Filter 2 for templates - /users/delete and /users/findAll. URI : /users/findAll, User Name : null
+15:41:30.479 [http-nio-8080-exec-1] [34mINFO [0;39m c.e.d.s.users.DefaultUsersService - !!!message by DefaultUserService, method findAll!!!
