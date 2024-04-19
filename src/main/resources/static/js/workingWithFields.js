@@ -148,7 +148,7 @@ function createUser() {
                        contentType: 'application/json',
                        success: function( resp, textStatus, jqXHR ){
                                                // Если все ОК
-
+//
                                                if( typeof resp.error === 'undefined' ){
                                                    $("#created").html(resp);
                                                     setTimeout(() => { $("#created").html(""); }, 1500); //очищаем поле чрез 2,5 секунды
